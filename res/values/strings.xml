@@ -793,6 +793,9 @@
     <!-- Text shown for title of owner info setting [CHAR LIMIT=30]-->
     <string name="owner_info_settings_title">Add text on lock screen</string>
 
+    <string name="auto_reboot_title">Auto reboot</string>
+    <string name="auto_reboot_summary">Automatically reboot the device, if the phone hasn\'t been unlocked within the selected number of hours.</string>
+
     <!-- Text shown for summary of owner info setting (if none set) [CHAR LIMIT=40]-->
     <string name="owner_info_settings_summary">None</string>
     <!-- Hint text shown in owner info edit text [CHAR LIMIT=50] -->

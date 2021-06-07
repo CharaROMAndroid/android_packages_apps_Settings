@@ -201,4 +201,8 @@
 
     <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
     <string name="filter_hidden_apps">Hidden apps</string>
+
+    <!-- Label and Summary for AutoReboot -->
+    <string name="auto_reboot_title">Auto reboot</string>
+    <string name="auto_reboot_summary">Automatically reboot the device, if the phone hasn\'t been unlocked within the selected number of hours.</string>
 </resources>

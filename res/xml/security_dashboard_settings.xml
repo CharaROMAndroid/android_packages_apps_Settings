@@ -60,6 +60,14 @@
             android:title="@string/security_settings_biometric_preference_title"
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_biometric_settings" />
+
+        <ListPreference
+            android:key="auto_reboot"
+            android:title="@string/auto_reboot_title"
+            android:summary="@string/auto_reboot_summary"
+            android:persistent="false"
+            android:entries="@array/auto_reboot_entries"
+            android:entryValues="@array/auto_reboot_values" />
     </PreferenceCategory>
 
     <Preference
