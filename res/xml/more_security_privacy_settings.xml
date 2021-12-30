@@ -138,6 +138,24 @@
         android:key="security_category"
         android:title="@string/security_header" />
 
+    <ListPreference
+        android:order="220"
+        android:key="device_reboot_timeout"
+        android:entries="@array/device_reboot_timeout_entries"
+        android:entryValues="@array/device_reboot_timeout_values"
+        android:summary="@string/device_reboot_timeout_summary"
+        android:title="@string/device_reboot_timeout_title"
+        settings:controller="com.android.settings.security.DeviceRebootTimeoutPreferenceController" />
+
+    <ListPreference
+        android:order="225"
+        android:key="trust_restrict_usb"
+        android:entries="@array/security_restrict_usb_entries"
+        android:entryValues="@array/security_restrict_usb_values"
+        android:summary="@string/security_restrict_usb_summary"
+        android:title="@string/security_restrict_usb_title"
+        settings:controller="com.android.settings.security.RestrictUsbPreferenceController" />
+
     <Preference
         android:order="230"
         android:key="content_protection_preference"
@@ -231,13 +249,5 @@
         settings:controller="com.android.settings.security.MemtagPagePreferenceController" />
 
 
-
-    <Preference
-        android:order="91"
-        android:key="hide_developer_status_settings"
-        android:title="@string/hide_developer_status_title"
-        android:summary="@string/hide_developer_status_summary"
-        android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
-        settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
 
 </PreferenceScreen>
