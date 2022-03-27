@@ -209,4 +209,8 @@
     <!--Label and Summary for Native Code Debugging -->
     <string name="native_debug_title">Enable native code debugging</string>
     <string name="native_debug_summary">Generate useful logs / bug reports from crashes and permit debugging native code.</string>
+
+    <!-- Label and Summary for Exec Spawning -->
+    <string name="exec_spawn_title">Enable secure app spawning</string>
+    <string name="exec_spawn_summary">Launch apps in a more secure way than Android which takes slightly longer and increases memory usage by app processes.</string>
 </resources>
