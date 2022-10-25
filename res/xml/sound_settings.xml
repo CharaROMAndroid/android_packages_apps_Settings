@@ -319,4 +319,11 @@
             android:order="100"
             settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
     </PreferenceCategory>
+
+    <Preference
+        android:key="sound_settings_advanced"
+        android:title="@string/sound_settings_advanced_title"
+        android:fragment="com.android.settings.notification.AdvancedSoundSettings"
+        android:order="-10" />
+
 </PreferenceScreen>

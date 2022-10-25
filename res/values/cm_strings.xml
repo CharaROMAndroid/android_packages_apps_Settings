@@ -283,4 +283,7 @@
     <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Additional sounds</string>
+    
 </resources>
