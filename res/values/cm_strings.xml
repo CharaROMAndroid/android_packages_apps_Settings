@@ -206,4 +206,10 @@
     <string name="battery_saver_keep_enabled_while_charging_title">Stay on while charging</string>
     <string name="battery_saver_keep_enabled_while_charging_summary">Don\'t turn off Battery Saver when plugged in</string>
     <string name="keywords_battery_saver_keep_enabled_while_charging">battery saver, charging, charge, plugged in, power saver, battery</string>
+
+     <!-- Hide developer status -->
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
 </resources>
