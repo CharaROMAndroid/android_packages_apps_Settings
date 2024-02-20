@@ -16,13 +16,10 @@
 
 package com.android.settings.applications;
 
-import static com.android.settings.Utils.PROPERTY_CLONED_APPS_ENABLED;
-
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.UserHandle;
-import android.provider.DeviceConfig;
 
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleObserver;
