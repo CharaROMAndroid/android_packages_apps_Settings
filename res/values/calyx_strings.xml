@@ -123,34 +123,11 @@
     <!-- Work profile settings screen, setting option to change profile timeout -->
     <string name="work_hours_title">Work hours</string>
     <string name="work_hours_end_on_summary">Show a notification to turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
-    <string name="work_hours_end_on_summary2">Turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
-    <string name="work_hours_end_off_summary">Automatically turn off the work profile or receive a notification to do so</string>
+    <string name="work_hours_end_off_summary">Show a daily notification to turn off the work profile</string>
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
-    <string name="turn_off">Turn off</string>
-    <string name="notify">Notify</string>
 
     <!-- Strict location redaction setting -->
     <string name="strict_location_redaction_title">Redact location data when sharing media</string>
     <string name="strict_location_redaction_description">Only galleries and file managers may read location metadata from your photos and media. (Third-party apps must have All Files Access or Media Management permissions.)</string>
-
-    <!-- Text shown in private space setup screen which explains that apps in private space use their own VPN unless Global VPN is in effect. [CHAR LIMIT=NONE] -->
-    <string name="private_space_separate_vpn_text"><b>Apps don\u2019t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>
-
-    <!-- Summary for the private space setup education screen. [CHAR LIMIT=NONE] -->
-    <string name="private_space_hide_apps_summary_calyx">Hide or lock private apps in a separate space.</string>
-
-    <!-- Screen lock settings -->
-    <string name="maximum_failed_passwords_for_wipe_title">Wipe on failed unlock attempts</string>
-    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
-    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Erase all data after 5 failed unlock attempts</string>
-    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Erase all data after 10 failed unlock attempts</string>
-
-    <!-- User settings item to allow switching users from lock screen [CHAR LIMIT=50] -->
-    <string name="user_switch_on_lockscreen">Switch users from lock screen</string>
-    <!-- Summary of preference to allow switching users from lock screen [CHAR LIMIT=NONE] -->
-    <string name="user_switch_on_lockscreen_summary">Allow switching when this user is locked</string>
-
-    <!-- Summary of disabled preference - when user switcher is off - for allow adding users from lock screen [CHAR LIMIT=NONE] -->
-    <string name="user_add_on_lockscreen_menu_summary_no_switcher">User switcher is needed to add users from lock screen</string>
 </resources>
