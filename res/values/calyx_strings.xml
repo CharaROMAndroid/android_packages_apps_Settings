@@ -82,4 +82,75 @@
     <!-- Captive portal -->
     <string name="captive_portal_title">Connectivity check</string>
     <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+
+    <!-- Other Fragment -->
+    <string name="other_settings">Other options</string>
+    <string name="quick_settings">Quick Settings</string>
+
+    <!-- Bug report -->
+    <string name="bugreport_summary">Take a bug report now</string>
+
+    <!-- Keychords (Bug report button combo) -->
+    <string name="keychords_title">Bug report button combination</string>
+    <string name="keychords_summary">Capture a bug report by holding Volume Up, Volume Down, and Power at the same time, even when the device is locked</string>
+    <string name="keychords_summary_adb_enabled">Always enabled when debugging is on</string>
+
+    <!-- View bug reports -->
+    <string name="view_bugreports_title">View bug reports</string>
+    <string name="view_bugreports_summary_not_developer">Once viewed, all bug reports will remain accessible until you restart the device</string>
+
+    <!-- App info screen -->
+    <string name="hide">Hide</string>
+    <string name="hidden">Hidden</string>
+    <string name="unhide">Unhide</string>
+    <string name="hide_app">Hide app</string>
+    <string name="unhide_app">Unhide app</string>
+    <string name="unhide_app_desc">If you unhide this app, it will be visible to Android and other apps again.</string>
+    <string name="hide_app_desc">If you hide this app, it will not be visible to Android and other apps, and they may no longer function as intended. Keep in mind, hiding an app preserves it data. By hiding, you turn this app off and hide it on your device.</string>
+
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Hidden apps</string>
+
+    <!-- [CHAR LIMIT=NONE] Settings label. This setting lets the user's apps share intents function between their profiles. The adjective 'Cross-profile' is referring to the work and personal profiles a user has on their phone. -->
+    <string name="cross_profile_sharing_title">Cross-profile sharing</string>
+    <!-- [CHAR LIMIT=NONE] Setting description. If the user turns on this setting, they can share content across their personal and work profiles. -->
+    <string name="cross_profile_sharing_summary">Enable in-app share buttons to work across your personal and work profile</string>
+
+    <!-- App data usage Datura Firewall link -->
+    <string name="data_usage_app_datura_firewall">Datura Firewall</string>
+    <string name="data_usage_app_datura_firewall_summary">Firewall settings have been moved to the new Firewall app. Tap to open.</string>
+
+    <!-- Work profile settings screen, setting option to change profile timeout -->
+    <string name="work_hours_title">Work hours</string>
+    <string name="work_hours_end_on_summary">Show a notification to turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
+    <string name="work_hours_end_on_summary2">Turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
+    <string name="work_hours_end_off_summary">Automatically turn off the work profile or receive a notification to do so</string>
+    <string name="work_hours_end_notification_title">End of work day</string>
+    <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
+    <string name="turn_off">Turn off</string>
+    <string name="notify">Notify</string>
+
+    <!-- Strict location redaction setting -->
+    <string name="strict_location_redaction_title">Redact location data when sharing media</string>
+    <string name="strict_location_redaction_description">Only galleries and file managers may read location metadata from your photos and media. (Third-party apps must have All Files Access or Media Management permissions.)</string>
+
+    <!-- Text shown in private space setup screen which explains that apps in private space use their own VPN unless Global VPN is in effect. [CHAR LIMIT=NONE] -->
+    <string name="private_space_separate_vpn_text"><b>Apps don\u2019t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>
+
+    <!-- Summary for the private space setup education screen. [CHAR LIMIT=NONE] -->
+    <string name="private_space_hide_apps_summary_calyx">Hide or lock private apps in a separate space.</string>
+
+    <!-- Screen lock settings -->
+    <string name="maximum_failed_passwords_for_wipe_title">Wipe on failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Erase all data after 5 failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Erase all data after 10 failed unlock attempts</string>
+
+    <!-- User settings item to allow switching users from lock screen [CHAR LIMIT=50] -->
+    <string name="user_switch_on_lockscreen">Switch users from lock screen</string>
+    <!-- Summary of preference to allow switching users from lock screen [CHAR LIMIT=NONE] -->
+    <string name="user_switch_on_lockscreen_summary">Allow switching when this user is locked</string>
+
+    <!-- Summary of disabled preference - when user switcher is off - for allow adding users from lock screen [CHAR LIMIT=NONE] -->
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">User switcher is needed to add users from lock screen</string>
 </resources>
