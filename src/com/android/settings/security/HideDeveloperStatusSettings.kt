@@ -71,6 +71,39 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
     private var showSystem = false
     private var optionsMenu: Menu? = null
 
+    enum class Action {
+        ADD,
+        REMOVE,
+        SET,
+    }
+
+    @Synchronized
+    fun putAppsForUser(packageName: String, userId: Int, action: Action) {
+        if (userId < 0) {
+            return
+        }
+
+        val cr = requireContext().contentResolver
+
+        val apps =
+            Settings.Secure.getString(cr, Settings.Secure.HIDE_DEVELOPER_STATUS)
+                .split(",")
+                .toMutableSet()
+
+        when (action) {
+            Action.ADD -> apps.add(packageName)
+            Action.REMOVE -> apps.remove(packageName)
+            Action.SET -> {} // Don't change
+        }
+
+        Settings.Secure.putStringForUser(
+            cr,
+            Settings.Secure.HIDE_DEVELOPER_STATUS,
+            apps.joinToString(separator = ","),
+            userId,
+        )
+    }
+
     override fun onStart() {
         super.onStart()
         updateOptionsMenu()
@@ -91,7 +124,7 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
         userManager = UserManager.get(requireContext())
         userInfos = userManager.getUsers()
         for (info in userInfos) {
-            hideDeveloperStatusUtils.setApps(requireContext(), info.id)
+            putAppsForUser("", info.id, Action.SET)
         }
     }
 
@@ -201,9 +234,9 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
         if (packageName.isBlank()) return
         for (info in userInfos) {
             if (isChecked) {
-                hideDeveloperStatusUtils.addApp(requireContext(), packageName, info.id)
+                putAppsForUser(packageName, info.id, Action.ADD)
             } else {
-                hideDeveloperStatusUtils.removeApp(requireContext(), packageName, info.id)
+                putAppsForUser(packageName, info.id, Action.REMOVE)
             }
         }
         try {
