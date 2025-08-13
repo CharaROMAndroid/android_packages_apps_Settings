@@ -210,9 +210,6 @@ public class ApplicationFeatureProviderImpl implements ApplicationFeatureProvide
         // Keep Package Installer enabled.
         keepEnabledPackages.add(mContext.getString(R.string.config_package_installer_package_name));
 
-        if (mPm.getWellbeingPackageName() != null) {
-            keepEnabledPackages.add(mPm.getWellbeingPackageName());
-        }
         return keepEnabledPackages;
     }
 
