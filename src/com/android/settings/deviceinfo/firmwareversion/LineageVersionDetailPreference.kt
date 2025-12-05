@@ -18,7 +18,6 @@ package com.android.settings.deviceinfo.firmwareversion
 
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import android.os.SystemClock
 import android.os.SystemProperties
 import android.os.UserHandle
@@ -103,9 +102,8 @@ class LineageVersionDetailPreference :
         const val DELAY_TIMER_MILLIS = 500L
 
         const val LINEAGE_VERSION_PROPERTY: String = "ro.chara.build.version"
-
-        const val PLATLOGO_PACKAGE_NAME: String = "com.crdroid.settings"
-        const val PLATLOGO_ACTIVITY_CLASS: String = PLATLOGO_PACKAGE_NAME + ".fragments.about.DonateActivity"
+        const val PLATLOGO_PACKAGE_NAME: String = "com.android.egg"
+        const val PLATLOGO_ACTIVITY_CLASS: String = "$PLATLOGO_PACKAGE_NAME.paint.PaintActivity"
     }
 }
 // LINT.ThenChange(LineageVersionDetailPreferenceController.java)
