@@ -57,8 +57,13 @@ public abstract class AbstractBluetoothDialogPreferenceController extends
     protected static final int[] BITS_PER_SAMPLES = {BluetoothCodecConfig.BITS_PER_SAMPLE_32,
             BluetoothCodecConfig.BITS_PER_SAMPLE_24,
             BluetoothCodecConfig.BITS_PER_SAMPLE_16};
+    // CHANNEL_MODE_DUAL_CHANNEL is @hide in BluetoothCodecConfig, so we define it locally
+    // Value must match BluetoothCodecConfig.CHANNEL_MODE_DUAL_CHANNEL (0x1 << 2 = 4)
+    private static final int CHANNEL_MODE_DUAL_CHANNEL = 0x1 << 2;
+
     protected static final int[] CHANNEL_MODES = {BluetoothCodecConfig.CHANNEL_MODE_STEREO,
-            BluetoothCodecConfig.CHANNEL_MODE_MONO};
+            BluetoothCodecConfig.CHANNEL_MODE_MONO,
+            CHANNEL_MODE_DUAL_CHANNEL};
 
     protected final BluetoothA2dpConfigStore mBluetoothA2dpConfigStore;
 
