@@ -38,6 +38,10 @@ public class BluetoothChannelModeDialogPreferenceController extends
     private static final String KEY = "bluetooth_channel_mode_settings";
     private static final String TAG = "BtChannelModeCtr";
 
+    // CHANNEL_MODE_DUAL_CHANNEL is @hide in BluetoothCodecConfig, so we define it locally
+    // Value must match BluetoothCodecConfig.CHANNEL_MODE_DUAL_CHANNEL (0x1 << 2 = 4)
+    private static final int CHANNEL_MODE_DUAL_CHANNEL = 0x1 << 2;
+
     public BluetoothChannelModeDialogPreferenceController(Context context, Lifecycle lifecycle,
                                                           BluetoothA2dpConfigStore store) {
         super(context, lifecycle, store);
@@ -57,6 +61,7 @@ public class BluetoothChannelModeDialogPreferenceController extends
     @Override
     protected void writeConfigurationValues(final int index) {
         int channelModeValue = BluetoothCodecConfig.CHANNEL_MODE_NONE; // default
+        long codecSpecific1 = 0; // default
         switch (index) {
             case 0:
                 final BluetoothCodecConfig currentConfig = getCurrentCodecConfig();
@@ -71,10 +76,16 @@ public class BluetoothChannelModeDialogPreferenceController extends
             case 2:
                 channelModeValue = BluetoothCodecConfig.CHANNEL_MODE_STEREO;
                 break;
+            case 3:
+                channelModeValue = CHANNEL_MODE_DUAL_CHANNEL;
+                // Set magic value to enable SBC HD high bitrate mode (551-601 kbps)
+                codecSpecific1 = 0x1337;
+                break;
             default:
                 break;
         }
         mBluetoothA2dpConfigStore.setChannelMode(channelModeValue);
+        mBluetoothA2dpConfigStore.setCodecSpecific1Value(codecSpecific1);
     }
 
     @Override
@@ -98,6 +109,14 @@ public class BluetoothChannelModeDialogPreferenceController extends
                     selectableIndex.add(convertCfgToBtnIndex(CHANNEL_MODES[i]));
                 }
             }
+            // Force-enable Dual Channel for SBC codec - it's always supported by the SBC spec,
+            // even if headphones don't advertise it in their capabilities bitmask.
+            if (currentConfig.getCodecType() == BluetoothCodecConfig.SOURCE_CODEC_TYPE_SBC) {
+                int dualChannelIndex = convertCfgToBtnIndex(CHANNEL_MODE_DUAL_CHANNEL);
+                if (!selectableIndex.contains(dualChannelIndex)) {
+                    selectableIndex.add(dualChannelIndex);
+                }
+            }
         }
         return selectableIndex;
     }
@@ -111,6 +130,9 @@ public class BluetoothChannelModeDialogPreferenceController extends
                 break;
             case BluetoothCodecConfig.CHANNEL_MODE_STEREO:
                 index = 2;
+                break;
+            case CHANNEL_MODE_DUAL_CHANNEL:
+                index = 3;
                 break;
             default:
                 Log.e(TAG, "Unsupported config:" + config);
