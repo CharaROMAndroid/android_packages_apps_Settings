@@ -43,6 +43,8 @@ import com.android.settings.development.BluetoothLeAudioModePreferenceController
 import com.android.settings.development.BluetoothMapVersionPreferenceController
 import com.android.settings.development.BluetoothMaxConnectedAudioDevicesPreferenceController
 import com.android.settings.development.BluetoothRebootDialog
+import com.android.settings.development.BluetoothSbcHdForceMaxBitrateController
+import com.android.settings.development.BluetoothSbcHdPreferenceController
 import com.android.settings.development.BluetoothServiceConnectionListener
 import com.android.settings.development.BluetoothSnoopLogFilterProfileMapPreferenceController
 import com.android.settings.development.BluetoothSnoopLogFilterProfilePbapPreferenceController
@@ -179,6 +181,8 @@ class BluetoothDevelopmentSettingsFragment :
                 BluetoothSnoopLogFilterProfileMapPreferenceController(context),
                 BluetoothDeviceNoNamePreferenceController(context),
                 BluetoothAbsoluteVolumePreferenceController(context),
+                BluetoothSbcHdPreferenceController(context),
+                BluetoothSbcHdForceMaxBitrateController(context),
                 BluetoothAvrcpVersionPreferenceController(context),
                 BluetoothMapVersionPreferenceController(context),
                 BluetoothLeAudioModePreferenceController(context, fragment),
