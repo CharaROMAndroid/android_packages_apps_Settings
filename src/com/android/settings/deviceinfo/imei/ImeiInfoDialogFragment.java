@@ -22,6 +22,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -83,7 +84,10 @@ public class ImeiInfoDialogFragment extends InstrumentedDialogFragment {
         mRootView = LayoutInflater.from(builder.getContext())
                 .inflate(R.layout.dialog_imei_info, null /* parent */);
         controller.populateImeiInfo();
-        return builder.setView(mRootView).create();
+        Dialog dialog = builder.setView(mRootView).create();
+        dialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
+                WindowManager.LayoutParams.FLAG_SECURE);
+        return dialog;
     }
 
     public void removeViewFromScreen(int viewId) {
