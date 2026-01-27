@@ -87,7 +87,7 @@ class ImeiPreference(
 
     override fun bind(preference: Preference, metadata: PreferenceMetadata) {
         super.bind(preference, metadata)
-        preference.isCopyingEnabled = true
+        preference.isCopyingEnabled = false
     }
 
     override fun onCreate(context: PreferenceLifecycleContext) {
