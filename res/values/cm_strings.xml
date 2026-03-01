@@ -26,7 +26,7 @@
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root. Useful for development. Not recommended for security.</string>
 
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Change backup provider</string>
@@ -34,20 +34,20 @@
 
     <!-- Black theme for dark mode -->
     <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme. AMOLED Mode, in a sense.</string>
 
     <!-- Device Info screen. LineageOS legal. -->
-    <string name="lineagelicense_title">LineageOS legal</string>
+    <string name="lineagelicense_title">CharaROM legal</string>
 
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
-      =1      {You are now # step away from enabling development settings.}
-      other   {You are now # steps away from enabling development settings.}
+      =1      {# left.}
+      other   {# left.}
     }</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">You have enabled development settings!</string>
+    <string name="show_dev_on_cm">DETERMINATION!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_cm">Greetings. =)</string>
 
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
@@ -67,7 +67,7 @@
 
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Use VPN for connected devices</string>
-    <string name="tethering_allow_vpn_upstreams_summary">When this device is using a VPN, all devices connected to the hotspot will use the same VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">When this device is using a VPN, all devices connected to the hotspot will use the same VPN. Pretty cool, right?</string>
 
     <!-- Lock screen pattern size -->
     <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
@@ -129,7 +129,7 @@
 
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device. This is useful for improving security, but hinders muscle memory.</string>
 
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
@@ -141,7 +141,7 @@
 
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source. Useful for checking the battery percentage when you're on the move.</string>
 
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
@@ -157,13 +157,13 @@
 
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_good">Good. It's what we like to see.</string>
+    <string name="battery_health_overheat">Overheat. Let it cool down!</string>
+    <string name="battery_health_dead">Dead. Replace it!</string>
     <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure. I can't diagnose what happened, but something did.</string>
+    <string name="battery_health_cold">Cold. Let it warm up!</string>
+    <string name="battery_health_unknown">Unknown. The battery isn't telling me anything.</string>
 
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperature</string>
