@@ -141,7 +141,7 @@
 
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source. Useful for checking the battery percentage when you're on the move.</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source. Useful for checking the battery percentage when you\u2019re on the move.</string>
 
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
@@ -157,13 +157,13 @@
 
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good. It's what we like to see.</string>
+    <string name="battery_health_good">Good. It\u2019s what we like to see.</string>
     <string name="battery_health_overheat">Overheat. Let it cool down!</string>
     <string name="battery_health_dead">Dead. Replace it!</string>
     <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure. I can't diagnose what happened, but something did.</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure. I can\u2019t diagnose what happened, but something did.</string>
     <string name="battery_health_cold">Cold. Let it warm up!</string>
-    <string name="battery_health_unknown">Unknown. The battery isn't telling me anything.</string>
+    <string name="battery_health_unknown">Unknown. The battery isn\u2019t telling me anything.</string>
 
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperature</string>
