@@ -45,7 +45,13 @@ class LineageVersionDetailPreference :
 
     override val title: Int
         get() = org.lineageos.platform.internal.R.string.lineage_version
+    
+    override val key: String
+        get() = "chara_build_default"
 
+    override val title: Int
+        get() = org.lineageos.platform.internal.R.string.chara_build_default
+    
     override val indexable
         get() = false
 
