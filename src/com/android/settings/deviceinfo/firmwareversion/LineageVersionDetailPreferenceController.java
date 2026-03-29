@@ -37,7 +37,7 @@ import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
 // LINT.IfChange
-public class CharaVersionDetailPreferenceController extends BasePreferenceController {
+public class LineageVersionDetailPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "CharaVersionDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
@@ -58,7 +58,7 @@ public class CharaVersionDetailPreferenceController extends BasePreferenceContro
     private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
 
-    public CharaVersionDetailPreferenceController(Context context, String key) {
+    public LineageVersionDetailPreferenceController(Context context, String key) {
         super(context, key);
         mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
         initializeAdminPermissions();
