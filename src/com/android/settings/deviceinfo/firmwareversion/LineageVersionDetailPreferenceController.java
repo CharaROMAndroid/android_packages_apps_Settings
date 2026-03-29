@@ -82,7 +82,7 @@ public class LineageVersionDetailPreferenceController extends BasePreferenceCont
     @Override
     public CharSequence getSummary() {
         String version = SystemProperties.get(KEY_VERSION_PROP, mContext.getString(R.string.unknown));
-        String codename = SystemProperties.get(KEY_CODENAME_PROP, mContext.getString(org.lineageos.platform.internal.R.string.chara_build_default));
+        String codename = SystemProperties.get(KEY_CODENAME_PROP, mContext.getString(R.string.chara_build_default));
         return version + " (" + codename + ")";
     }
 
