@@ -1,7 +1,5 @@
 /*
  * Copyright (C) 2019-2025 The LineageOS Project
- * Copyright (C) 2019-2021 The BlissRoms Project (CodenamePreference logic)
- * Copyright (C) 2026 CharaROM Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,6 +18,7 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.SystemClock;
 import android.os.SystemProperties;
 import android.os.UserHandle;
@@ -39,14 +38,11 @@ import com.android.settingslib.RestrictedLockUtilsInternal;
 // LINT.IfChange
 public class LineageVersionDetailPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "CharaVersionDialogCtrl";
+    private static final String TAG = "lineageVersionDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    private static final String KEY_VERSION_PROP = "ro.chara.build.version";
-
-    // BlissRoms Codename logic, modified for CharaROM
-    private static final String KEY_CODENAME_PROP = "ro.chara.build.codename"; // from Bliss
+    private static final String KEY_LINEAGE_VERSION_PROP = "ro.crdroid.build.version";
 
     private static final String PLATLOGO_PACKAGE_NAME = "com.crdroid.settings";
     private static final String PLATLOGO_ACTIVITY_CLASS =
@@ -81,41 +77,44 @@ public class LineageVersionDetailPreferenceController extends BasePreferenceCont
 
     @Override
     public CharSequence getSummary() {
-        String version = SystemProperties.get(KEY_VERSION_PROP, mContext.getString(R.string.unknown));
-        String codename = SystemProperties.get(KEY_CODENAME_PROP, mContext.getString(R.string.chara_build_default));
-        return version + " (" + codename + ")";
+        return SystemProperties.get(KEY_LINEAGE_VERSION_PROP,
+                mContext.getString(R.string.unknown));
     }
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
-        if (!TextUtils.equals(preference.getKey(), getPreferenceKey()) || Utils.isMonkeyRunning()) {
+        if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
-
+        if (Utils.isMonkeyRunning()) {
+            return false;
+        }
         arrayCopy();
         mHits[mHits.length - 1] = SystemClock.uptimeMillis();
         if (mHits[0] >= (SystemClock.uptimeMillis() - DELAY_TIMER_MILLIS)) {
             if (mUserManager.hasUserRestriction(UserManager.DISALLOW_FUN)) {
                 if (mFunDisallowedAdmin != null && !mFunDisallowedBySystem) {
-                    RestrictedLockUtils.sendShowAdminSupportDetailsIntent(mContext, mFunDisallowedAdmin);
+                    RestrictedLockUtils.sendShowAdminSupportDetailsIntent(mContext,
+                            mFunDisallowedAdmin);
                 }
                 Log.d(TAG, "Sorry, no fun for you!");
                 return true;
             }
 
             final Intent intent = new Intent(Intent.ACTION_MAIN)
-                    .setClassName(PLATLOGO_PACKAGE_NAME, PLATLOGO_ACTIVITY_CLASS);
+                     .setClassName(PLATLOGO_PACKAGE_NAME, PLATLOGO_ACTIVITY_CLASS);
             try {
                 mContext.startActivity(intent);
             } catch (Exception e) {
                 Log.e(TAG, "Unable to start activity " + intent.toString());
             }
         }
-
         return true;
     }
 
-    /** Shift array to remove oldest hit */
+    /**
+     * Copies the array onto itself to remove the oldest hit.
+     */
     @VisibleForTesting
     void arrayCopy() {
         System.arraycopy(mHits, 1, mHits, 0, mHits.length - 1);
