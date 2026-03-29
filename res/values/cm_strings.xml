@@ -40,6 +40,8 @@
     <string name="lineagelicense_title">CharaROM legal</string>
     <!-- CharaROM String: Missing Codename -->
     <string name="chara_build_default">ilikechocolate</string>
+    <!-- About device screen, CharaROM codename -->
+    <string name="chara_codename">CharaROM Codename</string>
 
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
