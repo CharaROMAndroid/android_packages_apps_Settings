@@ -44,6 +44,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- Bliss Codename -->
+    <Preference
+        android:key="chara_codename"
+        android:title="@string/chara_codename"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.deviceinfo.CharaCodenamePreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
