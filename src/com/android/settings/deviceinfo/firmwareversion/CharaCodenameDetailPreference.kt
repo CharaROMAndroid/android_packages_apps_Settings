@@ -35,7 +35,7 @@ class CharaCodenameDetailPreference :
         get() = "chara_codename"
 
     override val title: Int
-        get() = R.string.bliss_codename
+        get() = R.string.chara_codename
 
     override val indexable
         get() = false
