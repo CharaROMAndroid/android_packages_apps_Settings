@@ -21,10 +21,6 @@
     android:key="top_level_settings">
 
     <com.android.settingslib.widget.UntitledPreferenceCategory
-        android:order="-140"
-        android:key="top_level_account_category"/>
-
-    <com.android.settingslib.widget.UntitledPreferenceCategory
         android:order="-130"
         android:key="top_level_connectivity_category">
         <com.android.settings.widget.HomepagePreference
@@ -270,5 +266,9 @@
             settings:highlightableMenuKey="@string/menu_key_support"
             settings:controller="com.android.settings.support.SupportPreferenceController"/>
     </com.android.settingslib.widget.UntitledPreferenceCategory>
-</PreferenceScreen>
 
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:order="500"
+        android:key="top_level_account_category"/>
+
+</PreferenceScreen>
