@@ -21,12 +21,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- crDroid logo -->
-    <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/crdroid_logo"
-        android:key="crdroid_logo"
-        android:selectable="false" />
-
     <!-- Device name -->
     <Preference
         android:key="about_device_name"
@@ -44,7 +38,7 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Bliss Codename -->
+    <!-- Bliss Codename Handler, adapted for CharaROM -->
     <Preference
         android:key="chara_codename"
         android:title="@string/chara_codename"
