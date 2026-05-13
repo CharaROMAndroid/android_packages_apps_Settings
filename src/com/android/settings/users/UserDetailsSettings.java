@@ -456,6 +456,9 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             } else {
                 mPhonePref.setChecked(!mUserManager.hasUserRestriction(
                         UserManager.DISALLOW_OUTGOING_CALLS, new UserHandle(userId)));
+                if (!SHOW_APP_COPYING_PREF) {
+                    removePreference(KEY_APP_COPYING);
+                }
             }
 
             // Remove preference KEY_REMOVE_USER if DISALLOW_REMOVE_USER restriction is set
