@@ -130,8 +130,15 @@ public abstract class BaseBluetoothDialogPreference extends CustomDialogPreferen
      * Method to get summary strings by index.
      */
     protected String generateSummary(int index) {
-        if (index > mSummaryStrings.size()) {
+        if (index < 0 || index >= mSummaryStrings.size()) {
             Log.e(TAG, "Unable to get summary of " + index + ". Size is " + mSummaryStrings.size());
+            if (index == 3) {
+                // Fallback for Dual Channel mode if translations are missing
+                return String.format(getContext().getResources().getString(
+                        com.android.settingslib.R
+                                .string.bluetooth_select_a2dp_codec_streaming_label),
+                        "Dual Channel (SBC HD)");
+            }
             return null;
         }
         return index == getDefaultIndex() ? mSummaryStrings.get(getDefaultIndex()) :
