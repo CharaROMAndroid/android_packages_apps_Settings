@@ -56,26 +56,29 @@ public class BluetoothChannelModeDialogPreference extends BaseBluetoothDialogPre
     }
 
     private void initialize(Context context) {
-        // Load strings first to check array size
-        String[] stringArray = context.getResources().getStringArray(
+        String[] titles = context.getResources().getStringArray(
                 com.android.settingslib.R.array.bluetooth_a2dp_codec_channel_mode_titles);
-        for (int i = 0; i < stringArray.length; i++) {
-            mRadioButtonStrings.add(stringArray[i]);
+        String[] summaries = context.getResources().getStringArray(
+                com.android.settingslib.R.array.bluetooth_a2dp_codec_channel_mode_summaries);
+
+        // Always populating exactly 4 items
+        for (int i = 0; i < 4; i++) {
+            if (i < titles.length) {
+                mRadioButtonStrings.add(titles[i]);
+            } else if (i == 3) {
+                mRadioButtonStrings.add("Dual Channel (SBC HD)");
+            }
+
+            if (i < summaries.length) {
+                mSummaryStrings.add(summaries[i]);
+            } else if (i == 3) {
+                mSummaryStrings.add("Dual Channel (SBC HD)");
+            }
         }
 
-        // Add radio button IDs - must match string array size
         mRadioButtonIds.add(R.id.bluetooth_audio_channel_mode_default);
         mRadioButtonIds.add(R.id.bluetooth_audio_channel_mode_mono);
         mRadioButtonIds.add(R.id.bluetooth_audio_channel_mode_stereo);
-        // Only add Dual Channel if the string array has 4 entries (updated translations)
-        if (stringArray.length >= 4) {
-            mRadioButtonIds.add(R.id.bluetooth_audio_channel_mode_dual_channel);
-        }
-
-        stringArray = context.getResources().getStringArray(
-                com.android.settingslib.R.array.bluetooth_a2dp_codec_channel_mode_summaries);
-        for (int i = 0; i < stringArray.length; i++) {
-            mSummaryStrings.add(stringArray[i]);
-        }
+        mRadioButtonIds.add(R.id.bluetooth_audio_channel_mode_dual_channel);
     }
 }
