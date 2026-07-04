@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Strings for Dialog yes button -->
     <string name="yes">"Yes"</string>
@@ -51,7 +37,7 @@
 
 
     <!-- Category headings in left-pane header menu -->
-    <skip />
+    <skip/>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">System</string>
 
@@ -834,7 +820,7 @@
     <string name="keywords_time_feedback">feedback, bug, time, zone, timezone</string>
 
     <!-- Security Settings -->
-    <skip />
+    <skip/>
 
     <!-- Security settings screen, setting option name to change screen timeout -->
     <string name="lock_after_timeout">Lock after screen timeout</string>
@@ -889,7 +875,7 @@
     </string>
     <!-- Tooltip for switchbar on ChromeOS devices. [CHAR LIMIT=NONE]-->
     <string name="location_settings_tooltip_text_for_chrome">
-        To change go to ChromeOS Settings > Privacy and security > Privacy controls > Location access
+        To change go to ChromeOS Settings &gt; Privacy and security &gt; Privacy controls &gt; Location access
     </string>
 
     <!-- Main Settings screen setting option title for the item to take you to the accounts screen [CHAR LIMIT=22] -->
@@ -916,7 +902,7 @@
     <string name="safety_center_summary">App security, device lock, permissions</string>
 
     <!-- Face enrollment and settings -->
-    <skip />
+    <skip/>
     <!-- Note: Update FaceEnrollParentalConsent.CONSENT_STRING_RESOURCES when any _consent_ strings are added or removed. -->
     <!-- Message shown in summary field when face unlock is set up. [CHAR LIMIT=40] -->
     <string name="security_settings_face_preference_summary">Face added</string>
@@ -933,7 +919,7 @@
     <!-- Introduction title shown in face enrollment education screen to show the face unlock feature, when face unlock is disabled by device admin [CHAR LIMIT=60] -->
     <string name="security_settings_face_enroll_education_title_unlock_disabled">Use your face to authenticate</string>
     <!-- Introduction detail message shown in face education [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_education_message"></string>
+    <string name="security_settings_face_enroll_education_message"/>
     <!-- Button that takes the user to the enrollment activity [CHAR LIMIT=20] -->
     <string name="security_settings_face_enroll_education_start">Start</string>
     <!-- Negative button text for users who were shown the accessibility dialog [CHAR LIMIT=10] -->
@@ -943,9 +929,9 @@
     <!-- Button shown which shows accessibility toggles for face enrollment when clicked. [CHAR LIMIT=32] -->
     <string name="security_settings_face_enroll_introduction_accessibility">Use accessibility setup</string>
     <!-- Message shown for a toggle which when enabled, allows the user to enroll using a simpler flow for accessibility [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity"/>
     <!-- Message shown for a toggle which when enabled, allows the user to enroll using a simpler flow for accessibility [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_accessibility_vision"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision"/>
     <!-- Button text to cancel enrollment from the introduction [CHAR LIMIT=22] -->
     <string name="security_settings_face_enroll_introduction_cancel">Cancel</string>
     <!-- Button text to cancel enrollment [CHAR LIMIT=30] -->
@@ -957,18 +943,18 @@
     <!-- Introduction title shown in face enrollment to introduce the face unlock feature, when face unlock is disabled by device admin [CHAR LIMIT=60] -->
     <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Use your face to authenticate</string>
     <!-- Title of a section on the face enrollment introduction page that provides additional information. [CHAR LIMIT=40] -->
-    <string name="security_settings_face_enroll_introduction_info_title"></string>
+    <string name="security_settings_face_enroll_introduction_info_title"/>
     <!-- Message on the face enrollment introduction page that provides information about glasses. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_info_glasses"></string>
+    <string name="security_settings_face_enroll_introduction_info_glasses"/>
     <!-- Message on the face enrollment introduction page that provides information about glasses when asking for parental consent. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_info_consent_glasses"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses"/>
 
     <!-- Title of a section on the face enrollment introduction page that explains how face unlock works. [CHAR LIMIT=40] -->
-    <string name="security_settings_face_enroll_introduction_how_title"></string>
+    <string name="security_settings_face_enroll_introduction_how_title"/>
     <!-- Title of a section on the face enrollment introduction page that explains privacy controls for face unlock. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_control_title"></string>
+    <string name="security_settings_face_enroll_introduction_control_title"/>
     <!-- Title of a section on the face enrollment introduction page that explains privacy controls for face unlock when asking for parental consent. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_control_consent_title"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title"/>
     <!-- Title shown in face enrollment dialog [CHAR LIMIT=40] -->
     <string name="security_settings_face_enroll_repeat_title">Center your face in the circle</string>
     <!-- Button text to skip enrollment of face [CHAR LIMIT=40] -->
@@ -994,7 +980,7 @@
     <!-- Settings suggestion subtitle text for mandatory re-enrolling of a face. [CHAR LIMIT=40] -->
     <string name="security_settings_face_enroll_must_re_enroll_subtitle">Improve security and performance</string>
     <!-- Description shown on face settings page. -->
-    <string name="security_settings_face_description"></string>
+    <string name="security_settings_face_description"/>
     <!-- Title for a category shown for the face settings page. [CHAR LIMIT=20] -->
     <string name="security_settings_face_settings_face_category">Face</string>
     <!-- Title for a category shown for the face settings page. [CHAR LIMIT=20] -->
@@ -1002,9 +988,9 @@
     <!-- Text shown on a toggle which disables/enables face unlock, depending if the user's eyes are open. [CHAR LIMIT=30] -->
     <string name="security_settings_face_settings_require_attention">Require eyes to be open</string>
     <!-- Text shown on a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=30] -->
-    <string name="security_settings_face_settings_gaze"></string>
+    <string name="security_settings_face_settings_gaze"/>
     <!-- Text shown on the details of a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=70] -->
-    <string name="security_settings_face_settings_gaze_details"></string>
+    <string name="security_settings_face_settings_gaze_details"/>
     <!-- When authenticating in apps, always require confirmation (e.g. confirm button) after a face is authenticated. [CHAR LIMIT=50] -->
     <string name="security_settings_face_settings_require_confirmation">Always require confirmation</string>
     <!-- Button text in face settings which removes the user's face model from the device [CHAR LIMIT=40] -->
@@ -1015,7 +1001,7 @@
     <string name="security_settings_face_add">Add face</string>
 
     <!-- Fingerprint enrollment and settings -->
-    <skip />
+    <skip/>
     <!-- Note: Update FingerprintEnrollParentalConsent.CONSENT_STRING_RESOURCES when any _consent_ strings are added or removed. -->
     <!-- Title shown for choose lock options [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint">Fingerprint</string>
@@ -1089,13 +1075,13 @@
     <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE] -->
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_6">For best results, use a screen protector that\u2019s Made for Google certified. With other screen protectors, your child\u2019s fingerprint may not work.</string>
     <!-- Introduction detail message shown in fingerprint enrollment introduction to learn more about fingerprint [CHAR LIMIT=NONE]-->
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more"></string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more"/>
     <!-- Description shown on the check enrolled fingerprint dialog -->
     <string name="fingerprint_check_enroll_touch_sensor">Touch the fingerprint sensor</string>
     <!-- Description shown on the check enrolled fingerprint dialog -->
     <string name="fingerprint_check_enroll_not_recognized">Fingerprint not recognized</string>
     <!-- Watch unlock enrollment and settings -->
-    <skip />
+    <skip/>
     <!-- Title shown for menu item that launches watch unlock settings. [CHAR LIMIT=40] -->
     <string name="security_settings_activeunlock_preference_title">Watch Unlock</string>
     <!-- Title shown for menu item that launches active unlock settings related to a paired watch [CHAR_LIMIT=NONE] [SCREENSHOT=screen/78pZDqPruidwZqW] -->
@@ -1157,7 +1143,7 @@
     <!-- Biometric error dialog button text to lock screen and recover biometric lockout state. [CHAR LIMIT=60] -->
     <string name="identity_check_lockout_error_lock_screen">Lock screen</string>
     <!-- RemoteAuth unlock enrollment and settings -->
-    <skip />
+    <skip/>
     <!-- Title shown for menu item that launches watch unlock settings. [CHAR LIMIT=40] -->
     <string name="security_settings_remoteauth_preference_title">Remote Authenticator Unlock</string>
     <!-- Message shown in summary field when remote authenticator is set up. [CHAR LIMIT=40] -->
@@ -1206,7 +1192,7 @@
     <string name="security_settings_remoteauth_settings_remove_device">Remove watch</string>
 
     <!-- Biometric settings -->
-    <skip />
+    <skip/>
     <!-- Message shown in summary field of biometric settings. [CHAR LIMIT=66] -->
     <string name="security_settings_biometric_preference_summary_none_enrolled">Setup needed</string>
     <!-- Message shown in summary field of biometric settings when face is enrolled, and multiple fingerprints are enrolled. [CHAR LIMIT=66]-->
@@ -1668,10 +1654,10 @@
     <string name="no_screen_lock_issue_notification_text_without_pattern">For added security, set a PIN or password for this device.</string>
 
     <!-- Unlock Picker Settings -->
-    <skip />
+    <skip/>
 
     <!-- Security Picker -->
-    <skip />
+    <skip/>
 
     <!-- Title for suggested actions for settings up a fingerprint lock [CHAR LIMIT=46] -->
     <string name="suggested_fingerprint_lock_settings_title">Add fingerprint to unlock</string>
@@ -1728,12 +1714,12 @@
     <string name="auto_confirm_off_pin_verify_description">Enter device PIN to disable auto-confirm</string>
 
     <!--  Main Security lock settings -->
-    <skip />
+    <skip/>
     <!--  Title for PreferenceScreen to launch picker for security method when there is none [CHAR LIMIT=22] -->
     <string name="unlock_set_unlock_launch_picker_title">Screen lock</string>
 
     <!--  Profile Security lock settings -->
-    <skip />
+    <skip/>
     <!--  Title for PreferenceScreen to launch picker for security method for the managed profile when there is none [CHAR LIMIT=40] -->
     <string name="unlock_set_unlock_launch_picker_title_profile">Work profile lock</string>
 
@@ -2054,7 +2040,7 @@
     <string name="bluetooth_repairing_msg">This device was paired previously, and is trying to re-pair.\nIf you are in a public space, proceed with caution.</string>
 
     <!-- Title for BT error dialogs. -->
-    <string name="bluetooth_error_title"></string>
+    <string name="bluetooth_error_title"/>
 
     <!-- Message for the error dialog when BT connecting operation fails generically. -->
     <string name="bluetooth_connecting_error_message">Couldn\u2019t connect to <xliff:g id="device_name">%1$s</xliff:g>.</string>
@@ -2353,7 +2339,7 @@
     <string name="android_beam_explained">When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam web pages, YouTube videos, contacts, and more.\n\nJust bring the devices together (typically back to back) and then tap your screen. The app determines what gets beamed.</string>
 
     <!-- Wi-Fi Settings -->
-    <skip />
+    <skip/>
     <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen  [CHAR LIMIT=20]-->
     <string name="wifi_settings">Wi\u2011Fi</string>
 
@@ -2462,7 +2448,7 @@
     <string name="wifi_scanning_user_restricted" translatable="false">The user must not be restricted from changing location settings by a device owner or a profile owner.</string>
 
     <!-- Dialog for Access Points -->
-    <skip />
+    <skip/>
     <!-- Label to show/hide advanced options [CHAR LIMIT=40] -->
     <string name="wifi_show_advanced">Advanced options</string>
     <!-- Message for talkback to say when focus on Advanced Options[CHAR LIMIT=NONE] -->
@@ -2715,7 +2701,7 @@
     <string name="shared_wifi_forget_dialog_message">\"<xliff:g id="network_name">%1$s</xliff:g>\" will be removed for all users on this device</string>
 
     <!-- Wi-Fi Advanced Settings -->
-    <skip />
+    <skip/>
     <!-- Wi-Fi settings screen, Saved networks summary.  This shows below the "Saved networks" item and indicates the number of networks, not including passpoint network, a user has saved. [CHAR LIMIT=30] -->
     <string name="wifi_saved_access_points_summary">{count, plural,
         =1      {1 network}
@@ -3102,7 +3088,7 @@
     <!-- Wi-Fi Calling settings. Text displayed when Wi-Fi Calling is off -->
     <string name="wifi_calling_off_explanation">When Wi-Fi calling is on, your phone can route calls via Wi-Fi networks or your carrier\u2019s network, depending on your preference and which signal is stronger. Before turning on this feature, check with your carrier regarding fees and other details.<xliff:g id="additional_text" example="Learn More">%1$s</xliff:g></string>
     <!-- Wi-Fi Calling settings. Additional text displayed when Wi-Fi Calling is off. Default empty. [CHAR LIMIT=NONE] -->
-    <string name="wifi_calling_off_explanation_2"></string>
+    <string name="wifi_calling_off_explanation_2"/>
     <!-- Title of a preference for updating emergency address [CHAR LIMIT=40] -->
     <string name="emergency_address_title">Emergency address</string>
     <!-- Summary of Update Emergency Address preference, explaining usage of emergency address [CHAR LIMIT=NONE] -->
@@ -3125,9 +3111,9 @@
     <!-- Hint for a Wi-Fi network is disconnected successfully [CHAR LIMIT=NONE] -->
     <string name="wifi_disconnected_from">Disconnected from <xliff:g id="ssid" example="OfficeWifi">%1$s</xliff:g></string>
     <!-- DO NOT TRANSLATE Summary placeholder -->
-    <string name="summary_placeholder" translatable="false">&#160;</string>
+    <string name="summary_placeholder" translatable="false"> </string>
     <!-- DO NOT TRANSLATE Summary placeholder reserving 2 lines -->
-    <string name="summary_two_lines_placeholder" translatable="false">&#160;\n&#160;</string>
+    <string name="summary_two_lines_placeholder" translatable="false"> \n </string>
 
     <!-- Account settings header. [CHAR LIMIT=30] -->
     <string name="account_settings">Accounts</string>
@@ -3146,7 +3132,7 @@
     <string name="search_settings">Search</string>
 
     <!-- Display settings -->
-    <skip />
+    <skip/>
     <!-- Sound & display settings screen, accelerometer-based rotation check box label -->
     <string name="accelerometer_title">Auto-rotate screen</string>
     <!-- Sound & display settings screen, locked rotation check box label [CHAR LIMIT=30] -->
@@ -3222,7 +3208,7 @@
     <!-- Display settings screen, display white balance settings title [CHAR LIMIT=30] -->
     <string name="display_white_balance_title">Display white balance</string>
     <!-- Display settings screen, display white balance settings summary [CHAR LIMIT=NONE] -->
-    <string name="display_white_balance_summary"></string>
+    <string name="display_white_balance_summary"/>
     <!-- Display settings screen, setting option name to change Fold setting -->
     <string name="fold_lock_behavior_title">Continue using apps on fold</string>
     <!-- Display settings screen, game default frame rate settings title [CHAR LIMIT=65] -->
@@ -3672,9 +3658,9 @@
     <!-- Storage settings screen title -->
     <string name="storage_settings_title">Storage settings</string>
     <!-- About phone, title of EID -->
-    <string name="status_eid">E&#x200B;ID</string>
+    <string name="status_eid">E​ID</string>
     <!-- About phone, title of EID for multi-sim devices -->
-    <string name="eid_multi_sim">E&#x200B;ID <xliff:g id="eid_slot_id">%1$d</xliff:g></string>
+    <string name="eid_multi_sim">E​ID <xliff:g id="eid_slot_id">%1$d</xliff:g></string>
     <!-- About phone screen, title for IMEI for multi-sim devices -->
     <string name="imei_multi_sim">IMEI <xliff:g id="imei_id">%1$d</xliff:g></string>
     <!-- About phone screen, summary of the MAC address [CHAR LIMIT=80] -->
@@ -4023,7 +4009,7 @@
     <!-- Edit access point screen menu option to discard the user's changes for this APN -->
     <string name="menu_cancel">Cancel</string>
     <!-- APN error dialog title -->
-    <string name="error_title"></string>
+    <string name="error_title"/>
     <!-- APN error dialog messages when the new apn is a duplicate: -->
     <string name="error_duplicate_apn_entry">Duplicate apn entry.</string>
     <!-- APN error dialog messages: -->
@@ -4296,13 +4282,13 @@
     <!-- [CHAR LIMIT=50] Date&Time settings screen, title of the dialog when AutoTimeZone is degraded -->
     <string name="location_time_zone_detection_status_title">Cannot set the time zone automatically</string>
     <!-- Date&Time settings screen, summary of the dialog when AutoTimeZone is degraded by settings-->
-    <string name="location_time_zone_detection_status_summary_degraded_by_settings" />
+    <string name="location_time_zone_detection_status_summary_degraded_by_settings"/>
     <!-- [CHAR LIMIT=60] Date&Time settings screen, summary of the dialog when AutoTimeZone is blocked by settings -->
     <string name="location_time_zone_detection_status_summary_blocked_by_settings">Location or Location Services are off</string>
     <!-- Date&Time settings screen, summary of the dialog when AutoTimeZone is blocked by the environment-->
-    <string name="location_time_zone_detection_status_summary_blocked_by_environment" />
+    <string name="location_time_zone_detection_status_summary_blocked_by_environment"/>
     <!-- Date&Time settings screen, summary of the dialog when AutoTimeZone is temporarily unavailable-->
-    <string name="location_time_zone_detection_status_summary_temporarily_unavailable" />
+    <string name="location_time_zone_detection_status_summary_temporarily_unavailable"/>
     <!-- [CHAR LIMIT=60] Date&Time settings screen, title of the dialog shown when user tries to
          enable GeoTZ when Location toggle is off. -->
     <string name="location_time_zone_detection_location_is_off_dialog_title">Device location needed</string>
@@ -4366,23 +4352,23 @@
     <!-- About phone settings screen, setting option name to show the safety and regulatory manual [CHAR LIMIT=40] -->
     <string name="safety_and_regulatory_info">Safety &amp; regulatory manual</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
-    <skip />
+    <skip/>
     <!-- About phone settings screen, setting option name to see copyright-related info -->
     <string name="copyright_title">Copyright</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
-    <skip />
+    <skip/>
     <!-- About phone settings screen, setting option name to see licensing info -->
     <string name="license_title">License</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
-    <skip />
+    <skip/>
     <!-- About phone settings screen, setting option name to see licensing info for Google Play system updates [CHAR LIMIT=50] -->
     <string name="module_license_title">Google Play system update licenses</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
-    <skip />
+    <skip/>
     <!-- About phone settings screen, setting option name to see terms and conditions -->
     <string name="terms_title">Terms and conditions</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
-    <skip />
+    <skip/>
     <!-- About phone settings screen, setting option name to see licensing info for WebView component. [CHAR LIMIT=35] -->
     <string name="webview_license_title">System WebView License</string>
     <!-- About phone settings screen, setting option name to see wallpapers attributions -->
@@ -4396,7 +4382,7 @@
     <string name="settings_manual_activity_unavailable">There is a problem loading the manual.</string>
 
     <!-- Title for actual Settings license activity. -->
-    <skip />
+    <skip/>
     <!-- About phone settings, Legal information setting option name and title of dialog box holding license info -->
     <string name="settings_license_activity_title">Third-party licenses</string>
     <!-- About phone settings screen, Open source license dialog message when licenses cannot be loaded -->
@@ -4660,7 +4646,7 @@
     <string name="lock_settings_profile_unified_summary">Same as device screen lock</string>
 
     <!-- Applications Settings -->
-    <skip />
+    <skip/>
     <!-- Applications settings screen, setting option name for the user to go to the screen to manage installed applications  -->
     <string name="manageapplications_settings_title">Manage apps</string>
     <!-- Applications settings title, on main settings screen. If clicked, the user is taken to a settings screen full of application settings-->
@@ -4886,7 +4872,7 @@
     <string name="instant_app_details_summary">More info on <xliff:g id="app_store">%1$s</xliff:g></string>
 
     <!-- App Ops Settings -->
-    <skip />
+    <skip/>
     <!-- [CHAR LIMIT=NONE] Time label for an operation that is currently running. -->
     <string name="app_ops_running">Running</string>
     <!-- [CHAR LIMIT=NONE] Time label for an operation that has never executed. -->
@@ -4990,12 +4976,12 @@
     <string name="runningservicedetails_stop_dlg_title">Stop system service?</string>
 
     <!-- Languages Settings -->
-    <skip />
+    <skip/>
     <!-- Title of Language, input & gestures setting on main settings screen. -->
     <string name="language_input_gesture_title">Languages, input &amp; gestures</string>
 
     <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings realted to locale and text -->
-    <string name="language_settings">Languages&#160;&amp; input</string>
+    <string name="language_settings">Languages &amp; input</string>
     <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings related to languages -->
     <string name="languages_settings">Languages</string>
     <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings related to language and region-->
@@ -5301,7 +5287,7 @@
     <string name="trackpad_touch_gesture">Learn touchpad gestures</string>
     <!-- TODO(b/353947750): finalize this string and mark it translatable. -->
     <!-- Notice displayed at the end of the touchpad settings page when the user has disabled system navigation gestures. "Cursor & touchpad accessibility" and "Use touchpad gestures" refer to other labels in Settings, and should be translated in exactly the same way. -->
-    <string name="trackpad_gestures_disabled_footer_text" translatable="false">Some settings are unavailable as touchpad gestures have been turned off. You can turn them on via Cursor &amp; touchpad accessibility > Use touchpad gestures</string>
+    <string name="trackpad_gestures_disabled_footer_text" translatable="false">Some settings are unavailable as touchpad gestures have been turned off. You can turn them on via Cursor &amp; touchpad accessibility &gt; Use touchpad gestures</string>
     <!-- Search keywords for "touchpad" -->
     <string name="keywords_touchpad">trackpad, track pad, mouse, cursor, scroll, swipe, right click, click, pointer</string>
     <!-- Search keywords for 'Bottom-right tap', the name of the touchpad setting that allows the user to click the bottom right corner of the touchpad for more options. -->
@@ -5480,14 +5466,14 @@
     <string name="vibrate_input_devices_summary">Send vibration to game controller when connected</string>
 
     <!-- Keyboard Layout Picker -->
-    <skip />
+    <skip/>
     <!-- Title for the keyboard layout picker activity. [CHAR LIMIT=35] -->
     <string name="keyboard_layout_picker_title">Keyboard layouts</string>
     <!-- Category title for the list of physical keyboard layouts in the keyboard layout picker activity. [CHAR LIMIT=35] -->
     <string name="keyboard_layout_picker_category_title">Layouts</string>
 
     <!-- User dictionary settings -->
-    <skip />
+    <skip/>
     <!-- User dictionary settings. The title of the list item to go into the Personal dictionary settings screen. [CHAR LIMIT=35] -->
     <string name="user_dict_settings_title">Personal dictionary</string>
     <!-- Title for the 'Spell checker for work' preference. [CHAR LIMIT=45] -->
@@ -5582,7 +5568,7 @@
     <string name="phone_information_v2_title">Phone Information V2</string>
 
     <!-- Accessibility settings -->
-    <skip />
+    <skip/>
 
     <!-- Settings title in main settings screen for accessibility settings -->
     <string name="accessibility_settings">Accessibility</string>
@@ -5673,7 +5659,7 @@
     <!-- Title for button preference to start the survey process for the accessibility [CHAR LIMIT=30] -->
     <string name="accessibility_send_survey_title">Take survey</string>
     <!-- Title for button preference to start disability support [CHAR LIMIT=NONE] -->
-    <string name="accessibility_disability_support_title"></string>
+    <string name="accessibility_disability_support_title"/>
     <!-- Channel name for the accessibility survey notification. [CHAR LIMIT=50] -->
     <string name="accessibility_send_survey_notification_channel">Accessibility Survey</string>
     <!-- Title of a survey notification about dark theme. [CHAR LIMIT=50] -->
@@ -5856,77 +5842,77 @@
     <string name="accessibility_screen_magnification_intro_text">Quickly zoom in on the screen to make content larger</string>
     <!-- Instructions on the accessibility preference screen teaching the user how to enable screen magnification gestures. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_summary">
-        <![CDATA[
-        <b>To zoom in:</b><br/>
-        {0,number,integer}. Use shortcut to start magnification<br/>
-        {1,number,integer}. Tap the screen<br/>
-        {2,number,integer}. Drag 2 fingers to move around screen<br/>
-        {3,number,integer}. Pinch with 2 fingers to adjust zoom<br/>
-        {4,number,integer}. Use shortcut to stop magnification<br/><br/>
-        <b>To zoom in temporarily:</b><br/>
-        {0,number,integer}. Make sure your magnification type is set to full screen<br/>
-        {1,number,integer}. Use shortcut to start magnification<br/>
-        {2,number,integer}. Touch & hold anywhere on the screen<br/>
-        {3,number,integer}. Drag finger to move around screen<br/>
+        
+        &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
+        {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
+        {1,number,integer}. Tap the screen&lt;br/&gt;
+        {2,number,integer}. Drag 2 fingers to move around screen&lt;br/&gt;
+        {3,number,integer}. Pinch with 2 fingers to adjust zoom&lt;br/&gt;
+        {4,number,integer}. Use shortcut to stop magnification&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;To zoom in temporarily:&lt;/b&gt;&lt;br/&gt;
+        {0,number,integer}. Make sure your magnification type is set to full screen&lt;br/&gt;
+        {1,number,integer}. Use shortcut to start magnification&lt;br/&gt;
+        {2,number,integer}. Touch &amp; hold anywhere on the screen&lt;br/&gt;
+        {3,number,integer}. Drag finger to move around screen&lt;br/&gt;
         {4,number,integer}. Lift finger to stop magnification
-        ]]>
+        
     </string>
     <!-- Instructions on the accessibility preference screen teaching the user how to control magnification with a keyboard. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_keyboard_summary">
-        <![CDATA[
-        <b>To zoom in:</b><br/>
-        {0,number,integer}. Use shortcut or press <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M to start magnification<br/>
-        {1,number,integer}. Press <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + arrow keys to move around screen<br/>
-        {2,number,integer}. Press <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> and \"+\" or \"-\" to adjust zoom<br/>
-        {3,number,integer}. Use shortcut or <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M to stop magnification
-        ]]>
+        
+        &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
+        {0,number,integer}. Use shortcut or press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + M to start magnification&lt;br/&gt;
+        {1,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + arrow keys to move around screen&lt;br/&gt;
+        {2,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; and \"+\" or \"-\" to adjust zoom&lt;br/&gt;
+        {3,number,integer}. Use shortcut or &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + M to stop magnification
+        
     </string>
     <!-- Instructions on the accessibility preference screen teaching the user how to control magnification with both keyboard and touch. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_keyboard_touch_summary">
-        <![CDATA[
-        <b>Keyboard</b><br/>
-        {0,number,integer}. Use shortcut or press <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M to start magnification<br/>
-        {1,number,integer}. Press <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + arrow keys to move around screen<br/>
-        {2,number,integer}. Press <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> and \"+\" or \"-\" to adjust zoom<br/>
-        {3,number,integer}. Use shortcut or <xliff:g id="meta">%1$s</xliff:g> + <xliff:g id="alt">%2$s</xliff:g> + M to stop magnification<br/><br/>
-        <b>Touchscreen</b><br/>
-        To zoom in:<br/>
-        {0,number,integer}. Use shortcut to start magnification<br/>
-        {1,number,integer}. Tap the screen<br/>
-        {2,number,integer}. Drag 2 fingers to move around screen<br/>
-        {3,number,integer}. Pinch with 2 fingers to adjust zoom<br/>
-        {4,number,integer}. Use shortcut to stop magnification<br/><br/>
-        To zoom in temporarily:<br/>
-        {0,number,integer}. Make sure your magnification type is set to full screen<br/>
-        {1,number,integer}. Use shortcut to start magnification<br/>
-        {2,number,integer}. Touch & hold anywhere on the screen<br/>
-        {3,number,integer}. Drag finger to move around screen<br/>
+        
+        &lt;b&gt;Keyboard&lt;/b&gt;&lt;br/&gt;
+        {0,number,integer}. Use shortcut or press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + M to start magnification&lt;br/&gt;
+        {1,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + arrow keys to move around screen&lt;br/&gt;
+        {2,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; and \"+\" or \"-\" to adjust zoom&lt;br/&gt;
+        {3,number,integer}. Use shortcut or &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + M to stop magnification&lt;br/&gt;&lt;br/&gt;
+        &lt;b&gt;Touchscreen&lt;/b&gt;&lt;br/&gt;
+        To zoom in:&lt;br/&gt;
+        {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
+        {1,number,integer}. Tap the screen&lt;br/&gt;
+        {2,number,integer}. Drag 2 fingers to move around screen&lt;br/&gt;
+        {3,number,integer}. Pinch with 2 fingers to adjust zoom&lt;br/&gt;
+        {4,number,integer}. Use shortcut to stop magnification&lt;br/&gt;&lt;br/&gt;
+        To zoom in temporarily:&lt;br/&gt;
+        {0,number,integer}. Make sure your magnification type is set to full screen&lt;br/&gt;
+        {1,number,integer}. Use shortcut to start magnification&lt;br/&gt;
+        {2,number,integer}. Touch &amp; hold anywhere on the screen&lt;br/&gt;
+        {3,number,integer}. Drag finger to move around screen&lt;br/&gt;
         {4,number,integer}. Lift finger to stop magnification
-        ]]>
+        
     </string>
     <!-- Instructions on the accessibility preference screen teaching the user how to interact with screen magnification when one finger panning feature is turned off. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_summary_one_finger_panning_off">
-        <![CDATA[
-        <b>To zoom in:</b><br/>
-        {0,number,integer}. Use shortcut to start magnification<br/>
-        {1,number,integer}. Tap the screen<br/>
-        {2,number,integer}. Drag 2 fingers to move around the screen<br/>
-        {3,number,integer}. Pinch with 2 fingers to adjust zoom<br/>
-        {4,number,integer}. Use shortcut to stop magnification<br/><br/>
+        
+        &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
+        {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
+        {1,number,integer}. Tap the screen&lt;br/&gt;
+        {2,number,integer}. Drag 2 fingers to move around the screen&lt;br/&gt;
+        {3,number,integer}. Pinch with 2 fingers to adjust zoom&lt;br/&gt;
+        {4,number,integer}. Use shortcut to stop magnification&lt;br/&gt;&lt;br/&gt;
         You can also zoom in temporarily and more.
-        ]]>
+        
     </string>
     <!-- Instructions on the accessibility preference screen teaching the user how to interact with screen magnification when one finger panning feature is turned on. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_summary_one_finger_panning_on">
-        <![CDATA[
-        <b>To zoom in:</b><br/>
-        {0,number,integer}. Use shortcut to start magnification<br/>
-        {1,number,integer}. Tap the screen<br/>
-        {2,number,integer}. Drag 1 or 2 fingers to move around the screen<br/>
-        {3,number,integer}. Pinch with 2 fingers to adjust zoom<br/>
-        {4,number,integer}. Use shortcut to stop magnification<br/><br/>
+        
+        &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
+        {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
+        {1,number,integer}. Tap the screen&lt;br/&gt;
+        {2,number,integer}. Drag 1 or 2 fingers to move around the screen&lt;br/&gt;
+        {3,number,integer}. Pinch with 2 fingers to adjust zoom&lt;br/&gt;
+        {4,number,integer}. Use shortcut to stop magnification&lt;br/&gt;&lt;br/&gt;
         You can also zoom in temporarily and more.
-        ]]>
+        
     </string>
     <!-- Summary for the accessibility preference screen to enable screen magnification via the nav bar. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_navbar_summary">When magnification is turned on, you can zoom in on your screen.\n\n<b>To zoom</b>, start magnification, then tap anywhere on the screen.\n<ul><li>Drag 2 or more fingers to scroll</li>\n<li>Pinch 2 or more fingers to adjust zoom</li></ul>\n\n<b>To zoom temporarily</b>, start magnification, then touch &amp; hold anywhere on the screen.\n<ul><li>Drag to move around the screen</li>\n<li>Lift finger to zoom out</li></ul>\n\nYou can’t zoom in on the keyboard or navigation bar.</string>
@@ -6069,12 +6055,12 @@
     <string name="accessibility_button_summary">Quickly access accessibility features</string>
     <!-- Description for the accessibility button page. Explain how this page works in numbered ordered list. [CHAR LIMIT=NONE] -->
     <string name="accessibility_button_description">
-        <![CDATA[
-        <b>To get started</b><br/>
-        {0,number,integer}. Go to accessibility settings<br/>
-        {1,number,integer}. Select a feature and tap the shortcut<br/>
-        {2,number,integer}. Choose the button to access the feature<br/>
-        ]]>
+        
+        &lt;b&gt;To get started&lt;/b&gt;&lt;br/&gt;
+        {0,number,integer}. Go to accessibility settings&lt;br/&gt;
+        {1,number,integer}. Select a feature and tap the shortcut&lt;br/&gt;
+        {2,number,integer}. Choose the button to access the feature&lt;br/&gt;
+        
     </string>
     <!-- Title for the location of the accessibility button. [CHAR LIMIT=35] -->
     <string name="accessibility_button_location_title">Location</string>
@@ -6217,13 +6203,13 @@
     <string name="accessibility_display_inversion_preference_intro_text">Color inversion turns light screens dark. It also turns dark screens light.</string>
     <!-- Subtitle for the accessibility preference to configure display color inversion. [CHAR LIMIT=NONE] [BACKUP_MESSAGE_ID: 4494767676482389509] -->
     <string name="accessibility_display_inversion_preference_subtitle">
-        <![CDATA[<b>Keep in mind</b><br/>
-        <ol>
-            <li>\u00a0Colors will change in media and images</li>
-            <li>\u00a0Color inversion works on all apps</li>
-            <li>\u00a0To display a dark background, dark theme can be used instead</li>
-        </ol>
-        ]]>
+        &lt;b&gt;Keep in mind&lt;/b&gt;&lt;br/&gt;
+        &lt;ol&gt;
+            &lt;li&gt;\u00a0Colors will change in media and images&lt;/li&gt;
+            &lt;li&gt;\u00a0Color inversion works on all apps&lt;/li&gt;
+            &lt;li&gt;\u00a0To display a dark background, dark theme can be used instead&lt;/li&gt;
+        &lt;/ol&gt;
+        
     </string>
     <!-- suffixed to click action texts "Double-tap to " -->
     <string name="accessibility_action_label_panel_slice">enter settings</string>
@@ -6452,19 +6438,19 @@
     <!--Summary for the Hearing Aid Compatibility preference in the accessibility page. [CHAR LIMIT=NONE] -->
     <string name="accessibility_hac_mode_summary">Improves compatibility with telecoils and reduces unwanted noise</string>
     <!-- Message for the Hearing Aid Compatibility disclaimer dialog. The dialog will not show if this string is empty. [CHAR LIMIT=NONE] -->
-    <string name="hac_disclaimer_message"></string>
+    <string name="hac_disclaimer_message"/>
     <!-- Title for accessibility hearing device page footer. [CHAR LIMIT=40] -->
     <string name="accessibility_hearing_device_about_title">About hearing devices</string>
     <!-- Description for text in accessibility hearing aids footer. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_hearing_device_footer_summary"><![CDATA[To find other hearing devices that aren’t supported by ASHA or LE Audio, tap <b>Pair new device</b> > <b>See more devices</b>]]></string>
+    <string name="accessibility_hearing_device_footer_summary">To find other hearing devices that aren’t supported by ASHA or LE Audio, tap &lt;b&gt;Pair new device&lt;/b&gt; &gt; &lt;b&gt;See more devices&lt;/b&gt;</string>
     <!-- Content description for text in accessibility hearing aids footer to be announce. Replace '>' to 'then' compare to non tts version. [CHAR LIMIT=NONE] -->
     <string name="accessibility_hearing_device_footer_summary_tts">To find other hearing devices that aren’t supported by ASHA or LE Audio, tap <b>Pair new device</b> then <b>See more devices</b></string>
     <!-- Description for text in accessibility hearing aids footer. This string is for device that only supports ASHA hearing aids. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_hearing_device_footer_asha_only_summary"><![CDATA[To find other hearing devices that aren’t supported by ASHA, tap <b>Pair new device</b> > <b>See more devices</b>]]></string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary">To find other hearing devices that aren’t supported by ASHA, tap &lt;b&gt;Pair new device&lt;/b&gt; &gt; &lt;b&gt;See more devices&lt;/b&gt;</string>
     <!-- Content description for text in accessibility hearing aids footer to be announce. This string is for device that only supports ASHA hearing aids. Replace '>' to 'then' compare to non tts version. [CHAR LIMIT=NONE] -->
     <string name="accessibility_hearing_device_footer_asha_only_summary_tts">To find other hearing devices that aren’t supported by ASHA, tap <b>Pair new device</b> then <b>See more devices</b></string>
     <!-- Description for text in accessibility hearing aids footer. This string is for device that only supports LE Audio hearing aids. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_hearing_device_footer_hap_only_summary"><![CDATA[To find other hearing devices that aren’t supported by LE Audio, tap <b>Pair new device</b> > <b>See more devices</b>]]></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary">To find other hearing devices that aren’t supported by LE Audio, tap &lt;b&gt;Pair new device&lt;/b&gt; &gt; &lt;b&gt;See more devices&lt;/b&gt;</string>
     <!-- Content description for text in accessibility hearing aids footer to be announce. This string is for device that only supports LE Audio hearing aids. Replace '>' to 'then' compare to non tts version. [CHAR LIMIT=NONE] -->
     <string name="accessibility_hearing_device_footer_hap_only_summary_tts">To find other hearing devices that aren’t supported by LE Audio, tap <b>Pair new device</b> then <b>See more devices</b></string>
     <!-- Title for the pair hearing device page. [CHAR LIMIT=25] -->
@@ -6669,15 +6655,15 @@
     <!-- List of synonyms used in the settings search bar to find the “Magnification”. [CHAR LIMIT=NONE] -->
     <string name="keywords_magnification">Window Magnifier, Zoom, Magnification, Low vision, Enlarge, make bigger</string>
     <!-- List of synonyms used in the settings search bar to find the “TalkBack”. [CHAR LIMIT=NONE] -->
-    <string name="keywords_talkback"></string>
+    <string name="keywords_talkback"/>
     <!-- List of synonyms used in the settings search bar to find the “Live Caption”. [CHAR LIMIT=NONE] -->
     <string name="keywords_live_caption">Captions, closed captions, CC, Live Transcribe, hard of hearing, hearing loss, CART, speech to text, subtitle</string>
     <!-- List of synonyms used in the settings search bar to find the “Live Transcribe”. [CHAR LIMIT=NONE] -->
-    <string name="keywords_live_transcribe"></string>
+    <string name="keywords_live_transcribe"/>
     <!-- List of synonyms used in the settings search bar to find the “Sound Notifications”. [CHAR LIMIT=NONE] -->
-    <string name="keywords_sound_notifications"></string>
+    <string name="keywords_sound_notifications"/>
     <!-- List of synonyms used in the settings search bar to find the “Sound Amplifier”. [CHAR LIMIT=NONE] -->
-    <string name="keywords_sound_amplifier"></string>
+    <string name="keywords_sound_amplifier"/>
     <!-- List of synonyms used in the settings search bar to find the “Display size”. [CHAR LIMIT=NONE] -->
     <string name="keywords_display_size">screen size, large screen</string>
     <!-- List of synonyms used in the settings search bar to find the “Bold text”. [CHAR LIMIT=NONE] -->
@@ -6685,15 +6671,15 @@
     <!-- List of synonyms used in the settings search bar to find "Text outlines", previously known as "High contrast text". [CHAR LIMIT=NONE] -->
     <string name="keywords_maximize_text_contrast">high contrast text</string>
     <!-- List of synonyms used in the settings search bar to find the “Select to Speak”. [CHAR LIMIT=NONE] -->
-    <string name="keywords_select_to_speak"></string>
+    <string name="keywords_select_to_speak"/>
     <!-- List of synonyms used in the settings search bar to find the “Color correction”. [CHAR LIMIT=NONE] -->
     <string name="keywords_color_correction">adjust color </string>
     <!-- List of synonyms used in the settings search bar to find the “Color inversion”. [CHAR LIMIT=NONE] -->
     <string name="keywords_color_inversion">turn screen dark, turn screen light</string>
     <!-- List of synonyms used in the settings search bar to find the “Accessibility Menu”. [CHAR LIMIT=NONE] -->
-    <string name="keywords_accessibility_menu"></string>
+    <string name="keywords_accessibility_menu"/>
     <!-- List of synonyms used in the settings search bar to find the “Switch Access”. [CHAR LIMIT=NONE] -->
-    <string name="keywords_switch_access"></string>
+    <string name="keywords_switch_access"/>
     <!-- List of synonyms used in the settings search bar to find the “Autoclick(dwell timing)”. [CHAR LIMIT=NONE] -->
     <string name="keywords_auto_click">motor, mouse, external mouse, head mouse, adaptive mouse, wheelchair, joystick</string>
     <!-- List of synonyms used in the settings search bar to find the “Hearing aids”. [CHAR LIMIT=NONE] -->
@@ -6701,7 +6687,7 @@
     <!-- List of synonyms used in the settings search bar to find the “Real-time text (RTT)”. [CHAR LIMIT=NONE] -->
     <string name="keywords_rtt">hard of hearing, hearing loss, captions, Teletype, tty</string>
     <!-- List of synonyms used in the settings search bar to find the “Voice Access”. [CHAR LIMIT=NONE] -->
-    <string name="keywords_voice_access"></string>
+    <string name="keywords_voice_access"/>
     <!-- List of synonyms used in the settings search bar to find the “3-button navigation”. [CHAR LIMIT=NONE] -->
     <string name="keywords_3_button_navigation">three buttons</string>
     <!-- List of synonyms used in the settings search bar to find the “Touch & hold delay”. [CHAR LIMIT=NONE] -->
@@ -6709,7 +6695,7 @@
     <!-- List of synonyms used in the settings search bar to find the “Time to take action (Accessibility timeout)”. [CHAR LIMIT=NONE] -->
     <string name="keywords_accessibility_timeout">delay, dexterity, senior</string>
 
-    <skip />
+    <skip/>
 
     <!-- Title in main settings screen for printing settings [CHAR LIMIT=15] -->
     <string name="print_settings">Printing</string>
@@ -6803,7 +6789,7 @@
     <string name="printer_info_desc">More information about this printer</string>
 
     <!-- App Fuel Gauge strings -->
-    <skip />
+    <skip/>
 
     <!-- Activity title for App Fuel Gauge summary -->
     <string name="power_usage_summary_title">Battery</string>
@@ -6887,11 +6873,11 @@
     <string name="advanced_battery_preference_summary">View usage since last full charge</string>
 
     <!-- Title for the battery advance info tip [CHAR LIMIT=NONE] -->
-    <string name="battery_advance_info"></string>
+    <string name="battery_advance_info"/>
     <!-- Title for the battery advance info tip with a selected slot. [CHAR LIMIT=NONE] -->
-    <string name="battery_advance_info_for_slot"></string>
+    <string name="battery_advance_info_for_slot"/>
     <!-- Text for battery advance info learn more link [CHAR LIMIT=NONE] -->
-    <string name="battery_advance_info_learn_more"></string>
+    <string name="battery_advance_info_learn_more"/>
 
     <!-- [CHAR_LIMIT=NONE] Battery usage main screen footer advance content -->
     <string name="battery_usage_screen_advance_footer">Battery usage and screen time are not measured while the phone is charging</string>
@@ -7031,7 +7017,7 @@
     <!-- Summary for top level battery tile if battery is not present. [CHAR LIMIT=NONE] -->
     <string name="battery_missing_message">Problem reading the battery meter.</string>
     <!-- Help text if battery is not present. [CHAR LIMIT=NONE] -->
-    <string name="battery_missing_link_message"></string>
+    <string name="battery_missing_link_message"/>
     <!-- Accessibility description for battery missing link. [CHAR LIMIT=NONE] -->
     <string name="battery_missing_link_a11y_message">Tap to learn more about this error</string>
 
@@ -7076,7 +7062,7 @@
     <!-- Description for no any battery usage for past 24 hr [CHAR LIMIT=120] -->
     <string name="battery_not_usage_24hr">No usage for past 24 hr</string>
     <!-- Description for no usage time but have battery usage [CHAR LIMIT=120] -->
-    <string name="battery_usage_without_time"></string>
+    <string name="battery_usage_without_time"/>
     <!-- Description for the specific time slot in the battery usage page [CHAR LIMIT=120] -->
     <string name="battery_usage_since_last_full_charge">since last full charge</string>
     <!-- Description for system apps aggregated battery usage data [CHAR LIMIT=120] -->
@@ -7241,7 +7227,7 @@
     <!-- [CHAR_LIMIT=NONE] Accessibility content description for less than some percentage, e.g. less than 1% -->
     <string name="battery_usage_less_than_percent_content_description">less than <xliff:g id="percentage">%1$s</xliff:g></string>
     <!-- Process Stats strings -->
-    <skip />
+    <skip/>
     <!-- Description of battery information footer text. [CHAR LIMIT=NONE] -->
     <string name="battery_cycle_count_footer">Due to factory inspections before shipping, it may show that your device was used before you set it up and the cycle count may not be zero, which is normal</string>
 
@@ -7319,7 +7305,7 @@
     <string name="menu_proc_stats_type_cached">Cached</string>
 
     <!-- Voice input/output settings -->
-    <skip />
+    <skip/>
     <!-- Title of setting on main settings screen. This item will take the user to the screen to tweak settings related to speech functionality -->
     <string name="voice_input_output_settings">Voice input &amp; output</string>
     <!-- Main voice input/output settings screen title -->
@@ -7328,7 +7314,7 @@
     <string name="voice_search_settings_title">Voice search</string>
 
     <!-- Voice input settings -->
-    <skip />
+    <skip/>
     <!-- [CHAR_LIMIT=NONE] Name of the settings item to open the voice input settings. -->
     <string name="voice_input_settings">Voice input settings</string>
     <!-- [CHAR_LIMIT=NONE] Title of the screen of the voice input settings -->
@@ -7355,7 +7341,7 @@
         application.  Enable the use of this service?</string>
 
     <!-- On-device recognition settings -->
-    <skip />
+    <skip/>
     <!-- [CHAR_LIMIT=NONE] Name of the settings item to open the on-device recognition settings. -->
     <string name="on_device_recognition_settings">On-device recognition settings</string>
     <!-- [CHAR_LIMIT=NONE] Title of the on-device recognition settings -->
@@ -7544,7 +7530,7 @@
     <string name="emergency_tone_summary">Set behavior when an emergency call is placed</string>
 
     <!-- Backup and reset Settings screen -->
-    <skip />
+    <skip/>
     <!-- Backup and reset settings menu and activity title -->
     <string name="privacy_settings_title">Backup</string>
     <!-- Backup section title -->
@@ -7571,7 +7557,7 @@
     <string name="backup_configure_account_default_summary">No account is currently storing backed up data</string>
 
     <!-- Dialog title for confirmation to erase backup data from server -->
-    <string name="backup_erase_dialog_title"></string>
+    <string name="backup_erase_dialog_title"/>
     <!-- Dialog title for confirmation to erase backup data from server -->
     <string name="backup_erase_dialog_message">Stop backing up your Wi\u2011Fi passwords, bookmarks, other settings, and app data, plus erase all copies on Google servers?</string>
     <!-- Dialog title for confirmation to erase full backup data from server -->
@@ -7579,7 +7565,7 @@
     <!-- Summary for explanation of what full app data backup means. Manufacturers may wish to overlay this resource with their own text  -->
     <string name="fullbackup_data_summary">Automatically back up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps) remotely.\n\nWhen you turn on automatic backup, device and app data is periodically saved remotely. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages, and photos.</string>
     <!-- Device admin app settings screen -->
-    <skip />
+    <skip/>
     <!-- Device admin app settings activity title -->
     <string name="device_admin_settings_title">Device admin settings</string>
     <!-- Label for screen showing the active device admin apps -->
@@ -7697,7 +7683,7 @@
     <string name="background_data_dialog_message">Disabling background data extends battery life and lowers data use. Some apps may still use the background data connection.</string>
 
     <!-- Sync status messages on Accounts & Synchronization settings -->
-    <skip />
+    <skip/>
     <!-- Sync status shown when sync is enabled [CHAR LIMIT=25] -->
     <string name="sync_enabled">Sync is ON</string>
     <!-- Sync status shown when sync is disabled [CHAR LIMIT=25] -->
@@ -8082,7 +8068,7 @@
     <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
 
     <!-- Notification of installed CA Certs -->
-    <skip />
+    <skip/>
 
     <!-- Shows up when there is a user SSL CA Cert installed on the
          device.  Indicates to the user that SSL traffic can be intercepted.  [CHAR LIMIT=NONE] -->
@@ -8196,7 +8182,7 @@
     <string name="remove_guest_on_exit_summary">Delete all guest apps and data
         when exiting guest mode</string>
     <!-- Title of preference to allow adding guests [CHAR LIMIT=35] -->
-    <string name = "add_guests_from_signin"> Allow guest to use device </string>
+    <string name="add_guests_from_signin"> Allow guest to use device </string>
     <!-- Summary of peference to allow adding guests[CHAR LIMIT=NONE] -->
     <string name="add_guests_from_signin_summary"> All guest apps and data will be deleted when exiting guest mode</string>
     <!-- Search keywords for the "Delete Guest Activity" section in Multiple Users Screen. [CHAR LIMIT=NONE] -->
@@ -8234,7 +8220,7 @@
     <!-- Title for the warning dialog when the user tries to delete the last admin user [CHAR LIMIT=45] -->
     <string name="user_remove_last_admin_title">Can’t delete user</string>
     <!-- Message for the warning dialog when the user tries to delete the last admin user [CHAR LIMIT=none] -->
-    <string name="user_remove_last_admin_message">You are the only admin on this device so your user profile can’t be deleted. If you want to delete your user profile, you can make another user an admin or erase all data from the device by going to System > Reset options > Erase all data (factory reset).</string>
+    <string name="user_remove_last_admin_message">You are the only admin on this device so your user profile can’t be deleted. If you want to delete your user profile, you can make another user an admin or erase all data from the device by going to System &gt; Reset options &gt; Erase all data (factory reset).</string>
     <!-- Title for the warning dialog when the user tries to revoke the admin status from the last admin user [CHAR LIMIT=45] -->
     <string name="user_revoke_last_admin_title">Can’t remove admin privileges</string>
     <!-- Message for the warning dialog when the user tries to revoke the admin status from the last admin user [CHAR LIMIT=none] -->
@@ -8263,7 +8249,7 @@
     <string name="user_copy_apps_menu_title">Install available apps</string>
 
     <!-- NFC payment settings -->
-    <skip />
+    <skip/>
     <!-- Title for NFC payment settings page [CHAR LIMIT=40] -->
     <string name="nfc_payment_settings_title">Contactless payments</string>
     <!-- Title for NFC default payment settings page [CHAR LIMIT=40] -->
@@ -8274,7 +8260,7 @@
     <string name="nfc_more_details">Learn more</string>
 
     <!-- Strings shown in a dialog when a user tries to set a work app as a nfc default payment app -->
-    <skip />
+    <skip/>
     <!-- Title for the dialog [CHAR LIMIT=40] -->
     <string name="nfc_default_payment_workapp_confirmation_title">Set work app as default payment app?</string>
     <!-- Header text for the dialog [CHAR LIMIT=40] -->
@@ -8331,7 +8317,7 @@
     <!-- Summary text of the work apps in the default payment selection list [CHAR LIMIT=20]-->
     <string name="nfc_work_text">Work</string>
     <!-- Restrictions settings -->
-    <skip />
+    <skip/>
 
     <!-- Restriction settings title [CHAR LIMIT=35] -->
     <string name="restriction_settings_title">Restrictions</string>
@@ -8341,188 +8327,188 @@
     <string name="restriction_menu_change_pin">Change PIN</string>
 
     <!--  Help URLs for some screens. Not specified here. Specified in product overlays -->
-    <skip />
+    <skip/>
     <!-- Help menu label [CHAR LIMIT=20] -->
     <string name="help_label">Help &amp; feedback</string>
 
     <!-- Help URI, Default [DO NOT TRANSLATE] -->
-    <string name="help_uri_default" translatable="false"></string>
+    <string name="help_uri_default" translatable="false"/>
     <!-- Help URI, Android beam [DO NOT TRANSLATE] -->
-    <string name="help_uri_beam" translatable="false"></string>
+    <string name="help_uri_beam" translatable="false"/>
     <!-- Help URI, Display [DO NOT TRANSLATE] -->
-    <string name="help_uri_display" translatable="false"></string>
+    <string name="help_uri_display" translatable="false"/>
     <!-- Help URI, Wallpaper [DO NOT TRANSLATE] -->
-    <string name="help_uri_wallpaper" translatable="false"></string>
+    <string name="help_uri_wallpaper" translatable="false"/>
     <!-- Help URI, Interruptions [DO NOT TRANSLATE] -->
-    <string name="help_uri_interruptions" translatable="false"></string>
+    <string name="help_uri_interruptions" translatable="false"/>
     <!-- Help URI, Other sounds [DO NOT TRANSLATE] -->
-    <string name="help_uri_other_sounds" translatable="false"></string>
+    <string name="help_uri_other_sounds" translatable="false"/>
     <!-- Help URI, Notifications [DO NOT TRANSLATE] -->
-    <string name="help_uri_notifications" translatable="false"></string>
+    <string name="help_uri_notifications" translatable="false"/>
     <!-- Help URI, Apps [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps" translatable="false"></string>
+    <string name="help_uri_apps" translatable="false"/>
     <!-- Help URI, manage apps storage [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_storage" translatable="false"></string>
+    <string name="help_uri_apps_storage" translatable="false"/>
     <!-- Help URI, manage apps power [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_high_power" translatable="false"></string>
+    <string name="help_uri_apps_high_power" translatable="false"/>
     <!-- Help URI, manage apps overlay [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_overlay" translatable="false"></string>
+    <string name="help_uri_apps_overlay" translatable="false"/>
     <!-- Help URI, manage apps write settings [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_write_settings" translatable="false"></string>
+    <string name="help_uri_apps_write_settings" translatable="false"/>
     <!-- Help URI, manage apps manage sources [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_manage_sources" translatable="false"></string>
+    <string name="help_uri_apps_manage_sources" translatable="false"/>
     <!-- Help URI, manage apps games [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_games" translatable="false"></string>
+    <string name="help_uri_apps_games" translatable="false"/>
     <!-- Help URI, manage apps wifi access [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_wifi_access" translatable="false"></string>
+    <string name="help_uri_apps_wifi_access" translatable="false"/>
     <!-- Help URI, manage apps that have access to all files [DO NOT TRANSLATE] -->
-    <string name="help_uri_manage_external_storage" translatable="false"></string>
+    <string name="help_uri_manage_external_storage" translatable="false"/>
     <!-- Help URI, manage apps that can modify media files [DO NOT TRANSLATE] -->
-    <string name="help_uri_media_management_apps" translatable="false"></string>
+    <string name="help_uri_media_management_apps" translatable="false"/>
     <!-- Help URI, Storage [DO NOT TRANSLATE] -->
-    <string name="help_uri_storage" translatable="false"></string>
+    <string name="help_uri_storage" translatable="false"/>
     <!-- Help URI, Accessibility [DO NOT TRANSLATE] -->
-    <string name="help_uri_accessibility" translatable="false"></string>
+    <string name="help_uri_accessibility" translatable="false"/>
     <!-- Help URI, Vibration [DO NOT TRANSLATE] -->
-    <string name="help_uri_accessibility_vibration" translatable="false"></string>
+    <string name="help_uri_accessibility_vibration" translatable="false"/>
     <!-- Help URI, Printing [DO NOT TRANSLATE] -->
-    <string name="help_uri_printing" translatable="false"></string>
+    <string name="help_uri_printing" translatable="false"/>
     <!-- Help URI, About phone [DO NOT TRANSLATE] -->
-    <string name="help_uri_about" translatable="false"></string>
+    <string name="help_uri_about" translatable="false"/>
     <!-- Help URI, manage apps that can set alarms and reminders [DO NOT TRANSLATE] -->
-    <string name="help_uri_alarms_and_reminders" translatable="false"></string>
+    <string name="help_uri_alarms_and_reminders" translatable="false"/>
     <!-- Help URI, manage apps that can run long background tasks [DO NOT TRANSLATE] -->
-    <string name="help_uri_long_background_tasks" translatable="false"></string>
+    <string name="help_uri_long_background_tasks" translatable="false"/>
     <!-- Help URL, WiFi [DO NOT TRANSLATE] -->
-    <string name="help_url_wifi" translatable="false"></string>
+    <string name="help_url_wifi" translatable="false"/>
     <!-- Help URL, WiFi Direct [DO NOT TRANSLATE] -->
-    <string name="help_url_wifi_p2p" translatable="false"></string>
+    <string name="help_url_wifi_p2p" translatable="false"/>
     <!-- Help URL, Bluetooth [DO NOT TRANSLATE] -->
-    <string name="help_url_bluetooth" translatable="false"></string>
+    <string name="help_url_bluetooth" translatable="false"/>
     <!-- Help URL, Data usage [DO NOT TRANSLATE] -->
-    <string name="help_url_data_usage" translatable="false"></string>
+    <string name="help_url_data_usage" translatable="false"/>
     <!-- Help URL, Data Saver [DO NOT TRANSLATE] -->
-    <string name="help_url_data_saver" translatable="false"></string>
+    <string name="help_url_data_saver" translatable="false"/>
     <!-- Help URL, Unrestricted data access [DO NOT TRANSLATE] -->
-    <string name="help_url_unrestricted_data_access" translatable="false"></string>
+    <string name="help_url_unrestricted_data_access" translatable="false"/>
     <!-- Help URL, More [DO NOT TRANSLATE] -->
-    <string name="help_url_more_networks" translatable="false"></string>
+    <string name="help_url_more_networks" translatable="false"/>
     <!-- Help URL, Vpn [DO NOT TRANSLATE] -->
-    <string name="help_url_vpn" translatable="false"></string>
+    <string name="help_url_vpn" translatable="false"/>
     <!-- Help URL, Sound [DO NOT TRANSLATE] -->
-    <string name="help_url_sound" translatable="false"></string>
+    <string name="help_url_sound" translatable="false"/>
     <!-- Help URL, Battery [DO NOT TRANSLATE] -->
-    <string name="help_url_battery" translatable="false"></string>
+    <string name="help_url_battery" translatable="false"/>
     <!-- Help URL, Battery Defender [DO NOT TRANSLATE] -->
-    <string name="help_url_battery_defender" translatable="false"></string>
+    <string name="help_url_battery_defender" translatable="false"/>
     <!-- Help URL, Dock Defender [DO NOT TRANSLATE] -->
-    <string name="help_url_dock_defender" translatable="false"></string>
+    <string name="help_url_dock_defender" translatable="false"/>
     <!-- Help URL, Incompatible charging [DO NOT TRANSLATE] -->
-    <string name="help_url_incompatible_charging" translatable="false"></string>
+    <string name="help_url_incompatible_charging" translatable="false"/>
     <!-- Help URL, Wireless charging [DO NOT TRANSLATE] -->
-    <string name="help_url_wireless_charging" translatable="false"></string>
+    <string name="help_url_wireless_charging" translatable="false"/>
     <!-- Help URL, Accounts [DO NOT TRANSLATE] -->
-    <string name="help_url_accounts" translatable="false"></string>
+    <string name="help_url_accounts" translatable="false"/>
     <!-- Help URL, Choose lockscreen [DO NOT TRANSLATE] -->
-    <string name="help_url_choose_lockscreen" translatable="false"></string>
+    <string name="help_url_choose_lockscreen" translatable="false"/>
     <!-- Help URL, Backup & reset [DO NOT TRANSLATE] -->
-    <string name="help_url_backup_reset" translatable="false"></string>
+    <string name="help_url_backup_reset" translatable="false"/>
     <!-- Help URL, Tethering [DO NOT TRANSLATE] -->
-    <string name="help_url_tether" translatable="false"></string>
+    <string name="help_url_tether" translatable="false"/>
     <!-- Help URL, Dreams [DO NOT TRANSLATE] -->
-    <string name="help_url_dreams" translatable="false"></string>
+    <string name="help_url_dreams" translatable="false"/>
     <!-- Help URL, User settings [DO NOT TRANSLATE] -->
-    <string name="help_url_users" translatable="false"></string>
+    <string name="help_url_users" translatable="false"/>
     <!-- Help URL, Location access [DO NOT TRANSLATE] -->
-    <string name="help_url_location_access" translatable="false"></string>
+    <string name="help_url_location_access" translatable="false"/>
     <!-- Help URL, Security settings [DO NOT TRANSLATE] -->
-    <string name="help_url_security" translatable="false"></string>
+    <string name="help_url_security" translatable="false"/>
     <!-- Help URL, Encryption settings [DO NOT TRANSLATE] -->
-    <string name="help_url_encryption" translatable="false"></string>
+    <string name="help_url_encryption" translatable="false"/>
     <!-- Help URL, Install certificate settings [DO NOT TRANSLATE] -->
-    <string name="help_url_install_certificate" translatable="false"></string>
+    <string name="help_url_install_certificate" translatable="false"/>
     <!-- Help URL, Tap & pay [DO NOT TRANSLATE] -->
-    <string name="help_url_nfc_payment" translatable="false"></string>
+    <string name="help_url_nfc_payment" translatable="false"/>
     <!-- Help URL, External display [DO NOT TRANSLATE] -->
-    <string name="help_url_external_display" translatable="false"></string>
+    <string name="help_url_external_display" translatable="false"/>
     <!-- Help URL, Remote display [DO NOT TRANSLATE] -->
-    <string name="help_url_remote_display" translatable="false"></string>
+    <string name="help_url_remote_display" translatable="false"/>
     <!-- Help URL, Face [DO NOT TRANSLATE] -->
-    <string name="help_url_face" translatable="false"></string>
+    <string name="help_url_face" translatable="false"/>
     <!-- Help URL, Fingerprint [DO NOT TRANSLATE] -->
-    <string name="help_url_fingerprint" translatable="false"></string>
+    <string name="help_url_fingerprint" translatable="false"/>
     <!-- Help URL, Gesture settings -->
-    <string name="help_url_gestures" translatable="false"></string>
+    <string name="help_url_gestures" translatable="false"/>
     <!-- Help URL, Manage Storage [DO NOT TRANSLATE]-->
-    <string name="help_url_manage_storage" translatable="false"></string>
+    <string name="help_url_manage_storage" translatable="false"/>
     <!-- Help URL, Android is upgrading [DO NOT TRANSLATE] -->
-    <string name="help_url_upgrading" translatable="false"></string>
+    <string name="help_url_upgrading" translatable="false"/>
     <!-- Help URL, Auto brightness [DO NOT TRANSLATE] -->
-    <string name="help_url_auto_brightness" translatable="false" />
+    <string name="help_url_auto_brightness" translatable="false"/>
     <!-- Help URL, Adaptive sleep [DO NOT TRANSLATE] -->
-    <string name="help_url_adaptive_sleep" translatable="false" />
+    <string name="help_url_adaptive_sleep" translatable="false"/>
     <!-- Help URL, Previously connected bluetooth devices [DO NOT TRANSLATE] -->
-    <string name="help_url_previously_connected_devices" translatable="false"></string>
+    <string name="help_url_previously_connected_devices" translatable="false"/>
     <!-- Help URL, Fast Pair devices on Connected device settings [DO NOT TRANSLATE] -->
-    <string name="help_url_connected_devices_fast_pair_devices" translatable="false"></string>
+    <string name="help_url_connected_devices_fast_pair_devices" translatable="false"/>
     <!-- Help URL, Top level privacy settings [DO NOT TRANSLATE] -->
-    <string name="help_url_privacy_dashboard" translatable="false"></string>
+    <string name="help_url_privacy_dashboard" translatable="false"/>
 
-    <string name="help_url_memtag" translatable="false"></string>
-    <string name="help_url_development_memtag" translatable="false"></string>
-    <string name="help_url_network_dashboard" translatable="false"></string>
-    <string name="help_url_connected_devices" translatable="false"></string>
-    <string name="help_url_apps_and_notifications" translatable="false"></string>
-    <string name="help_url_night_display" translatable="false"></string>
-    <string name="help_url_dark_theme" translatable="false"></string>
+    <string name="help_url_memtag" translatable="false"/>
+    <string name="help_url_development_memtag" translatable="false"/>
+    <string name="help_url_network_dashboard" translatable="false"/>
+    <string name="help_url_connected_devices" translatable="false"/>
+    <string name="help_url_apps_and_notifications" translatable="false"/>
+    <string name="help_url_night_display" translatable="false"/>
+    <string name="help_url_dark_theme" translatable="false"/>
     <!-- Help URL, Expanded Dark Theme [DO NOT TRANSLATE] -->
-    <string name="help_url_dark_theme_link" translatable="false"></string>
-    <string name="help_url_screen_saver" translatable="false"></string>
-    <string name="help_url_pickup_gesture" translatable="false"></string>
-    <string name="help_url_storage_dashboard" translatable="false"></string>
-    <string name="help_url_lockscreen" translatable="false"></string>
-    <string name="help_url_trust_agent" translatable="false"></string>
-    <string name="help_url_usage_access" translatable="false"></string>
-    <string name="help_url_screen_pinning" translatable="false"></string>
-    <string name="help_url_user_and_account_dashboard" translatable="false"></string>
-    <string name="help_url_accessibility_shortcut" translatable="false"></string>
-    <string name="help_url_magnification" translatable="false"></string>
-    <string name="help_url_color_correction" translatable="false"></string>
-    <string name="help_url_autoclick" translatable="false"></string>
+    <string name="help_url_dark_theme_link" translatable="false"/>
+    <string name="help_url_screen_saver" translatable="false"/>
+    <string name="help_url_pickup_gesture" translatable="false"/>
+    <string name="help_url_storage_dashboard" translatable="false"/>
+    <string name="help_url_lockscreen" translatable="false"/>
+    <string name="help_url_trust_agent" translatable="false"/>
+    <string name="help_url_usage_access" translatable="false"/>
+    <string name="help_url_screen_pinning" translatable="false"/>
+    <string name="help_url_user_and_account_dashboard" translatable="false"/>
+    <string name="help_url_accessibility_shortcut" translatable="false"/>
+    <string name="help_url_magnification" translatable="false"/>
+    <string name="help_url_color_correction" translatable="false"/>
+    <string name="help_url_autoclick" translatable="false"/>
     <!-- Help URL, Accessibility caption preferences [DO NOT TRANSLATE] -->
-    <string name="help_url_caption" translatable="false"></string>
+    <string name="help_url_caption" translatable="false"/>
     <!-- Help URL, Accessibility Timeout [DO NOT TRANSLATE] -->
-    <string name="help_url_timeout" translatable="false"></string>
+    <string name="help_url_timeout" translatable="false"/>
     <!-- Help URL, Accessibility Color Inversion [DO NOT TRANSLATE] -->
-    <string name="help_url_color_inversion" translatable="false"></string>
+    <string name="help_url_color_inversion" translatable="false"/>
     <!-- Help URL, Accessibility Flash Notification [DO NOT TRANSLATE] -->
-    <string name="help_url_flash_notifications" translatable="false"></string>
-    <string name="help_url_system_dashboard" translatable="false"></string>
-    <string name="help_url_double_tap_screen" translatable="false"></string>
-    <string name="help_url_account_detail" translatable="false"></string>
-    <string name="help_url_icc_lock" translatable="false"></string>
+    <string name="help_url_flash_notifications" translatable="false"/>
+    <string name="help_url_system_dashboard" translatable="false"/>
+    <string name="help_url_double_tap_screen" translatable="false"/>
+    <string name="help_url_account_detail" translatable="false"/>
+    <string name="help_url_icc_lock" translatable="false"/>
 
-    <string name="help_uri_process_stats_summary" translatable="false"></string>
-    <string name="help_uri_process_stats_apps" translatable="false"></string>
-    <string name="help_uri_private_dns" translatable="false"></string>
-    <string name="help_uri_about_phone_v2" translatable="false"></string>
-    <string name="help_uri_wifi_calling" translatable="false"></string>
+    <string name="help_uri_process_stats_summary" translatable="false"/>
+    <string name="help_uri_process_stats_apps" translatable="false"/>
+    <string name="help_uri_private_dns" translatable="false"/>
+    <string name="help_uri_about_phone_v2" translatable="false"/>
+    <string name="help_uri_wifi_calling" translatable="false"/>
     <!-- url for the wifi scanning required dialog help page -->
-    <string name="help_uri_wifi_scanning_required" translatable="false"></string>
+    <string name="help_uri_wifi_scanning_required" translatable="false"/>
     <!-- url for the bluetooth toggle required dialog help page -->
-    <string name="help_uri_bluetooth_screen" translatable="false"></string>
+    <string name="help_uri_bluetooth_screen" translatable="false"/>
     <!-- url for the SIM combination warning required dialog help page -->
-    <string name="help_uri_sim_combination_warning" translatable="false"></string>
+    <string name="help_uri_sim_combination_warning" translatable="false"/>
     <!-- url for the NFC and payment settings page -->
-    <string name="help_uri_nfc_and_payment_settings" translatable="false"></string>
+    <string name="help_uri_nfc_and_payment_settings" translatable="false"/>
     <!-- url for battery page if battery is not present -->
-    <string name="help_url_battery_missing" translatable="false"></string>
+    <string name="help_url_battery_missing" translatable="false"/>
     <!-- url for vpn page if connected vpn is not a secure type -->
-    <string name="help_url_insecure_vpn" translatable="false"></string>
+    <string name="help_url_insecure_vpn" translatable="false"/>
     <!-- url for learning more about IT admin policy disabling -->
-    <string name="help_url_action_disabled_by_it_admin" translatable="false"></string>
+    <string name="help_url_action_disabled_by_it_admin" translatable="false"/>
     <!-- Url for Accessibility Disability Support [DO NOT TRANSLATE] -->
-    <string name="help_url_accessibility_disability_support" translatable="false"></string>
+    <string name="help_url_accessibility_disability_support" translatable="false"/>
 
     <!-- User account title [CHAR LIMIT=30] -->
     <string name="user_account_title">Account for content</string>
@@ -8649,7 +8635,7 @@
     <string name="wizard_back_adoptable">Format another way</string>
 
     <!-- Text to display in regulatory info screen (from device overlay). -->
-    <string name="regulatory_info_text"></string>
+    <string name="regulatory_info_text"/>
 
     <!-- Title for SIM settings title settings during Setup Wizard.  [CHAR LIMIT=40] -->
     <string name="sim_settings_title">SIMs</string>
@@ -8778,7 +8764,7 @@
     <!-- Description for cloned apps removal failure title [CHAR LIMIT=40]-->
     <string name="delete_all_app_clones_failure">Delete all App clones failed</string>
     <!-- Summary text when an app is being cloned [CHAR LIMIT=40] -->
-    <string name="cloned_app_creation_summary">Creating&#8230;</string>
+    <string name="cloned_app_creation_summary">Creating…</string>
     <!-- Summary text after an app is cloned [CHAR LIMIT=40] -->
     <string name="cloned_app_created_summary">Cloned</string>
     <!-- Summary text shown in toast when app is being cloned [CHAR LIMIT=40] -->
@@ -10723,7 +10709,7 @@
     <string name="device_feedback">Send feedback about this device</string>
 
     <!-- Full package name of OEM preferred device feedback reporter [DO NOT TRANSLATE] -->
-    <string name="oem_preferred_feedback_reporter" translatable="false"></string>
+    <string name="oem_preferred_feedback_reporter" translatable="false"/>
 
     <!-- PIN entry dialog title for entering the administrator PIN [CHAR LIMIT=none] -->
     <string name="restr_pin_enter_admin_pin">Enter admin PIN</string>
@@ -10747,24 +10733,24 @@
     <string name="app_pinning_intro">App pinning allows you to keep the current app in view until you unpin it. This feature can be used, for example, to let a trusted friend play a specific game.</string>
     <!-- [CHAR LIMIT=none] Screen pinning description -->
     <string name="screen_pinning_description">
-        <![CDATA[
+        
         When an app is pinned, the pinned app may open other apps and personal data may be accessible.
         \n\nTo use app pinning:
         \t\n{0,number,integer}. Turn on app pinning
         \t\n{1,number,integer}. Open Overview
         \t\n{2,number,integer}. Tap the app icon at the top of the screen, then tap Pin
-        ]]>
+        
     </string>
     <!-- [CHAR LIMIT=none] Screen pinning description -->
     <string name="screen_pinning_guest_user_description">
-        <![CDATA[
+        
         When an app is pinned, the pinned app may open other apps and personal data may be accessible.
         \n\nIf you want to securely share your device with someone, try using a guest user instead.
         \n\nTo use app pinning:
         \t\n{0,number,integer}. Turn on app pinning
         \t\n{1,number,integer}. Open Overview
         \t\n{2,number,integer}. Tap the app icon at the top of the screen, then tap Pin
-        ]]>
+        
     </string>
     <!-- [CHAR LIMIT=300] Screen pinning title -->
     <string name="screen_pinning_dialog_message">
@@ -11038,7 +11024,7 @@
     <string name="app_link_open_ask">Ask every time</string>
 
     <!-- Explanation that the app that will NEVER be launched to open web links to domains that it understands -->
-    <string name="app_link_open_never">Don&#8217;t allow app to open links</string>
+    <string name="app_link_open_never">Don’t allow app to open links</string>
 
     <!-- Summary for allow app to open supported links [CHAR LIMIT=42] -->
     <string name="app_link_open_always_summary">{count, plural,
@@ -11121,7 +11107,7 @@
     <!-- Body text of prompt dialog app can invoke to turn off optimization [CHAR LIMIT=NONE] -->
     <string name="high_power_prompt_body">
         Allowing <xliff:g id="app_name" example="Settings">%1$s</xliff:g> to always run in the background may reduce battery life.
-        \n\nYou can change this later from Settings -> Apps.</string>
+        \n\nYou can change this later from Settings -&gt; Apps.</string>
     <!-- Summary of power usage for an app [CHAR LIMIT=NONE] -->
     <string name="battery_summary"><xliff:g id="percentage" example="2">%1$s</xliff:g> use since last full charge</string>
     <!-- Summary of power usage for an app within past 24 hr[CHAR LIMIT=NONE] -->
@@ -11330,7 +11316,7 @@
     <string name="total_memory">Total memory</string>
 
     <!-- Label for average memory usage of device [CHAR LIMIT=25] -->
-    <string name="average_used">Average used (&#x0025;)</string>
+    <string name="average_used">Average used (%)</string>
 
     <!-- Label for free memory of device [CHAR LIMIT=25] -->
     <string name="free_memory">Free</string>
@@ -11426,13 +11412,13 @@
     <!-- Sub heading for setting which controls whether an app can automate other apps [CHAR LIMIT=NONE] [SCREENSHOT=screen/76tCViXrkt43PMF] -->
     <string name="computer_control_automation_sub_heading">This app will be able to see and interact with other apps\u2019 screen content to help you complete tasks, even when the apps are in the background.</string>
     <!-- Sub heading for setting which controls whether an app can automate other apps (used when flag for per app consent is enabled) [CHAR LIMIT=NONE] [SCREENSHOT=screen/9XzhgFVrY8JPwiG] -->
-    <string name="computer_control_automation_sub_heading_flag_per_app_consent"><xliff:g  example="Example App">%1$s</xliff:g> can see and interact with the screen content of apps that you\u2019ve allowed to help you complete tasks.</string>
+    <string name="computer_control_automation_sub_heading_flag_per_app_consent"><xliff:g example="Example App">%1$s</xliff:g> can see and interact with the screen content of apps that you\u2019ve allowed to help you complete tasks.</string>
     <!-- Footer summary for setting which controls whether an app can automate other apps, informing that only apps that can be automated are listed here [CHAR LIMIT=NONE] [SCREENSHOT=screen/9XzhgFVrY8JPwiG] -->
     <string name="computer_control_automation_footer_info">Apps for which you chose &lt;strong&gt;Always Allow&lt;/strong&gt; in permissions are shown here. Apps you allowed &lt;strong&gt;Only this time&lt;/strong&gt; or didn\u2019t allow aren\u2019t shown.</string>
     <!-- Footer summary for setting which controls whether an app can automate other apps [CHAR LIMIT=NONE] [SCREENSHOT=screen/9XzhgFVrY8JPwiG] -->
-    <string name="computer_control_automation_footer_summary">If you don\u2019t allow screen automation, <xliff:g  example="Example App">%1$s</xliff:g> may still be able to interact with apps that are connected to <xliff:g example="Example App">%1$s</xliff:g> in other ways.</string>
+    <string name="computer_control_automation_footer_summary">If you don\u2019t allow screen automation, <xliff:g example="Example App">%1$s</xliff:g> may still be able to interact with apps that are connected to <xliff:g example="Example App">%1$s</xliff:g> in other ways.</string>
     <!-- Footer summary for setting which controls whether an app can automate other apps (used when flag for per app consent is enabled) [CHAR LIMIT=NONE] [SCREENSHOT=screen/9XzhgFVrY8JPwiG] -->
-    <string name="computer_control_automation_footer_summary_flag_per_app_consent">When you remove an app on this screen, <xliff:g  example="Example App">%1$s</xliff:g> may still be able to interact with apps that are connected to <xliff:g  example="Example App">%1$s</xliff:g> in other ways.</string>
+    <string name="computer_control_automation_footer_summary_flag_per_app_consent">When you remove an app on this screen, <xliff:g example="Example App">%1$s</xliff:g> may still be able to interact with apps that are connected to <xliff:g example="Example App">%1$s</xliff:g> in other ways.</string>
 
     <!-- Summary for setting which controls whether an app can automate other apps [CHAR LIMIT=NONE] [SCREENSHOT=screen/55Y5GXxjQJNFvRT] -->
     <string name="computer_control_automation_page_summary">Allow apps to help you complete tasks by interacting with other apps\u2019 screen content</string>
@@ -11473,7 +11459,7 @@
     <!-- Category title for default assistant agent app [CHAR LIMIT=45] [SCREENSHOT=screen/7gVSWSuePKETBEs] -->
     <string name="computer_control_automation_default_digital_assistant">Default digital assistant</string>
     <!-- Banner title to change the assistant [CHAR LIMIT=45] [SCREENSHOT=screen/7yYg35RrTPZyoFu] -->
-    <string name="computer_control_automation_banner_to_change_assistant_title"><xliff:g  example="Example App">%1$s</xliff:g> can\u2019t use screen automation</string>
+    <string name="computer_control_automation_banner_to_change_assistant_title"><xliff:g example="Example App">%1$s</xliff:g> can\u2019t use screen automation</string>
     <!-- Banner text to change the default digital assistant settings [CHAR LIMIT=45] [SCREENSHOT=screen/7yYg35RrTPZyoFu] -->
     <string name="computer_control_automation_banner_to_change_assistant_text">Only your default digital assistant can use screen automation</string>
     <!-- Banner button text to change the default digital assistant settings [CHAR LIMIT=45] [SCREENSHOT=screen/7yYg35RrTPZyoFu] -->
@@ -11483,7 +11469,7 @@
     <!-- Empty state title for computer control automation agent list [CHAR LIMIT=NONE] [SCREENSHOT=screen/BNQNU8EYxipxZyS] -->
     <string name="computer_control_automation_agent_list_empty_title">You haven\u2019t installed any apps that can use screen automation</string>
     <!-- Header summary for computer control automation target list [CHAR LIMIT=NONE] [SCREENSHOT=screen/7gVSWSuePKETBEs] -->
-    <string name="computer_control_automation_target_list_header">These apps can see and interact with <xliff:g  example="Example App">%1$s</xliff:g> screen content to help you complete tasks.</string>
+    <string name="computer_control_automation_target_list_header">These apps can see and interact with <xliff:g example="Example App">%1$s</xliff:g> screen content to help you complete tasks.</string>
 
     <!-- Manage full screen intent permission title [CHAR LIMIT=40] -->
     <string name="full_screen_intent_title">Full-screen notifications</string>
@@ -11574,8 +11560,7 @@
     <string name="apps_summary"><xliff:g id="count" example="24">%1$d</xliff:g> apps installed</string>
 
     <!-- Format for the percentage part of storage summary. [CHAR LIMIT=10] -->
-    <string name="storage_percentage_format"
-        translation_description="Percentage of storage used (e.g., 16%). For RTL languages like Persian, ensure the percentage symbol is correctly placed on the visual left of the numeral.">
+    <string name="storage_percentage_format" translation_description="Percentage of storage used (e.g., 16%). For RTL languages like Persian, ensure the percentage symbol is correctly placed on the visual left of the numeral.">
         <xliff:g id="percentage" example="16%">%1$s%%</xliff:g>
     </string>
 
@@ -12253,7 +12238,7 @@
     <string name="double_twist_for_camera_mode_title">Flip camera for selfie</string>
 
     <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
-    <string name="double_twist_for_camera_mode_summary"></string>
+    <string name="double_twist_for_camera_mode_summary"/>
 
     <!-- Title text for system navigation [CHAR LIMIT=60] -->
     <string name="system_navigation_title">Navigation mode</string>
@@ -12521,7 +12506,7 @@
     <string name="account_sync_summary_all_off">Sync off for all items</string>
 
     <!-- Enterprise Privacy -->
-    <skip />
+    <skip/>
 
     <!-- Title of setting on security settings screen. This will take the user to a screen with information about admin powers and their impact on the user's privacy on a managed device. Shown on enterprise-managed devices only. Note: "Device" is singular and refers to the device (e.g. phone or tablet) that the user is holding in their hand. -->
     <string name="enterprise_privacy_settings">Managed device info</string>
@@ -12625,7 +12610,7 @@
     <string name="blocked_by_restricted_settings_content">For your security, this setting is currently unavailable.</string>
 
     <!-- Financed device Privacy -->
-    <skip />
+    <skip/>
 
     <!-- Title of setting on security settings screen on a financed device. This will take the user to a screen with information about what a device administrator can control and their impact on the user's privacy on a financed device. Shown on financed-managed devices only. [CHAR LIMIT=NONE] -->
     <string name="financed_privacy_settings">Financed device info</string>
@@ -12806,25 +12791,25 @@
 
     <!-- Message of the warning dialog for setting the auto-fill app. [CHAR_LIMIT=NONE] -->
     <string name="autofill_confirmation_message">
-        <![CDATA[
-        <b>Make sure you trust this app</b>
-        <br/>
-        <br/>
-        <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> uses what\'s on
+        
+        &lt;b&gt;Make sure you trust this app&lt;/b&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;xliff:g id="app_name" example="Google Autofill"&gt;%1$s&lt;/xliff:g&gt; uses what\'s on
         your screen to determine what can be autofilled.
-        ]]>
+        
     </string>
 
     <!-- Message of the warning dialog for setting the auto-fill/credman app. [CHAR_LIMIT=NONE] -->
     <string name="credman_autofill_confirmation_message">
-        <![CDATA[
-        <b>Use <xliff:g id="app_name" example="Provider">%1$s</xliff:g>\?</b>
-        <br/>
-        <br/>
+        
+        &lt;b&gt;Use &lt;xliff:g id="app_name" example="Provider"&gt;%1$s&lt;/xliff:g&gt;\?&lt;/b&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
         New passwords, passkeys, and other info will be saved here from now on.
-        <xliff:g id="app_name" example="Provider">%1$s</xliff:g> may use what\'s on your
+        &lt;xliff:g id="app_name" example="Provider"&gt;%1$s&lt;/xliff:g&gt; may use what\'s on your
         screen to determine what can be autofilled.
-        ]]>
+        
     </string>
 
     <!-- Title of the screen where the user picks a provider. [CHAR_LIMIT=NONE] -->
@@ -12841,14 +12826,14 @@
 
     <!-- Message of the warning dialog for disabling the credential provider. [CHAR_LIMIT=NONE] -->
     <string name="credman_confirmation_message">
-        <![CDATA[
-        <b>Turn off this service?</b>
-        <br/>
-        <br/>
+        
+        &lt;b&gt;Turn off this service?&lt;/b&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
         Saved info like passwords, passkeys, payment methods, and other info won\'t be filled
         in when you sign in. To use your saved info, choose a password, passkey, or data
         service.
-        ]]>
+        
     </string>
 
     <!-- Title for setting tile leading to saved autofill passwords, passkeys, and account settings [CHAR LIMIT=40]-->
@@ -12867,24 +12852,24 @@
 
     <!-- Message of the warning dialog for disabling the credential provider (new strings for 24Q3). [CHAR_LIMIT=NONE] -->
     <string name="credman_confirmation_message_new_ui">
-        <![CDATA[
-        <b>Turn off all services?</b>
-        <br/>
-        <br/>
+        
+        &lt;b&gt;Turn off all services?&lt;/b&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
         Passwords, passkeys, and other saved info won\'t be available for autofill when you sign in
-        ]]>
+        
     </string>
 
     <!-- Message of the warning dialog for setting a new preferred credential provider (new strings for 24Q3). [CHAR_LIMIT=NONE] -->
     <string name="credman_autofill_confirmation_message_new_ui">
-        <![CDATA[
-        <b>Change your preferred service to <xliff:g id="app_name" example="Provider">%1$s</xliff:g>\?</b>
-        <br/>
-        <br/>
+        
+        &lt;b&gt;Change your preferred service to &lt;xliff:g id="app_name" example="Provider"&gt;%1$s&lt;/xliff:g&gt;\?&lt;/b&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
         New passwords, passkeys, and other info will be saved here from now on.
-        <xliff:g id="app_name" example="Provider">%1$s</xliff:g> may use what\'s on your
+        &lt;xliff:g id="app_name" example="Provider"&gt;%1$s&lt;/xliff:g&gt; may use what\'s on your
         screen to determine what can be autofilled
-        ]]>
+        
     </string>
 
     <!-- Title of the warning dialog for enabling the credential provider. [CHAR_LIMIT=NONE] -->
@@ -12973,25 +12958,25 @@
     <string name="automatic_storage_manager_deactivation_warning">Turn off the storage manager?</string>
 
     <!-- Help URI, USB Audio [DO NOT TRANSLATE] -->
-    <string name="help_url_audio_accessory_not_supported" translatable="false"></string>
+    <string name="help_url_audio_accessory_not_supported" translatable="false"/>
 
     <!-- Help URI, USB Contaminant [DO NOT TRANSLATE] -->
-    <string name="help_url_usb_contaminant_detected" translatable="false"></string>
+    <string name="help_url_usb_contaminant_detected" translatable="false"/>
 
     <!-- Help URI, restricted apps page [DO NOT TRANSLATE] -->
-    <string name="help_uri_restricted_apps" translatable="false"></string>
+    <string name="help_uri_restricted_apps" translatable="false"/>
 
     <!-- Help URI, auto rotate page [DO NOT TRANSLATE] -->
-    <string name="help_url_auto_rotate_settings" translatable="false"></string>
+    <string name="help_url_auto_rotate_settings" translatable="false"/>
 
     <!-- Help URI, smart battery page [DO NOT TRANSLATE] -->
-    <string name="help_uri_smart_battery_settings" translatable="false"></string>
+    <string name="help_uri_smart_battery_settings" translatable="false"/>
 
     <!-- Help URI, prevent ringing gesture [DO NOT TRANSLATE] -->
-    <string name="help_uri_prevent_ringing_gesture" translatable="false"></string>
+    <string name="help_uri_prevent_ringing_gesture" translatable="false"/>
 
     <!-- Help URI, action disabled by restricted settings [DO NOT TRANSLATE] -->
-    <string name="help_url_action_disabled_by_restricted_settings" translatable="false"></string>
+    <string name="help_url_action_disabled_by_restricted_settings" translatable="false"/>
 
     <!-- Title label for dnd suggestion, which is displayed in Settings homepage [CHAR LIMIT=100] -->
     <string name="zen_suggestion_title">Update Do Not Disturb</string>
@@ -13075,15 +13060,15 @@
     <string name="disabled_dependent_setting_summary">Depends on another setting</string>
 
     <!-- Account type associated with the backup account. Empty for AOSP. [DO NOT TRANSLATE] -->
-    <string name="account_type" translatable="false"></string>
+    <string name="account_type" translatable="false"/>
     <!-- Package to target for Account credential confirmation. This will allow users to
          remind/rediscover their backup account password prior to a reset. Empty for AOSP.
          [DO NOT TRANSLATE] -->
-    <string name="account_confirmation_package" translatable="false"></string>
+    <string name="account_confirmation_package" translatable="false"/>
     <!-- Class to target for Account credential confirmation. This will allow users to
          remind/rediscover their backup account password prior to a reset. Empty for AOSP.
          [DO NOT TRANSLATE] -->
-    <string name="account_confirmation_class" translatable="false"></string>
+    <string name="account_confirmation_class" translatable="false"/>
 
     <!-- Title for preference showing the primary account on the device [CHAR LIMIT=60]-->
     <string name="my_device_info_account_preference_title">Account</string>
@@ -13579,9 +13564,9 @@
     <!-- Text of carrier list item in the mep confirmation dialog asking the user if they want to turn off the carrier. [CHAR_LIMIT=NONE] -->
     <string name="sim_action_switch_sub_dialog_info_outline_for_turning_off">Turning off a SIM won\u2019t cancel your service</string>
     <!-- Status message indicating the device is in the process of disconnecting from one mobile network and immediately connecting to another. [CHAR_LIMIT=NONE] -->
-    <string name="sim_action_enabling_sim_without_carrier_name">Activating your SIM&#8230;</string>
+    <string name="sim_action_enabling_sim_without_carrier_name">Activating your SIM…</string>
     <!-- Text of progress dialog indicating the subscription switch is in progress. [CHAR_LIMIT=NONE] -->
-    <string name="sim_action_switch_sub_dialog_progress">Switching to <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>&#8230;</string>
+    <string name="sim_action_switch_sub_dialog_progress">Switching to <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>…</string>
     <!-- Title of error message indicating that the device could not disconnect from one mobile network and immediately connect to another. [CHAR_LIMIT=NONE] -->
     <string name="sim_action_enable_sim_fail_title">Can\u2019t switch SIMs</string>
     <!-- Body text of error message indicating the device could not disconnect from one mobile network and immediately connect to another, due to an unspecified issue. [CHAR_LIMIT=NONE] -->
@@ -13591,7 +13576,7 @@
     <!-- Title of confirmation dialog asking the user if they want to disable subscription. [CHAR_LIMIT=NONE] -->
     <string name="privileged_action_disable_sub_dialog_title_without_carrier">Turn off SIM?</string>
     <!-- Disabling SIMs progress dialog message [CHAR LIMIT=NONE] -->
-    <string name="privileged_action_disable_sub_dialog_progress">Turning off SIM<xliff:g id="ellipsis" example="...">&#8230;</xliff:g></string>
+    <string name="privileged_action_disable_sub_dialog_progress">Turning off SIM<xliff:g id="ellipsis" example="...">…</xliff:g></string>
     <!-- Title of error messaging indicating the device could not disable the mobile network. [CHAR LIMIT=NONE] -->
     <string name="privileged_action_disable_fail_title">Can\u2019t turn off SIM</string>
     <!-- Body text of error message indicating the device could not disable the mobile network, due to an unknown issue. [CHAR LIMIT=NONE] -->
@@ -13670,7 +13655,7 @@
     <!-- Button on the dual sim onboarding to go to next page. [CHAR LIMIT=30] -->
     <string name="sim_onboarding_next">Next</string>
     <!-- Text on the progressbar of dual sim onboarding for turning sim on. [CHAR LIMIT=30] -->
-    <string name="sim_onboarding_progressbar_turning_sim_on">Turning on <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>&#8230;</string>
+    <string name="sim_onboarding_progressbar_turning_sim_on">Turning on <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>…</string>
     <!-- Title of service provider name(SPN) at mobile network settings page. [CHAR LIMIT=30] -->
     <string name="mobile_network_spn_title">Mobile network</string>
     <!-- Title of phone number at mobile network settings page. [CHAR LIMIT=30] -->
@@ -13708,7 +13693,7 @@
         other   {# SIMs are available on this device, but only one can be used at a time}
         }</string>
     <!-- String indicating that we are activating the profile [CHAR LIMIT=NONE] -->
-    <string name="choose_sim_activating">Turning on<xliff:g id="ellipsis" example="...">&#8230;</xliff:g></string>
+    <string name="choose_sim_activating">Turning on<xliff:g id="ellipsis" example="...">…</xliff:g></string>
     <!-- String indicating that we failed to activate the selected profile [CHAR LIMIT=NONE] -->
     <string name="choose_sim_could_not_activate">Couldn\u2019t turn on this SIM right now</string>
 
@@ -13733,7 +13718,7 @@
     <!-- Button label to erase the eSIM [CHAR_LIMIT=20] -->
     <string name="erase_sim_confirm_button">Erase</string>
     <!-- Status message indicating the device is in the process of erasing the SIM. [CHAR_LIMIT=NONE] -->
-    <string name="erasing_sim">Erasing eSIM&#8230;</string>
+    <string name="erasing_sim">Erasing eSIM…</string>
     <!-- Title of error message indicating the device could not erase the SIM. [CHAR_LIMIT=NONE] -->
     <string name="erase_sim_fail_title">Can\'t erase eSIM</string>
     <!-- Body text of error message indicating the device could not erase the SIM due to an error. [CHAR_LIMIT=NONE] -->
@@ -14138,22 +14123,22 @@
     </plurals>
 
     <!-- Title for RTT setting. [CHAR LIMIT=NONE] -->
-    <string name="rtt_settings_title"></string>
+    <string name="rtt_settings_title"/>
     <!-- Subtext for the RTT settings that explains what RTT settings is [CHAR LIMIT=NONE]-->
     <string name="rtt_settings_summary">Use text to communicate during a call</string>
     <!-- Subtext for showing the option of RTT setting. [CHAR LIMIT=NONE] -->
-    <string name="rtt_settings_no_visible"></string>
+    <string name="rtt_settings_no_visible"/>
     <!-- Subtext for showing the option of RTT setting. [CHAR LIMIT=NONE] -->
-    <string name="rtt_settings_visible_during_call"></string>
+    <string name="rtt_settings_visible_during_call"/>
     <!-- Subtext for showing the option of RTT setting. [CHAR LIMIT=NONE] -->
-    <string name="rtt_settings_always_visible"></string>
+    <string name="rtt_settings_always_visible"/>
 
     <!-- Title for the 5G limited VoLTE dialog. [CHAR LIMIT=50] -->
     <string name="volte_5G_limited_title">Turn off VoLTE?</string>
     <!-- Content description for the 5G limited VoLTE dialog. [CHAR LIMIT=NONE] -->
     <string name="volte_5G_limited_text">This also turns off your 5G connection.\nDuring a voice call, you can\u2019t use the internet and some apps may not work.</string>
     <!-- Help URI, 5G limitation in DSDS condition. [DO NOT TRANSLATE] -->
-    <string name="help_uri_5g_dsds" translatable="false"></string>
+    <string name="help_uri_5g_dsds" translatable="false"/>
 
     <!-- Developer settings: app freezer title [CHAR LIMIT=50]-->
     <string name="cached_apps_freezer">Suspend execution for cached apps</string>
@@ -14815,9 +14800,9 @@
     <string name="content_protection_preference_user_consent_work_profile_switch_title">Use scanning for deceptive apps for work</string>
 
     <!-- Default summary of the subpage of content protection settings. Will be overlaid by OEM. -->
-    <string name="content_protection_preference_subpage_summary"></string>
+    <string name="content_protection_preference_subpage_summary"/>
     <!-- Default information at the bottom of the subpage of content protection settings. Will be overlaid by OEM. -->
-    <string name="content_protection_preference_subpage_info"></string>
+    <string name="content_protection_preference_subpage_info"/>
 
     <!-- Content description for setting password complete-->
     <string name="accessibility_setup_password_complete">Password is now set up</string>
@@ -14826,7 +14811,7 @@
     <string name="accessibility_setup_pin_complete">PIN is now set up</string>
 
     <!-- Authority of the content provider that support methods restartPhoneProcess and restartRild. Will be overlaid by OEM.-->
-    <string name="reset_telephony_stack_content_provider_authority" translatable="false"></string>
+    <string name="reset_telephony_stack_content_provider_authority" translatable="false"/>
 
     <!--Text for Stylus Pointer Icon preference -->
     <string name="show_stylus_pointer_icon">Show pointer while hovering</string>
@@ -15101,7 +15086,7 @@
     <string name="audio_streams_qr_code_help_with_link"><annotation id="link">Need help?</annotation></string>
 
     <!-- url for learning more about bluetooth audio sharing -->
-    <string name="help_url_audio_sharing" translatable="false"></string>
+    <string name="help_url_audio_sharing" translatable="false"/>
 
     <!-- Text for Search bar of Settings home screen [CHAR LIMIT=34] -->
     <string name="homepage_search">Search Settings</string>
@@ -15369,27 +15354,27 @@
     <string name="safety_center_subpage_unknown_summary">No info yet</string>
 
     <!-- Safety Center app security subpage summary [CHAR LIMIT=NONE] -->
-    <string name="safety_center_app_security_summary"></string>
+    <string name="safety_center_app_security_summary"/>
     <!-- Safety Center app security subpage footer text [CHAR LIMIT=NONE] -->
-    <string name="safety_center_app_security_footer"></string>
+    <string name="safety_center_app_security_footer"/>
     <!-- Safety Center app security source search terms [CHAR LIMIT=NONE] -->
-    <string name="safety_center_app_security_search_terms"></string>
+    <string name="safety_center_app_security_search_terms"/>
     <!-- Safety Center device unlock subpage summary [CHAR LIMIT=NONE] -->
-    <string name="safety_center_device_unlock_summary"></string>
+    <string name="safety_center_device_unlock_summary"/>
     <!-- Safety Center account security subpage summary [CHAR LIMIT=NONE] -->
-    <string name="safety_center_account_security_summary"></string>
+    <string name="safety_center_account_security_summary"/>
     <!-- Safety Center account security source search terms [CHAR LIMIT=NONE] -->
-    <string name="safety_center_account_security_search_terms"></string>
+    <string name="safety_center_account_security_search_terms"/>
     <!-- Safety Center device finder subpage summary [CHAR LIMIT=NONE] -->
-    <string name="safety_center_device_finders_summary"></string>
+    <string name="safety_center_device_finders_summary"/>
     <!-- Safety Center device finder source search terms [CHAR LIMIT=NONE] -->
-    <string name="safety_center_device_finder_search_terms"></string>
+    <string name="safety_center_device_finder_search_terms"/>
     <!-- Safety Center system and updates subpage summary [CHAR LIMIT=NONE] -->
     <string name="safety_center_system_and_updates_summary">Updates</string>
     <!-- Safety Center security update search terms [CHAR LIMIT=NONE] -->
     <string name="safety_center_security_update_search_terms">Updates, Update, Security update, Security updates</string>
     <!-- Safety Center system component update search terms [CHAR LIMIT=NONE] -->
-    <string name="safety_center_system_component_update_search_terms"></string>
+    <string name="safety_center_system_component_update_search_terms"/>
 
     <!-- Search keywords of the setting for managing the screen lock on the device [CHAR LIMIT=NONE] -->
     <string name="safety_center_android_lock_screen_search_terms">Device lock, Screen lock, Lock screen, Lockscreen, Password, Pin, Pattern, Lock, Unlock</string>
@@ -15590,4 +15575,213 @@
     <!-- Search keywords for Human interface device access setting -->
     <string name="keywords_access_hid">hid, human, access, device</string>
     <!-- Access HID end -->
-</resources>
+<string name="bluetooth_hearing_device_input_routing_builtin_option">This phone\'s microphone</string>
+    <string name="bluetooth_audio_routing_summary">Route sounds to your hearing device or phone speaker</string>
+    <string name="shared_network_footer">Contact the network owner or a device admin to make changes to this network.</string>
+
+    <string name="bluetooth_disable_leaudio">Disable Bluetooth LE audio</string>
+    <string name="bluetooth_disable_leaudio_summary">Disables Bluetooth LE audio feature if the device supports LE audio hardware capabilities.</string>
+    <string name="top_intro_region_title">The region you choose affects how your phone displays time, dates, temperature, and more</string>
+    <string name="security_settings_face_preference_title">Face Unlock</string>
+    <string name="security_settings_face_profile_preference_title">Face Unlock for work</string>
+    <string name="security_settings_face_enroll_education_title">How to set up Face Unlock</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Set up Face Unlock</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">If accessibility Face Unlock is turned off, some setup steps may not work properly with TalkBack.</string>
+    <string name="security_settings_face_enroll_introduction_title">Unlock with your face</string>
+    <string name="security_settings_face_enroll_consent_introduction_title">Allow face unlock</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">Use your face to unlock your phone or approve purchases.\n\nNote: You can\u2019t use your face to unlock this device. For more information, contact your organization\u2019s admin.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Use your face to unlock your phone, authorize purchases, or sign in to apps</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Improve Face Unlock performance</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Set up Face Unlock again</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Set up Face Unlock again</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Set up Face Unlock</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">Delete your current face model to set up Face Unlock again.\n\nYour face model will be permanently and securely deleted.\n\nAfter deletion, you will need your PIN, pattern, or password to unlock your phone or for authentication in apps.</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">Delete your current face model to set up Face Unlock again.\n\nYour face model will be permanently and securely deleted.\n\nAfter deletion, you will need your fingerprint, PIN, pattern, or password to unlock your phone or for authentication in apps.</string>
+    <string name="security_settings_face_settings_use_face_category">Use Face Unlock for</string>
+    <string name="security_settings_face_footer_description_class3"/>
+    <string name="security_settings_face_footer_learn_more_description"/>
+    <string name="security_settings_face_footer_learn_more_url" translatable="false"/>
+    <string name="security_settings_face_settings_preferences_category">When using Face Unlock</string>
+    <string name="security_settings_face_settings_require_attention_details">To unlock the phone, your eyes must be open</string>
+    <string name="security_settings_face_settings_require_confirmation_details">When using Face Unlock in apps, always require confirmation step</string>
+    <string name="security_settings_face_settings_enroll">Set up Face Unlock</string>
+    <string name="security_settings_face_settings_remove_dialog_details">Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your PIN, pattern, or password to unlock your phone or for authentication in apps.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_remove_dialog_details_fingerprint">Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your fingerprint, PIN, pattern, or password to unlock your phone or for authentication in apps.</string>
+    <string name="security_settings_face_remove_dialog_details_fingerprint_conv">Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your fingerprint, PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_settings_context_subtitle">Use Face Unlock to unlock your phone</string>
+    <string name="security_settings_fingerprint_description"/>
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Use your fingerprint to unlock your phone or approve purchases.\n\nNote: You can\u2019t use your fingerprint to unlock this device. For more information, contact your organization\u2019s admin.</string>
+    <string name="biometric_settings_intro_with_activeunlock">When you set up Face Unlock and Fingerprint Unlock, your phone will ask for your fingerprint when you wear a mask or are in a dark area.\n\nWatch Unlock is another convenient way to unlock your phone, for example, when your fingers are wet or face isn\u2019t recognized.</string>
+    <string name="biometric_settings_intro_with_fingerprint">Watch Unlock is another convenient way to unlock your phone, for example, when your fingerprint isn\u2019t recognized.</string>
+    <string name="biometric_settings_intro_with_face">Watch Unlock is another convenient way to unlock your phone, for example, when your face isn\u2019t recognized.</string>
+    <string name="security_settings_activeunlock_require_face_fingerprint_setup_title">Set up Face or Fingerprint Unlock first</string>
+    <string name="security_settings_activeunlock_require_face_setup_title">Set up Face Unlock first</string>
+    <string name="security_settings_remoteauth_enroll_introduction_message">Watch Unlock is another convenient way to unlock this phone, for example, when your fingers are wet or face isn\u2019t recognized.\n\nYou can use your watch to unlock this phone when you:</string>
+    <string name="security_settings_remoteauth_enroll_introduction_info_lock_open">Your watch must be unlocked, on your wrist, and within reach of this phone. You won\u2019t need to unlock your watch again while it\u2019s on your wrist.</string>
+    <string name="security_settings_remoteauth_enroll_introduction_info_notifications">When this phone is unlocked, you\u2019ll get notified on your watch. If it was unlocked when you didn’t intend to, tap the notification to lock the phone again.</string>
+    <string name="security_settings_remoteauth_enroll_finish_description">You can now use your watch to unlock this phone when you swipe up on the lock screen or tap a notification</string>
+    <string name="security_settings_remoteauth_settings_description">You can use your watch to unlock this phone when you swipe up on the lock screen or tap a notification</string>
+    <string name="security_settings_remoteauth_settings_info_footer">To use Watch Unlock, your watch must be unlocked, on your wrist, within reach, and connected to this phone. If the connection is interrupted, you\u2019ll need to unlock the phone before you can use Watch Unlock.\n\nKeep in mind:\nYou can only have one watch set up at a time. To add another watch, first remove the current one.</string>
+    <string name="security_settings_biometric_preference_title">Face &amp; Fingerprint Unlock</string>
+    <string name="security_settings_work_biometric_preference_title">Face &amp; Fingerprint Unlock for work</string>
+    <string name="biometric_settings_intro">When you set up Face Unlock and Fingerprint Unlock, your phone will ask for your fingerprint when you wear a mask or are in a dark area</string>
+    <string name="biometric_settings_use_biometric_unlock_phone">Unlock your phone</string>
+    <string name="biometric_settings_add_face_in_split_mode_title">Can\u2019t set up Face Unlock</string>
+    <string name="biometric_settings_add_face_in_split_mode_message">Exit split screen to set up Face Unlock</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_message">You\u2019ve chosen to use your fingerprint as one way to unlock your phone. If you skip now, you\u2019ll need to set this up later. Setup takes only a minute or so.</string>
+    <string name="private_space_biometric_title">Face &amp; Fingerprint Unlock</string>
+    <string name="private_space_face_title">Face Unlock</string>
+    <string name="private_space_face_unlock_title">Face Unlock for private space</string>
+    <string name="private_space_biometric_unlock_title">Face &amp; Fingerprint Unlock for private space</string>
+    <string name="private_space_fingerprint_enroll_introduction_footer_message">Your private space can be unlocked when you don\u2019t intend to, like if someone holds up your phone to your finger.</string>
+    <string name="private_space_face_enroll_introduction_title">Set up Face Unlock for private space</string>
+    <string name="private_space_face_enroll_introduction_info_looking">Looking at the phone can unlock private space even when you don\u2019t intend to. Your private space can also be unlocked by someone who looks a lot like you, like an identical sibling, or if someone holds the device up to your face.</string>
+    <string name="private_space_face_settings_footer">Use your face to unlock your private space.\n\nKeep in mind:\nYou can only have one face set up at a time. To add another face, delete the current one.\n\nLooking at the phone can unlock it when you don\u2019t intend to.\n\nYour private space can be unlocked by someone else if your device is held up to your face.\n\nYour private space can be unlocked by someone who looks a lot like you, like an identical sibling.</string>
+    <string name="private_space_face_settings_require_confirmation_details">When using Face Unlock, always require confirmation step</string>
+    <string name="private_space_delete_summary">Your private space will be permanently deleted from your device. \n\nAll apps in your space and their data will also be permanently deleted from your phone\u2019s <b>internal storage</b>.</string>
+    <string name="suggested_lock_settings_title">Secure your phone</string>
+
+    <string name="face_unlock_skip_face">Continue without Face Unlock</string>
+
+    <string name="unlock_disable_frp_warning_content_pattern">"A pattern protects your phone if it\u2019s lost or stolen"</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint">"A pattern protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>This also deletes the fingerprint model stored on your device. You won\u2019t be able to use your fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_face">"A pattern protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>Your face model will also be permanently and securely deleted. You won\u2019t be able to use your face for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint">"A pattern protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>This deletes the fingerprint model stored on your device. Your face model will also be permanently and securely deleted. You won\u2019t be able to use your face or fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pin">"A PIN protects your phone if it\u2019s lost or stolen"</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint">"A PIN protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>This also deletes the fingerprint model stored on your device. You won\u2019t be able to use your fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pin_face">"A PIN protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>Your face model will also be permanently and securely deleted. You won\u2019t be able to use your face for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint">"A PIN protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>This deletes the fingerprint model stored on your device. Your face model will also be permanently and securely deleted. You won\u2019t be able to use your face or fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_password">"A password protects your phone if it\u2019s lost or stolen"</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint">"A password protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>This also deletes the fingerprint model stored on your device. You won\u2019t be able to use your fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_password_face">"A password protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>Your face model will also be permanently and securely deleted. You won\u2019t be able to use your face for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_password_face_fingerprint">"A password protects your phone if it\u2019s lost or stolen.<xliff:g id="empty_line">\n\n</xliff:g>This deletes the fingerprint model stored on your device. Your face model will also be permanently and securely deleted. You won\u2019t be able to use your face or fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_face_authbound_keys">"Your screen lock and Face Unlock will be removed.<xliff:g id="empty_line">\n\n</xliff:g>Tap to pay won\u2019t be available.<xliff:g id="empty_line">\n\n</xliff:g>Wallet, payment, and other apps that require authentication may not work properly."</string>
+    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys">"Your screen lock and Face &amp; Fingerprint Unlock will be removed.<xliff:g id="empty_line">\n\n</xliff:g>Tap to pay won\u2019t be available.<xliff:g id="empty_line">\n\n</xliff:g>Wallet, payment, and other apps that require authentication may not work properly."</string>
+
+
+    <string name="external_display_on">On</string>
+    <string name="external_display_off">Off</string>
+    <string name="wifi_advanced_toggle_description_collapsed">expand</string>
+    <string name="wifi_hidden_network_warning">If your router is not broadcasting a network ID but you would like to connect to it in the future, you can set the network as hidden.\n\nThis may create a security risk because your phone will regularly broadcast its signal to find the network.\n\nSetting the network as hidden will not change your router settings.</string>
+    <string name="wifi_shared">Share with other device users</string>
+    <string name="shared_message">shared</string>
+    <string name="private_message">private</string>
+    <string name="wifi_conflict_dialog_confirm">Confirm</string>
+    <string name="wifi_conflict_dialog_title">Switch to <xliff:g id="shared">%1$s</xliff:g> \"<xliff:g id="network_name">%2$s</xliff:g>\" network?</string>
+    <string name="wifi_conflict_dialog_message">You\'re currently connected to a <xliff:g id="shared">%1$s</xliff:g> network with the same name. When you switch, you\'ll disconnect from the <xliff:g id="shared">%2$s</xliff:g> network and then reconnect to the <xliff:g id="private">%3$s</xliff:g> network. You may temporarily have no internet.</string>
+    <string name="wifi_scan_always_confirm_allow">Allow</string>
+    <string name="wifi_shared_network_login_screen_warning">This is a shared network. You can change this setting once logged in.</string>
+    <string name="share_wifi_network">Share this network with other device users</string>
+    <string name="share_wifi_network_summary">All users on this device can view and connect to a shared network. Administrators can delete a shared network. Learn more</string>
+    <string name="edit_wifi_network_configuration">Allow other users to edit network configuration</string>
+    <string name="shared_wifi_forget_dialog_title">Forget all device users?</string>
+    <string name="sound_settings">Sound &amp; vibration</string>
+    <string name="display_settings">Display</string>
+    <string name="style_suggestion_title">Customize your phone</string>
+    <string name="low_light_display_behavior_screen_off">Screen off</string>
+    <string name="low_light_display_behavior_screen_off_full_summary">Screen will turn off when your environment is dark</string>
+    <string name="doze_always_on_title">Always show time and info</string>
+    <string name="imei_multi_sim_primary">IMEI (SIM slot <xliff:g id="imei_slot_id_primary">%1$d</xliff:g>) (primary)</string>
+    <string name="meid_multi_sim_primary">MEID (SIM slot <xliff:g id="meid_slot_id_primary">%1$d</xliff:g>) (primary)</string>
+    <string name="storage_os_detail_dialog_system">This includes your operating system and the files that are needed to keep your phone running smoothly. To protect their integrity, these files can\u2019t be accessed.</string>
+
+    <string name="reset_private_space_delete_dialog">If you have a private space on your device, it will be permanently deleted and the Google Account added to your space will be removed. \n\nAll apps in your space and their data will also be permanently deleted from your phone\u2019s <b>internal storage</b>.</string>
+
+    <string name="lockpassword_choose_your_password_header_for_face">To use Face Unlock, set password</string>
+    <string name="lockpassword_choose_your_pattern_header_for_face">To use Face Unlock, set pattern</string>
+    <string name="lockpassword_choose_your_pin_header_for_face">To use Face Unlock, set PIN</string>
+
+    <string name="activity_not_found">Application is not installed on your phone.</string>
+
+    <string name="language_keyboard_settings_title">Languages &amp; input</string>
+    <string name="keyboard_settings_category">Keyboard &amp; input methods</string>
+    <string name="hardkeyboard_category">Physical keyboard settings</string>
+    <string name="keyboard_and_input_methods_category">Keyboards</string>
+    <string name="virtual_keyboard_category">On-screen keyboard</string>
+    <string name="keywords_virtual_keyboard">Gboard</string>
+    <string name="available_virtual_keyboard_category">Available On-screen keyboard</string>
+    <string name="add_virtual_keyboard">Manage on-screen keyboards</string>
+    <string name="keyboard_shortcuts_helper_summary">Show list of shortcuts</string>
+    <string name="virtual_keyboards_for_work_title">On-screen keyboard for work</string>
+    <string name="default_keyboard_layout">Default</string>
+    <string name="keyboard_layout_dialog_title">Choose keyboard layout</string>
+    <string name="keyboard_layout_dialog_setup_button">Set up keyboard layouts</string>
+    <string name="keyboard_layout_dialog_switch_hint">To switch, press Control-Spacebar</string>
+    <string name="keyboard_layout_default_label">Default</string>
+
+    <string name="builtin_keyboard_settings_title">Physical keyboard</string>
+
+    <string name="keyboard_category_title">Physical keyboard options</string>
+    <string name="accessibility_screen_magnification_keyboard_shortcuts_flag_off_summary">
+        
+        &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
+        {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
+        {1,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + arrow keys to move around screen&lt;br/&gt;
+        {2,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; and \"+\" or \"-\" to adjust zoom&lt;br/&gt;
+        {3,number,integer}. Use shortcut to stop magnification
+        
+    </string>
+    <string name="accessibility_tutorial_dialog_title_two_finger_double">%1$d-finger double tap shortcut</string>
+    <string name="accessibility_shortcut_edit_screen_title_two_finger_double_tap">%1$d-finger double tap</string>
+    <string name="accessibility_shortcut_edit_screen_summary_two_finger_double_tap">Quickly tap the screen twice with %1$d fingers</string>
+    <string name="accessibility_shortcut_two_finger_double_tap_keyword">%1$d-finger double tap</string>
+    <string name="accessibility_shortcut_unassigned_setting_unavailable_summary">To use this, turn on the %1$s shortcut on an accessibility feature\'s page</string>
+
+    <string name="accessibilty_autoclick_preference_subtitle_short_delay">{count, plural,
+        =1      {Short ({time} second)}
+        other   {Short ({time} seconds)}
+        }</string>
+    <string name="accessibilty_autoclick_preference_subtitle_medium_delay">{count, plural,
+        =1      {Medium ({time} second)}
+        other   {Medium ({time} seconds)}
+        }</string>
+    <string name="accessibilty_autoclick_preference_subtitle_long_delay">{count, plural,
+        =1      {Long ({time} second)}
+        other   {Long ({time} seconds)}
+        }</string>
+
+    <string name="keyboard_settings_title">Android keyboard</string>
+
+    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+
+    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+
+    <string name="notification_listener_security_warning_summary">
+        The <xliff:g id="notification_listener_name">%1$s</xliff:g> app will be able to read all notifications,
+        including personal information such as contact names, photos, and the text of messages you receive.
+        This app will also be able to snooze or dismiss notifications or take action on buttons in notifications, including answering phone calls.
+        \n\nThis will also give the app the ability to turn Do Not Disturb on or off and change related settings.
+    </string>
+    <string name="notif_type_ongoing_summary">Ongoing communication from apps in use, navigation, phone calls, and more</string>
+    <string name="usb_default_info">When another device is connected and your phone is unlocked, these settings will be applied. Only connect to trusted devices.</string>
+
+    <string name="disabled_by_policy_content_biometric_parental_consent">Hand the phone to your parent to start setting this up</string>
+    <string name="disabled_by_policy_parental_consent">Hand the phone to your parent to allow this setting to be changed.</string>
+    <string name="condition_zen_summary_phone_muted">Phone muted</string>
+
+    <string name="disabled_feature_reason_slow_down_phone">This feature has been turned off because it slows down your phone</string>
+
+    <string name="mobile_data_settings_summary_auto_switch">
+        Phone will automatically switch to this carrier when in range
+    </string>
+    <string name="imei_primary">IMEI (primary)</string>
+    <string name="meid_primary">MEID (primary)</string>
+    <string name="thread_network_settings_footer_title">Thread helps connect your smart home devices, boosting efficiency, and performance.\n\nWhen enabled, this device is eligible to join a Thread network, allowing control of Matter supported devices through this phone.</string>
+
+    <string name="bluetooth_connect_access_dialog_content"><xliff:g id="device_name" example="My device">%1$s</xliff:g> wants to connect to this phone.\n\nYou haven\u2019t connected to <xliff:g id="device_name" example="My device">%2$s</xliff:g> before.</string>
+    <string name="dream_setup_description">Choose what you’ll see on your screen when your tablet is docked. Your device may use more energy when a screen saver is used.</string>
+
+    <string name="bluetooth_details_permissions_sync_title">Sync permissions from phone</string>
+    <string name="bluetooth_details_permissions_sync_summary">Give your watch the same app permissions that you’ve allowed on this phone</string>
+
+    <string name="audio_sharing_comfirm_dialog_content">To start sharing audio, first connect LE Audio headphones to your phone</string>
+    <string name="supervision_web_content_filters_top_intro">Help filter explicit content on some apps and browsers on this phone. Explicit content may still show on other apps, devices, or browsers.</string>
+    <string name="identity_check_issue_card_summary">Identity Check prevents unwanted access to your apps. Now available with any app that uses Fingerprint or Face Unlock.</string>
+    <string name="identity_check_promo_card_summary">Updates:\n<ul><li>Identity Check adds protection to any app that uses Fingerprint or Face Unlock</li>\n<li>Over time, Identity Check may add more ways to verify it\'s you and secure apps on your device. <a href="https://support.google.com/android?p=identity_check">Learn more about when and where you’\re protected</a></li></ul></string>
+
+    <string name="lock_screen_title">Screen lock</string>
+    <string name="identity_check_notification_summary">Identity Check prevents unwanted access to your apps. Now available with any app that uses Fingerprint or Face Unlock.</string>
+    <string name="device_unlock_subpage_default_summary"/>
+
+    </resources>

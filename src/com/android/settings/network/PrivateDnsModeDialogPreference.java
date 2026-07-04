@@ -83,6 +83,8 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
     private static final int PRIVATE_DNS_MODE_QUAD9_UNSECURED = 11;
     private static final int PRIVATE_DNS_MODE_QUAD9_ECS = 12;
     private static final int PRIVATE_DNS_MODE_QUAD9_UNSECURED_ECS = 13;
+    private static final int PRIVATE_DNS_MODE_LIBREDNS = 14;
+    private static final int PRIVATE_DNS_MODE_LIBREDNS_NOADS = 15;
 
     static {
         PRIVATE_DNS_MAP = new HashMap<>();
@@ -97,6 +99,8 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_QUAD9_UNSECURED, R.id.private_dns_mode_quad9_unsecured);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_QUAD9_ECS, R.id.private_dns_mode_quad9_ecs);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_QUAD9_UNSECURED_ECS, R.id.private_dns_mode_quad9_unsecured_ecs);
+        PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_LIBREDNS, R.id.private_dns_mode_libredns);
+        PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_LIBREDNS_NOADS, R.id.private_dns_mode_libredns_noads)
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_OPPORTUNISTIC, R.id.private_dns_mode_opportunistic);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_PROVIDER_HOSTNAME, R.id.private_dns_mode_provider);
     }
@@ -182,6 +186,10 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
                     context.getString(R.string.private_dns_hostname_quad9_ecs);
             final String quad9unsecuredecsHostname =
                     context.getString(R.string.private_dns_hostname_quad9_unsecured_ecs);
+            final String librednsHostname =
+                    context.getString(R.string.private_dns_hostname_libredns);
+            final String librednsnoadsHostname =
+                    context.getString(R.string.private_dns_hostname_libredns_noads);
             if (privateDnsHostname.equals(cloudflareHostname)) {
                 mMode = PRIVATE_DNS_MODE_CLOUDFLARE;
             } else if (privateDnsHostname.equals(cloudflareblockmalwareHostname)) {
@@ -202,6 +210,10 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
                 mMode = PRIVATE_DNS_MODE_QUAD9_ECS;
             } else if (privateDnsHostname.equals(quad9unsecuredecsHostname)) {
                 mMode = PRIVATE_DNS_MODE_QUAD9_UNSECURED_ECS;
+            } else if (privateDnsHostname.equals(librednsHostname)) {
+                mMode = PRIVATE_DNS_MODE_LIBREDNS;
+            } else if (privateDnsHostname.equals(librednsnoadsHostname)) {
+                mMode = PRIVATE_DNS_MODE_LIBREDNS_NOADS;
             }
         }
         mRadioGroup = view.findViewById(R.id.private_dns_radio_group);
@@ -241,6 +253,12 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         final RadioButton quad9unsecuredecsRadioButton =
                 view.findViewById(R.id.private_dns_mode_quad9_unsecured_ecs);
         quad9unsecuredecsRadioButton.setText(R.string.private_dns_mode_quad9_unsecured_ecs);
+        final RadioButton librednsRadioButton =
+                view.findViewById(R.id.private_dns_mode_libredns);
+        librednsRadioButton.setText(R.string.private_dns_mode_libredns);
+        final RadioButton librednsnoadsRadioButton =
+                view.findViewById(R.id.private_dns_mode_libredns_noads);
+        librednsnoadsRadioButton.setText(R.string.private_dns_mode_libredns_noads);
         final RadioButton opportunisticRadioButton =
                 view.findViewById(R.id.private_dns_mode_opportunistic);
         opportunisticRadioButton.setText(
@@ -297,6 +315,10 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
             mMode = PRIVATE_DNS_MODE_QUAD9_ECS;
         } else if (checkedId == R.id.private_dns_mode_quad9_unsecured_ecs) {
             mMode = PRIVATE_DNS_MODE_QUAD9_UNSECURED_ECS;
+        } else if (checkedId == R.id.private_dns_mode_libredns) {
+            mMode = PRIVATE_DNS_MODE_LIBREDNS;
+        } else if (checkedId == R.id.private_dns_mode_libredns_noads) {
+            mMode = PRIVATE_DNS_MODE_LIBREDNS_NOADS;
         } else if (checkedId == R.id.private_dns_mode_opportunistic) {
             mMode = PRIVATE_DNS_MODE_OPPORTUNISTIC;
         } else if (checkedId == R.id.private_dns_mode_provider) {
@@ -439,6 +461,16 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
             final String quad9unsecuredecsHostname =
                     context.getString(R.string.private_dns_hostname_quad9_unsecured_ecs);
             ConnectivitySettingsManager.setPrivateDnsHostname(context, quad9unsecuredecsHostname);
+            modeToSet = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
+        } else if (mMode == PRIVATE_DNS_MODE_LIBREDNS) {
+            final String librednsHostname =
+                    context.getString(R.string.private_dns_hostname_libredns);
+            ConnectivitySettingsManager.setPrivateDnsHostname(context, librednsHostname);
+            modeToSet = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
+        } else if (mMode == PRIVATE_DNS_MODE_LIBREDNS_NOADS) {
+            final String librednsnoadsHostname =
+                    context.getString(R.string.private_dns_hostname_quad9_libredns_noads);
+            ConnectivitySettingsManager.setPrivateDnsHostname(context, librednsnoadsHostname);
             modeToSet = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
         }
 

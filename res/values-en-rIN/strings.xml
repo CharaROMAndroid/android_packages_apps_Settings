@@ -1,21 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
- -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"Yes"</string>
     <string name="no" msgid="5541738710521607130">"No"</string>
     <string name="create" msgid="986997212165228751">"Create"</string>
@@ -396,24 +380,24 @@
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"Face for work"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"Face for private space"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Use your face to authenticate"</string>
-    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
+    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Start"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Go back"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Continue setup"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Use accessibility setup"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Cancel"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"No, thanks"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"I agree"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"More"</string>
     <string name="security_settings_face_enroll_introduction_title_unlock_disabled" msgid="5903924766168353113">"Use your face to authenticate"</string>
-    <string name="security_settings_face_enroll_introduction_info_title" msgid="7120796118179406944"></string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"></string>
-    <string name="security_settings_face_enroll_introduction_info_consent_glasses" msgid="6303917184145586880"></string>
-    <string name="security_settings_face_enroll_introduction_how_title" msgid="3680193263037835600"></string>
-    <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"></string>
-    <string name="security_settings_face_enroll_introduction_control_consent_title" msgid="5892729331412694759"></string>
+    <string name="security_settings_face_enroll_introduction_info_title" msgid="7120796118179406944"/>
+    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses" msgid="6303917184145586880"/>
+    <string name="security_settings_face_enroll_introduction_how_title" msgid="3680193263037835600"/>
+    <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
+    <string name="security_settings_face_enroll_introduction_control_consent_title" msgid="5892729331412694759"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Centre your face in the circle"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Skip"</string>
     <string name="face_intro_error_max" msgid="2474735057709291626">"You’ve added the maximum number of faces"</string>
@@ -426,12 +410,12 @@
     <string name="security_settings_face_enroll_finish_title" msgid="5882322568359775393">"All set. Looking good."</string>
     <string name="security_settings_face_enroll_done" msgid="3048687969498187442">"Done"</string>
     <string name="security_settings_face_enroll_must_re_enroll_subtitle" msgid="3584740139535177961">"Improve security and performance"</string>
-    <string name="security_settings_face_description" msgid="4978624729863151372"></string>
+    <string name="security_settings_face_description" msgid="4978624729863151372"/>
     <string name="security_settings_face_settings_face_category" msgid="60058016983772899">"Face"</string>
     <string name="security_settings_face_settings_use_face_to_category" msgid="3349153603335284583">"Use face to"</string>
     <string name="security_settings_face_settings_require_attention" msgid="4395309855914391104">"Require eyes to be open"</string>
-    <string name="security_settings_face_settings_gaze" msgid="7539766717836085281"></string>
-    <string name="security_settings_face_settings_gaze_details" msgid="1234235596091247119"></string>
+    <string name="security_settings_face_settings_gaze" msgid="7539766717836085281"/>
+    <string name="security_settings_face_settings_gaze_details" msgid="1234235596091247119"/>
     <string name="security_settings_face_settings_require_confirmation" msgid="6603039421004198334">"Always require confirmation"</string>
     <string name="security_settings_face_settings_remove_face_model" msgid="812920481303980846">"Delete face model"</string>
     <string name="security_settings_face_settings_remove_dialog_title" msgid="2899669764446232715">"Delete face model?"</string>
@@ -469,7 +453,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2" msgid="3493356605815124807">"Fingerprint Unlock creates a unique model of your child’s fingerprint to verify that it’s them. To create this fingerprint model during setup, they will take images of their fingerprint from different positions."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6" msgid="5314031490467481499">"For best results, use a screen protector that’s Made For Google certified. With other screen protectors, your fingerprint may not work."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_6" msgid="3563942520716110478">"For best results, use a screen protector that’s Made For Google certified. With other screen protectors, your child’s fingerprint may not work."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more" msgid="5856010507790137793"></string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more" msgid="5856010507790137793"/>
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Touch the fingerprint sensor"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Fingerprint not recognised"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Watch Unlock"</string>
@@ -880,7 +864,7 @@
     <string name="bluetooth_pairing_again_confirmation_title" msgid="838944639700876861">"Pair again"</string>
     <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"Check if this code matches the one on <xliff:g id="DEVICE_NAME">%1$s</xliff:g>.\n\nFor your security, do not enter this code anywhere."</string>
     <string name="bluetooth_repairing_msg" msgid="4359999881389087827">"This device was paired previously and is trying to re-pair.\nIf you are in a public space, proceed with caution."</string>
-    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
+    <string name="bluetooth_error_title" msgid="2284738188253690278"/>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Couldn\'t connect to <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_found_media_devices" msgid="830061195998352840">"Available devices"</string>
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"Connect"</string>
@@ -1291,7 +1275,7 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"Calling preference"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"Roaming preference"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip />
+    <skip/>
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Roaming preference"</string>
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"Wi-Fi"</item>
@@ -1306,7 +1290,7 @@
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"If mobile network is unavailable, use Wi‑Fi"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"Call over Wi‑Fi. If Wi‑Fi is lost, call will end."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"When Wi-Fi calling is on, your phone can route calls via Wi-Fi networks or your mobile’s network, depending on your preference and which signal is stronger. Before turning on this feature, check with your operator regarding fees and other details.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
-    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
+    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"/>
     <string name="emergency_address_title" msgid="8102786488994263815">"Emergency address"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Used as your location when you make an emergency call over Wi‑Fi"</string>
     <string name="private_dns_title" msgid="1180823690693258572">"Hostname"</string>
@@ -1357,7 +1341,7 @@
     <string name="hdr_brightness_warning" msgid="2755151579539607928">"This setting only affects images and videos that support high dynamic range (HDR)."</string>
     <string name="hdr_brightness_slider_description" msgid="3743611389738391772">"Intensity, make the intensity dimmer or brighter."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Display white balance"</string>
-    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
+    <string name="display_white_balance_summary" msgid="7625456704950209050"/>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"Continue using apps on fold"</string>
     <string name="disable_game_default_frame_rate_title" msgid="3712908601744143753">"Disable default frame rate for games"</string>
     <string name="disable_game_default_frame_rate_summary" msgid="4436762704707434225">"Disable limiting the maximum frame rate for games at <xliff:g id="FRAME_RATE">%1$d</xliff:g> Hz."</string>
@@ -1541,7 +1525,7 @@
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"Incorrect SIM PIN code; you have one remaining attempt before you must contact your operator to unlock your device."</string>
     <string name="pin_failed" msgid="3726505565797352255">"SIM PIN operation failed!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"System updates"</string>
-    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
+    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"/>
     <string name="firmware_version" msgid="1606901586501447275">"Android version"</string>
     <string name="security_patch" msgid="4071756145347865382">"Android security update"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
@@ -1703,7 +1687,7 @@
     <string name="menu_new" msgid="6571230342655509006">"New APN"</string>
     <string name="menu_save" msgid="6611465355127483100">"Save"</string>
     <string name="menu_cancel" msgid="1197826697950745335">"Cancel"</string>
-    <string name="error_title" msgid="7158648377702417716"></string>
+    <string name="error_title" msgid="7158648377702417716"/>
     <string name="error_duplicate_apn_entry" msgid="7792928408935276618">"Duplicate APN entry."</string>
     <string name="error_name_empty" msgid="1258275899283079142">"The Name field can\'t be empty."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"The APN cannot be empty."</string>
@@ -1816,10 +1800,10 @@
     <string name="location_services_screen_title" msgid="5640002489976602476">"Location Services"</string>
     <string name="location_time_zone_detection_toggle_title" msgid="720338048522014712">"Use location for time zone"</string>
     <string name="location_time_zone_detection_status_title" msgid="8903495354385600423">"Cannot set the time zone automatically"</string>
-    <string name="location_time_zone_detection_status_summary_degraded_by_settings" msgid="6198939835335841106"></string>
+    <string name="location_time_zone_detection_status_summary_degraded_by_settings" msgid="6198939835335841106"/>
     <string name="location_time_zone_detection_status_summary_blocked_by_settings" msgid="5276280770344278768">"Location or Location Services are off"</string>
-    <string name="location_time_zone_detection_status_summary_blocked_by_environment" msgid="2279833212923765802"></string>
-    <string name="location_time_zone_detection_status_summary_temporarily_unavailable" msgid="6586801403644278967"></string>
+    <string name="location_time_zone_detection_status_summary_blocked_by_environment" msgid="2279833212923765802"/>
+    <string name="location_time_zone_detection_status_summary_temporarily_unavailable" msgid="6586801403644278967"/>
     <string name="location_time_zone_detection_location_is_off_dialog_title" msgid="231698690198001146">"Device location needed"</string>
     <string name="location_time_zone_detection_location_is_off_dialog_message" msgid="5846316326139169523">"To set the time zone using your location, turn on location, then update time zone settings"</string>
     <string name="location_time_zone_detection_location_is_off_dialog_ok_button" msgid="2685647335717750297">"Location settings"</string>
@@ -2076,12 +2060,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"Nothing running."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"Started by app."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip />
+    <skip/>
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> free"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> used"</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip />
+    <skip/>
     <string name="running_process_item_user_label" msgid="1444898861984132133">"User: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"Removed user"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> process and <xliff:g id="NUMSERVICES">%2$d</xliff:g> service"</string>
@@ -2119,7 +2103,7 @@
     <string name="input_assistance" msgid="3437568284144952104">"Tools"</string>
     <string name="system_language" msgid="1146762166579643257">"System languages"</string>
     <string name="phone_language" msgid="5986939176239963826">"Languages"</string>
-    <string name="phone_language_summary" msgid="863041222809685325"></string>
+    <string name="phone_language_summary" msgid="863041222809685325"/>
     <string name="auto_replace" msgid="4830732960264447043">"Auto-replace"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"Correct mistyped words"</string>
     <string name="auto_caps" msgid="5573583581288305355">"Auto-capitalisation"</string>
@@ -2416,7 +2400,7 @@
     <string name="accessibility_system_controls_subtext_one_handed_not_supported" msgid="4973507525360793402">"Navigation mode, screen rotation"</string>
     <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Send feedback"</string>
     <string name="accessibility_send_survey_title" msgid="7494065908292980253">"Take survey"</string>
-    <string name="accessibility_disability_support_title" msgid="6485961044665887515"></string>
+    <string name="accessibility_disability_support_title" msgid="6485961044665887515"/>
     <string name="accessibility_send_survey_notification_channel" msgid="6136555229886306184">"Accessibility survey"</string>
     <string name="dark_theme_survey_notification_title" msgid="662387994868661452">"Share your feedback"</string>
     <string name="dark_theme_survey_notification_summary" msgid="8706870943336979672">"How satisfied are you with Dark theme?"</string>
@@ -2755,7 +2739,7 @@
     <string name="accessibility_hearing_device_shortcut_title" msgid="7645100199603031360">"Hearing device shortcut"</string>
     <string name="accessibility_hac_mode_title" msgid="2037950424429555652">"Hearing aid compatibility"</string>
     <string name="accessibility_hac_mode_summary" msgid="5198760061256669067">"Improves compatibility with telecoils and reduces unwanted noise"</string>
-    <string name="hac_disclaimer_message" msgid="5279579026956312543"></string>
+    <string name="hac_disclaimer_message" msgid="5279579026956312543"/>
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"About hearing devices"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"To find other hearing devices that aren\'t supported by ASHA or LE Audio, tap &lt;b&gt;Pair new device&lt;/b&gt; &gt; &lt;b&gt;See more devices&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"To find other hearing devices that aren\'t supported by ASHA or LE Audio, tap "<b>"Pair new device"</b>", then "<b>"See more devices"</b></string>
@@ -2850,23 +2834,23 @@
     <string name="keywords_reduce_bright_colors" msgid="1683190961013139183">"light sensitivity, photophobia, dark theme, migraine, headache, reading mode, night mode, reduce brightness, white point"</string>
     <string name="keywords_accessibility" msgid="8593989878379366798">"vision, hearing, blind, deaf, motor, dexterity, assistive, assistance, ease of use, ease of access, hand, help"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"Window magnifier, zoom, magnification, low vision, enlarge, make bigger"</string>
-    <string name="keywords_talkback" msgid="2816435437095102527"></string>
+    <string name="keywords_talkback" msgid="2816435437095102527"/>
     <string name="keywords_live_caption" msgid="1667203998080567556">"Captions, closed captions, CC, Live Transcribe, hard of hearing, hearing loss, CART, speech to text, subtitle"</string>
-    <string name="keywords_live_transcribe" msgid="3226990195174890997"></string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"></string>
-    <string name="keywords_sound_amplifier" msgid="939404835256246663"></string>
+    <string name="keywords_live_transcribe" msgid="3226990195174890997"/>
+    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
+    <string name="keywords_sound_amplifier" msgid="939404835256246663"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"screen size, large screen"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"High contrast, low vision, bold font, bold face"</string>
     <string name="keywords_maximize_text_contrast" msgid="4304270989682862814">"high-contrast text"</string>
-    <string name="keywords_select_to_speak" msgid="2872704811610888719"></string>
+    <string name="keywords_select_to_speak" msgid="2872704811610888719"/>
     <string name="keywords_color_correction" msgid="8540442886990423681">"adjust colour"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"turn screen dark, turn screen light"</string>
-    <string name="keywords_accessibility_menu" msgid="4300579436464706608"></string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"></string>
+    <string name="keywords_accessibility_menu" msgid="4300579436464706608"/>
+    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="6811744211216280998">"motor, mouse, external mouse, head mouse, adaptive mouse, wheelchair, joystick"</string>
     <string name="keywords_hearing_aids" msgid="4657889873249157071">"hearing aids, hard of hearing, hearing loss, cochlear implants, amplification devices, sound processors, PSAP"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"hard of hearing, hearing loss, captions, Teletype, TTY"</string>
-    <string name="keywords_voice_access" msgid="7807335263195876454"></string>
+    <string name="keywords_voice_access" msgid="7807335263195876454"/>
     <string name="keywords_3_button_navigation" msgid="436361965016404218">"three buttons"</string>
     <string name="keywords_touch_and_hold_delay" msgid="7854640156419599912">"dexterity, motor, senior, arthritis, rsi, stroke, tremor, multiple sclerosis, cerebral palsy, shaking, repetitive strain injury, hand"</string>
     <string name="keywords_accessibility_timeout" msgid="8903766864902000346">"delay, dexterity, senior"</string>
@@ -2933,9 +2917,9 @@
     <string name="advanced_battery_preference_title" msgid="3790901207877260883">"Battery usage"</string>
     <string name="advanced_battery_preference_summary_with_hours" msgid="954091349133320955">"View usage for past 24 hours"</string>
     <string name="advanced_battery_preference_summary" msgid="2372763700477268393">"View usage since last full charge"</string>
-    <string name="battery_advance_info" msgid="770292928851695973"></string>
-    <string name="battery_advance_info_for_slot" msgid="7940946026908896969"></string>
-    <string name="battery_advance_info_learn_more" msgid="4401302692578050024"></string>
+    <string name="battery_advance_info" msgid="770292928851695973"/>
+    <string name="battery_advance_info_for_slot" msgid="7940946026908896969"/>
+    <string name="battery_advance_info_learn_more" msgid="4401302692578050024"/>
     <string name="battery_usage_screen_advance_footer" msgid="5883766314661065580">"Battery usage and screen time are not measured while the phone is charging"</string>
     <string name="battery_details_title" msgid="3289680399291090588">"App battery usage"</string>
     <string name="details_subtitle" msgid="2550872569652785527">"Use details"</string>
@@ -2989,7 +2973,7 @@
     <string name="battery_manager_summary_unsupported" msgid="7334173707292807964">"Detecting when apps drain battery"</string>
     <string name="battery_manager_app_restricted" msgid="2583902700677009173">"{count,plural, =1{# app restricted}other{# apps restricted}}"</string>
     <string name="battery_missing_message" msgid="400958471814422770">"Problem reading the battery meter."</string>
-    <string name="battery_missing_link_message" msgid="6021565067124898074"></string>
+    <string name="battery_missing_link_message" msgid="6021565067124898074"/>
     <string name="battery_missing_link_a11y_message" msgid="3310971406602316323">"Tap to find out more about this error"</string>
     <string name="power_screen" msgid="4596900105850963806">"Screen"</string>
     <string name="power_cpu" msgid="1820472721627148746">"CPU"</string>
@@ -3010,7 +2994,7 @@
     <string name="battery_detail_power_usage" msgid="1492926471397355477">"Battery usage"</string>
     <string name="battery_not_usage" msgid="3851536644733662392">"No usage since last full charge"</string>
     <string name="battery_not_usage_24hr" msgid="8397519536160741248">"No usage for past 24 hr"</string>
-    <string name="battery_usage_without_time" msgid="1346894834339420538"></string>
+    <string name="battery_usage_without_time" msgid="1346894834339420538"/>
     <string name="battery_usage_since_last_full_charge" msgid="3488425008925924769">"since last full charge"</string>
     <string name="battery_usage_system_apps" msgid="8659537819731575299">"System apps"</string>
     <string name="battery_usage_uninstalled_apps" msgid="8170405012552803662">"Uninstalled apps"</string>
@@ -3036,7 +3020,7 @@
     <string name="battery_saver_sticky_title_percentage" msgid="1178162022087559148">"Turn off at <xliff:g id="BATTERY_PERCENTAGE">%1$s</xliff:g>"</string>
     <string name="battery_saver_sticky_description_new" msgid="8543277078136947874">"Battery Saver turns off when battery charges above <xliff:g id="BATTERY_PERCENTAGE">%1$s</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip />
+    <skip/>
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Turn on"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"Use Battery Saver"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"Turn on automatically"</string>
@@ -3219,7 +3203,7 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"When reinstalling an app, restore backed-up settings and data"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"Backup service isn\'t active"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"No account is currently storing backed up data"</string>
-    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
+    <string name="backup_erase_dialog_title" msgid="5892431263348766484"/>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Stop backing up your Wi‑Fi passwords, bookmarks, other settings and app data, plus erase all copies on Google servers?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Stop backing up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps), plus erase all copies on remote servers?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Automatically back up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps) remotely.\n\nWhen you turn on automatic backup, device and app data is periodically saved remotely. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages and photos."</string>
@@ -3596,7 +3580,7 @@
     <string name="wizard_back" msgid="8257697435061870191">"Back"</string>
     <string name="wizard_next" msgid="3884832431439072471">"Next"</string>
     <string name="wizard_back_adoptable" msgid="1447814356855134183">"Format another way"</string>
-    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
+    <string name="regulatory_info_text" msgid="1154461023369976667"/>
     <string name="sim_settings_title" msgid="2254609719033946272">"SIMs"</string>
     <string name="sim_cellular_data_unavailable" msgid="4653591727755387534">"Mobile data is unavailable"</string>
     <string name="sim_cellular_data_unavailable_summary" msgid="6505871722911347881">"Tap to select a data SIM"</string>
@@ -4323,7 +4307,7 @@
     <string name="zen_mode_starred_callers" msgid="1002370699564211178">"starred contacts"</string>
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"repeat callers"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
-    <skip />
+    <skip/>
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> and <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"If the same person calls a second time within a <xliff:g id="MINUTES">%d</xliff:g>-minute period"</string>
     <string name="zen_mode_start_time" msgid="1252665038977523332">"Start time"</string>
@@ -4675,7 +4659,7 @@
     <string name="keyboard_disconnected" msgid="796053864561894531">"Not connected"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> apps installed"</string>
     <!-- no translation found for storage_percentage_format (420113039071073589) -->
-    <skip />
+    <skip/>
     <string name="storage_toplevel_summary" msgid="6708203706751754934">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> used – <xliff:g id="FREE_SPACE">%2$s</xliff:g> free"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Dark theme, font size, brightness"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Avg <xliff:g id="USED_MEMORY">%1$s</xliff:g> of <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> memory used"</string>
@@ -4916,7 +4900,7 @@
     <string name="keywords_double_tap_power" msgid="1238828843085517844">"gestures, shortcut"</string>
     <string name="keywords_double_tap_power_wallet_action" msgid="1118418868964220150">"pay, payments"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Flip camera for selfie"</string>
-    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
+    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"/>
     <string name="system_navigation_title" msgid="4890381153527184636">"Navigation mode"</string>
     <string name="update_device_category_title" msgid="6588608879793647296">"Update device"</string>
     <string name="interaction_category_title" msgid="5712424978503035872">"Interaction"</string>
@@ -5615,11 +5599,11 @@
       <item quantity="other"><xliff:g id="FIRST_1">%1$s</xliff:g>, <xliff:g id="SECOND">%2$s</xliff:g></item>
       <item quantity="one"><xliff:g id="FIRST_0">%1$s</xliff:g></item>
     </plurals>
-    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
+    <string name="rtt_settings_title" msgid="7049259598645966354"/>
     <string name="rtt_settings_summary" msgid="9011338875202712756">"Use text to communicate during a call"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
-    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
-    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
+    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"/>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Turn off VoLTE?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"This also turns off your 5G connection.\nDuring a voice call, you can’t use the Internet and some apps may not work."</string>
     <string name="cached_apps_freezer" msgid="1057519579761550350">"Suspend execution for cached apps"</string>
@@ -5898,8 +5882,8 @@
     <string name="content_protection_preference_summary" msgid="2252393849408445391">"Check app activity for phishing"</string>
     <string name="content_protection_preference_user_consent_switch_title" msgid="1797782616799594426">"Use scanning for deceptive apps"</string>
     <string name="content_protection_preference_user_consent_work_profile_switch_title" msgid="3004347470520916069">"Use scanning for deceptive apps for work"</string>
-    <string name="content_protection_preference_subpage_summary" msgid="3595621220981703364"></string>
-    <string name="content_protection_preference_subpage_info" msgid="6890886357653365489"></string>
+    <string name="content_protection_preference_subpage_summary" msgid="3595621220981703364"/>
+    <string name="content_protection_preference_subpage_info" msgid="6890886357653365489"/>
     <string name="accessibility_setup_password_complete" msgid="6358749253318369077">"Password is now set up"</string>
     <string name="accessibility_setup_pin_complete" msgid="7626702882001984236">"PIN is now set up"</string>
     <string name="show_stylus_pointer_icon" msgid="1010583689203665786">"Show pointer while hovering"</string>
@@ -6147,17 +6131,17 @@
     <string name="identity_check_view_details" msgid="8752343542345818128">"View details"</string>
     <string name="safety_center_refresh_error" msgid="1735955120364376704">"Couldn\'t check settings"</string>
     <string name="safety_center_subpage_unknown_summary" msgid="874864620851714312">"No info yet"</string>
-    <string name="safety_center_app_security_summary" msgid="8400214168449223021"></string>
-    <string name="safety_center_app_security_footer" msgid="6857375118388269085"></string>
-    <string name="safety_center_app_security_search_terms" msgid="5309863174391119980"></string>
-    <string name="safety_center_device_unlock_summary" msgid="102917362915642117"></string>
-    <string name="safety_center_account_security_summary" msgid="684515940132301821"></string>
-    <string name="safety_center_account_security_search_terms" msgid="3950829613581775913"></string>
-    <string name="safety_center_device_finders_summary" msgid="6261252581729491563"></string>
-    <string name="safety_center_device_finder_search_terms" msgid="452013643838126923"></string>
+    <string name="safety_center_app_security_summary" msgid="8400214168449223021"/>
+    <string name="safety_center_app_security_footer" msgid="6857375118388269085"/>
+    <string name="safety_center_app_security_search_terms" msgid="5309863174391119980"/>
+    <string name="safety_center_device_unlock_summary" msgid="102917362915642117"/>
+    <string name="safety_center_account_security_summary" msgid="684515940132301821"/>
+    <string name="safety_center_account_security_search_terms" msgid="3950829613581775913"/>
+    <string name="safety_center_device_finders_summary" msgid="6261252581729491563"/>
+    <string name="safety_center_device_finder_search_terms" msgid="452013643838126923"/>
     <string name="safety_center_system_and_updates_summary" msgid="6301092688146734950">"Updates"</string>
     <string name="safety_center_security_update_search_terms" msgid="545517841376162382">"Updates, update, security update, security updates"</string>
-    <string name="safety_center_system_component_update_search_terms" msgid="3110390275537109543"></string>
+    <string name="safety_center_system_component_update_search_terms" msgid="3110390275537109543"/>
     <string name="safety_center_android_lock_screen_search_terms" msgid="4741569259158180141">"Device lock, Screen Lock, lock screen, lockscreen, password, pin, pattern, lock, unlock"</string>
     <string name="safety_center_fingerprint_unlock_search_terms" msgid="954519907845160433">"Fingerprint, Finger, Add fingerprint"</string>
     <string name="safety_center_face_unlock_search_terms" msgid="2994457346086700870">"Face Unlock, Face"</string>
@@ -6231,4 +6215,188 @@
     <string name="permit_access_hid" msgid="870824396872060949">"Allow app to discover human interface devices (HIDs)"</string>
     <string name="allow_access_hid_description" msgid="5950783046013896271">"If you allow access, malicious apps may reprogram your HIDs to compromise your system. For example, apps could simulate your keyboard or mouse inputs to control your system when it isn\'t open. Make sure that you trust apps when allowing access."</string>
     <string name="keywords_access_hid" msgid="682455265293135353">"hid, human, access, device"</string>
-</resources>
+<string name="bluetooth_hearing_device_input_routing_builtin_option" msgid="4510810043725216734">"This phone\'s microphone"</string>
+    <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Route sounds to your hearing device or phone speaker"</string>
+    <string name="shared_network_footer" msgid="5178404860420039168">"Contact the network owner or a device admin to make changes to this network."</string>
+    <string name="bluetooth_disable_leaudio" msgid="8619410595945155354">"Disable Bluetooth LE audio"</string>
+    <string name="bluetooth_disable_leaudio_summary" msgid="4756307633476985470">"Disables the Bluetooth LE audio feature if the device supports LE audio hardware capabilities."</string>
+    <string name="top_intro_region_title" msgid="2336323415395642117">"The region that you choose affects how your phone displays time, dates, temperature and more"</string>
+    <string name="security_settings_face_preference_title" msgid="2126625155005348417">"Face Unlock"</string>
+    <string name="security_settings_face_profile_preference_title" msgid="7519527436266375005">"Face Unlock for work"</string>
+    <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"How to set up Face Unlock"</string>
+    <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Set up Face Unlock"</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"If accessibility Face Unlock is turned off, some setup steps may not work properly with TalkBack."</string>
+    <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"Unlock with your face"</string>
+    <string name="security_settings_face_enroll_consent_introduction_title" msgid="3942331854413767814">"Allow face unlock"</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Use your face to unlock your phone or approve purchases.\n\nNote: You can’t use your face to unlock this device. For more information, contact your organisation’s admin."</string>
+    <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Use your face to unlock your phone, authorise purchases or sign in to apps"</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title" msgid="6835778900387289683">"Improve Face Unlock performance"</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle" msgid="7055780282999744813">"Set up Face Unlock again"</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title" msgid="4421818770682557621">"Set up Face Unlock again"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title" msgid="6194184776580066012">"Set up Face Unlock"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body" msgid="2670118180411127323">"Delete your current face model to set up Face Unlock again.\n\nYour face model will be permanently and securely deleted.\n\nAfter deletion, you will need your PIN, pattern or password to unlock your phone or for authentication in apps."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint" msgid="2469599074650327489">"Delete your current face model to set up Face Unlock again.\n\nYour face model will be permanently and securely deleted.\n\nAfter deletion, you will need your fingerprint, PIN, pattern or password to unlock your phone or for authentication in apps."</string>
+    <string name="security_settings_face_settings_use_face_category" msgid="1638314154119800188">"Use Face Unlock to"</string>
+    <string name="security_settings_face_footer_description_class3" msgid="2639208414351635622"/>
+    <string name="security_settings_face_footer_learn_more_description" msgid="1418112576619086897"/>
+    <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"When using Face Unlock"</string>
+    <string name="security_settings_face_settings_require_attention_details" msgid="2546230511769544074">"To unlock the phone, your eyes must be open"</string>
+    <string name="security_settings_face_settings_require_confirmation_details" msgid="3498729789625461914">"When using Face Unlock in apps, always require confirmation step"</string>
+    <string name="security_settings_face_settings_enroll" msgid="3726313826693825029">"Set up Face Unlock"</string>
+    <string name="security_settings_face_settings_remove_dialog_details" msgid="916131485988121592">"Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your PIN, pattern or password to unlock your phone or for authentication in apps."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience" msgid="475568135197468990">"Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your PIN, pattern or password to unlock your phone."</string>
+    <string name="security_settings_face_remove_dialog_details_fingerprint" msgid="7609582230650860974">"Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your fingerprint, PIN, pattern or password to unlock your phone or for authentication in apps."</string>
+    <string name="security_settings_face_remove_dialog_details_fingerprint_conv" msgid="2627374706274503259">"Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your fingerprint, PIN, pattern or password to unlock your phone."</string>
+    <string name="security_settings_face_settings_context_subtitle" msgid="8284262560781442403">"Use Face Unlock to unlock your phone"</string>
+    <string name="security_settings_fingerprint_description" msgid="629796299137157167"/>
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"Use your fingerprint to unlock your phone or approve purchases.\n\nNote: You can’t use your fingerprint to unlock this device. For more information, contact your organisation’s admin."</string>
+    <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"When you set up Face Unlock and Fingerprint Unlock, your phone will ask for your fingerprint when you wear a mask or are in a dark area.\n\nWatch Unlock is another convenient way to unlock your phone, for example, when your fingers are wet or face isn’t recognised."</string>
+    <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Watch Unlock is another convenient way to unlock your phone, for example, when your fingerprint isn’t recognised."</string>
+    <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Watch Unlock is another convenient way to unlock your phone, for example, when your face isn’t recognised."</string>
+    <string name="security_settings_activeunlock_require_face_fingerprint_setup_title" msgid="8776904312629209685">"Set up Face or Fingerprint Unlock first"</string>
+    <string name="security_settings_activeunlock_require_face_setup_title" msgid="1428795376597739880">"Set up Face Unlock first"</string>
+    <string name="security_settings_remoteauth_enroll_introduction_message" msgid="8737276885766036074">"Watch Unlock is another convenient way to unlock this phone, for example, when your fingers are wet or face isn\'t recognised.\n\nYou can use your watch to unlock this phone when you:"</string>
+    <string name="security_settings_remoteauth_enroll_introduction_info_lock_open" msgid="8570511335628725116">"Your watch must be unlocked, on your wrist and within reach of this phone. You won\'t need to unlock your watch again while it\'s on your wrist."</string>
+    <string name="security_settings_remoteauth_enroll_introduction_info_notifications" msgid="4298855831154039694">"When this phone is unlocked, you\'ll get notified on your watch. If it was unlocked when you didn\'t intend to, tap the notification to lock the phone again."</string>
+    <string name="security_settings_remoteauth_enroll_finish_description" msgid="4876209907275244653">"You can now use your watch to unlock this phone when you swipe up on the lock screen or tap a notification"</string>
+    <string name="security_settings_remoteauth_settings_description" msgid="2758239650119457964">"You can use your watch to unlock this phone when you swipe up on the lock screen or tap a notification"</string>
+    <string name="security_settings_remoteauth_settings_info_footer" msgid="795894033901478120">"To use Watch Unlock, your watch must be unlocked, on your wrist, within reach and connected to this phone. If the connection is interrupted, you\'ll need to unlock the phone before you can use Watch Unlock.\n\nKeep in mind:\nYou can only have one watch set up at a time. To add another watch, remove the current one first."</string>
+    <string name="security_settings_biometric_preference_title" msgid="298146483579539448">"Face and Fingerprint Unlock"</string>
+    <string name="security_settings_work_biometric_preference_title" msgid="3121755615533533585">"Face and Fingerprint Unlock for work"</string>
+    <string name="biometric_settings_intro" msgid="4263069383955676756">"When you set up Face Unlock and Fingerprint Unlock, your phone will ask for your fingerprint when you wear a mask or are in a dark area"</string>
+    <string name="biometric_settings_use_biometric_unlock_phone" msgid="8180914579885804358">"Unlock your phone"</string>
+    <string name="biometric_settings_add_face_in_split_mode_title" msgid="6041232223862753222">"Can’t set up Face Unlock"</string>
+    <string name="biometric_settings_add_face_in_split_mode_message" msgid="1904738532939614456">"Exit split screen to set up Face Unlock"</string>
+    <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="4876965433600560365">"You’ve chosen to use your fingerprint as one way to unlock your phone. If you skip now, you’ll need to set this up later. Setup takes only a minute or so."</string>
+    <string name="private_space_biometric_title" msgid="3934339826674553174">"Face and Fingerprint Unlock"</string>
+    <string name="private_space_face_title" msgid="3290402865367663079">"Face Unlock"</string>
+    <string name="private_space_face_unlock_title" msgid="462248384776453613">"Face Unlock for private space"</string>
+    <string name="private_space_biometric_unlock_title" msgid="1978145237698659673">"Face and Fingerprint Unlock for private space"</string>
+    <string name="private_space_fingerprint_enroll_introduction_footer_message" msgid="7125255484447984854">"Your private space can be unlocked when you don\'t intend to, like if someone holds up your phone to your finger."</string>
+    <string name="private_space_face_enroll_introduction_title" msgid="3717541082520006032">"Set up Face Unlock for private space"</string>
+    <string name="private_space_face_enroll_introduction_info_looking" msgid="5694757845303924042">"Looking at the phone can unlock private space even when you don\'t intend to. Your private space can also be unlocked by someone who looks a lot like you, like an identical sibling, or if someone holds the device up to your face."</string>
+    <string name="private_space_face_settings_footer" msgid="7722256209563543711">"Use your face to unlock your private space.\n\nBear in mind:\nYou can only have one face set up at a time. To add another face, delete the current one.\n\nLooking at the phone can unlock it when you don\'t intend to.\n\nYour private space can be unlocked by someone else if your device is held up to your face.\n\nYour private space can be unlocked by someone who looks a lot like you, like an identical sibling."</string>
+    <string name="private_space_face_settings_require_confirmation_details" msgid="5406498664903812249">"When using Face Unlock, always require confirmation step"</string>
+    <string name="private_space_delete_summary" msgid="7507302208399543921">"Your private space will be permanently deleted from your device. \n\nAll apps in your space and their data will also be permanently deleted from your phone\'s "<b>"internal storage"</b>"."</string>
+    <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Secure your phone"</string>
+    <string name="face_unlock_skip_face" msgid="189695556498300008">"Continue without Face Unlock"</string>
+    <string name="unlock_disable_frp_warning_content_pattern" msgid="6246242612158828147">"A pattern protects your phone if it’s lost or stolen"</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="2259825377085781801">"A pattern protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>This also deletes the fingerprint model stored on your device. You won’t be able to use your fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_face" msgid="4699508435412336378">"A pattern protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>Your face model will also be permanently and securely deleted. You won’t be able to use your face for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint" msgid="7049706229344804972">"A pattern protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>This deletes the fingerprint model stored on your device. Your face model will also be permanently and securely deleted. You won’t be able to use your face or fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pin" msgid="122154942944422284">"A PIN protects your phone if it’s lost or stolen"</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="983373874470746066">"A PIN protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>This also deletes the fingerprint model stored on your device. You won’t be able to use your fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pin_face" msgid="5607150515413131761">"A PIN protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>Your face model will also be permanently and securely deleted. You won’t be able to use your face for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint" msgid="1821792325159866312">"A PIN protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>This deletes the fingerprint model stored on your device. Your face model will also be permanently and securely deleted. You won’t be able to use your face or fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_password" msgid="6422723907917376210">"A password protects your phone if it’s lost or stolen"</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8899452884016354856">"A password protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>This also deletes the fingerprint model stored on your device. You won’t be able to use your fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_password_face" msgid="1811067332335964495">"A password protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>Your face model will also be permanently and securely deleted. You won’t be able to use your face for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_password_face_fingerprint" msgid="7063649456205159491">"A password protects your phone if it’s lost or stolen.<xliff:g id="EMPTY_LINE">
+
+</xliff:g>This deletes the fingerprint model stored on your device. Your face model will also be permanently and securely deleted. You won’t be able to use your face or fingerprint for authentication in apps."</string>
+    <string name="unlock_disable_frp_warning_content_face_authbound_keys" msgid="8120786951217029818">"Your screen lock and Face Unlock will be removed.<xliff:g id="EMPTY_LINE_0">
+
+</xliff:g>Contactless payments won\'t be available.<xliff:g id="EMPTY_LINE_1">
+
+</xliff:g>Wallet, payment and other apps that require authentication may not work properly."</string>
+    <string name="unlock_disable_frp_warning_content_face_fingerprint_authbound_keys" msgid="1574263040292024543">"Your screen lock and Face and Fingerprint Unlock will be removed.<xliff:g id="EMPTY_LINE_0">
+
+</xliff:g>Contactless payments won\'t be available.<xliff:g id="EMPTY_LINE_1">
+
+</xliff:g>Wallet, payment and other apps that require authentication may not work properly."</string>
+    <string name="external_display_on" msgid="2560104443500154333">"On"</string>
+    <string name="external_display_off" msgid="5634413756025351374">"Off"</string>
+    <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"expand"</string>
+    <string name="wifi_hidden_network_warning" msgid="3937433813754746158">"If your router is not broadcasting a network ID but you would like to connect to it in the future, you can set the network as hidden.\n\nThis may create a security risk because your phone will regularly broadcast its signal to find the network.\n\nSetting the network as hidden will not change your router settings."</string>
+    <string name="wifi_shared" msgid="8850748923537589782">"Share with other device users"</string>
+    <string name="shared_message" msgid="2104244057926025072">"shared"</string>
+    <string name="private_message" msgid="5897966950396765392">"private"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"Confirm"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"Switch to <xliff:g id="SHARED">%1$s</xliff:g> \'<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\' network?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"You\'re currently connected to a <xliff:g id="SHARED_0">%1$s</xliff:g> network with the same name. When you switch, you\'ll disconnect from the <xliff:g id="SHARED_1">%2$s</xliff:g> network and then reconnect to the <xliff:g id="PRIVATE">%3$s</xliff:g> network. You may temporarily have no Internet."</string>
+    <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"Allow"</string>
+    <string name="wifi_shared_network_login_screen_warning" msgid="7611029233083731552">"This is a shared network. You can change this setting once logged in."</string>
+    <string name="share_wifi_network" msgid="4064997404339571584">"Share this network with other device users"</string>
+    <string name="share_wifi_network_summary" msgid="4316236421149769333">"All users on this device can view and connect to a shared network. Administrators can delete a shared network. Learn more"</string>
+    <string name="edit_wifi_network_configuration" msgid="5712989655083072417">"Allow other users to edit network configuration"</string>
+    <string name="shared_wifi_forget_dialog_title" msgid="741401954205753903">"Forget all device users?"</string>
+    <string name="sound_settings" msgid="7622986039384531304">"Sound and vibration"</string>
+    <string name="display_settings" msgid="7197750639709493852">"Display"</string>
+    <string name="style_suggestion_title" msgid="1213747484782364775">"Customise your phone"</string>
+    <string name="low_light_display_behavior_screen_off" msgid="4203092158668290404">"Screen off"</string>
+    <string name="low_light_display_behavior_screen_off_full_summary" msgid="6671607843870561892">"Screen will turn off when your environment is dark"</string>
+    <string name="doze_always_on_title" msgid="7326245192352868477">"Always show time and info"</string>
+    <string name="imei_multi_sim_primary" msgid="4320457587114117400">"IMEI (SIM slot <xliff:g id="IMEI_SLOT_ID_PRIMARY">%1$d</xliff:g>) (primary)"</string>
+    <string name="meid_multi_sim_primary" msgid="6269908735700854437">"MEID (SIM slot <xliff:g id="MEID_SLOT_ID_PRIMARY">%1$d</xliff:g>) (primary)"</string>
+    <string name="storage_os_detail_dialog_system" msgid="1423073052313067844">"This includes your operating system and the files that are needed to keep your phone running smoothly. To protect their integrity, these files can’t be accessed."</string>
+    <string name="reset_private_space_delete_dialog" msgid="2325106559507364385">"If you have a private space on your device, it will be permanently deleted and the Google Account added to your space will be removed. \n\nAll apps in your space and their data will also be permanently deleted from your phone\'s "<b>"internal storage"</b>"."</string>
+    <string name="lockpassword_choose_your_password_header_for_face" msgid="622276003801157839">"To use Face Unlock, set password"</string>
+    <string name="lockpassword_choose_your_pattern_header_for_face" msgid="7333603579958317102">"To use Face Unlock, set pattern"</string>
+    <string name="lockpassword_choose_your_pin_header_for_face" msgid="704061826984851309">"To use Face Unlock, set PIN"</string>
+    <string name="activity_not_found" msgid="5464331414465894254">"Application is not installed on your phone."</string>
+    <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Languages and input"</string>
+    <string name="keyboard_settings_category" msgid="5392847229300117064">"Keyboard &amp; input methods"</string>
+    <string name="hardkeyboard_category" msgid="8729780593378161071">"Physical keyboard settings"</string>
+    <string name="keyboard_and_input_methods_category" msgid="5296847777802891649">"Keyboards"</string>
+    <string name="virtual_keyboard_category" msgid="2339505603075527212">"On-screen keyboard"</string>
+    <string name="keywords_virtual_keyboard" msgid="1494726424879503434">"Gboard"</string>
+    <string name="available_virtual_keyboard_category" msgid="6930012948152749337">"Available on-screen keyboard"</string>
+    <string name="add_virtual_keyboard" msgid="2515850206289352606">"Manage on-screen keyboards"</string>
+    <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"Show list of shortcuts"</string>
+    <string name="virtual_keyboards_for_work_title" msgid="786459157034008675">"On-screen keyboard for work"</string>
+    <string name="default_keyboard_layout" msgid="8690689331289452201">"Default"</string>
+    <string name="keyboard_layout_dialog_title" msgid="8770130364048089954">"Choose keyboard layout"</string>
+    <string name="keyboard_layout_dialog_setup_button" msgid="6546245862744626706">"Set up keyboard layouts"</string>
+    <string name="keyboard_layout_dialog_switch_hint" msgid="3303564123674979354">"To switch, press Control-Spacebar"</string>
+    <string name="keyboard_layout_default_label" msgid="6078569989261528039">"Default"</string>
+    <string name="builtin_keyboard_settings_title" msgid="5096171620714179661">"Physical keyboard"</string>
+    <string name="keyboard_category_title" msgid="6841712758039893220">"Physical keyboard options"</string>
+    <string name="accessibility_screen_magnification_keyboard_shortcuts_flag_off_summary" msgid="4390658165464462006">"&lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. Use shortcut to start magnification&lt;br/&gt; {1,number,integer}. Press &lt;xliff:g id=meta&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id=alt&gt;%2$s&lt;/xliff:g&gt; + arrow keys to move around screen&lt;br/&gt; {2,number,integer}. Press &lt;xliff:g id=meta&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id=alt&gt;%2$s&lt;/xliff:g&gt; and \'+\' or \'-\' to adjust zoom&lt;br/&gt; {3,number,integer}. Use shortcut to stop magnification"</string>
+    <string name="accessibility_tutorial_dialog_title_two_finger_double" msgid="5749704453829390283">"%1$d-finger double-tap shortcut"</string>
+    <string name="accessibility_shortcut_edit_screen_title_two_finger_double_tap" msgid="8952595692906527694">"%1$d-finger double-tap"</string>
+    <string name="accessibility_shortcut_edit_screen_summary_two_finger_double_tap" msgid="385404127425496362">"Quickly tap the screen twice with %1$d fingers"</string>
+    <string name="accessibility_shortcut_two_finger_double_tap_keyword" msgid="6271718715836961167">"%1$d-finger double-tap"</string>
+    <string name="accessibility_shortcut_unassigned_setting_unavailable_summary" msgid="993486098872935043">"To use this, turn on the %1$s shortcut on an accessibility feature\'s page"</string>
+    <string name="accessibilty_autoclick_preference_subtitle_short_delay" msgid="2981206111858937724">"{count,plural, =1{Short ({time} second)}other{Short ({time} seconds)}}"</string>
+    <string name="accessibilty_autoclick_preference_subtitle_medium_delay" msgid="6867395206533459204">"{count,plural, =1{Medium ({time} second)}other{Medium ({time} seconds)}}"</string>
+    <string name="accessibilty_autoclick_preference_subtitle_long_delay" msgid="4079139970819335593">"{count,plural, =1{Long ({time} second)}other{Long ({time} seconds)}}"</string>
+    <string name="keyboard_settings_title" msgid="2199286020368890114">"Android keyboard"</string>
+    <string name="notification_listener_security_warning_summary" msgid="1131986567509818121">"The <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> app will be able to read all notifications, including personal information such as contact names, photos and the text of messages that you receive. This app will also be able to snooze or dismiss notifications or take action on buttons in notifications, including answering phone calls. \n\nThis will also give the app the ability to turn Do Not Disturb on or off and change related settings."</string>
+    <string name="notif_type_ongoing_summary" msgid="2348867528527573574">"Ongoing communication from apps in use, navigation, phone calls and more"</string>
+    <string name="usb_default_info" msgid="167172599497085266">"When another device is connected and your phone is unlocked, these settings will be applied. Only connect to trusted devices."</string>
+    <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Hand the phone to your parent to start setting this up"</string>
+    <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Hand the phone to your parent to allow this setting to be changed."</string>
+    <string name="condition_zen_summary_phone_muted" msgid="6516753722927681820">"Phone muted"</string>
+    <string name="disabled_feature_reason_slow_down_phone" msgid="5743569256308510404">"This feature has been turned off because it slows down your phone"</string>
+    <string name="mobile_data_settings_summary_auto_switch" msgid="7851549787645698945">"Phone will automatically switch to this mobile operator when in range"</string>
+    <string name="imei_primary" msgid="5312232202518974440">"IMEI (primary)"</string>
+    <string name="meid_primary" msgid="3256732684155678106">"MEID (primary)"</string>
+    <string name="thread_network_settings_footer_title" msgid="7385600318850220927">"Thread helps connect your smart home devices, boosting efficiency and performance.\n\nWhen enabled, this device is eligible to join a Thread network, allowing control of Matter-supported devices through this phone."</string>
+    <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> wants to connect to this phone.\n\nYou haven’t connected to <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> before."</string>
+    <string name="dream_setup_description" msgid="7508547154038580296">"Choose what you’ll see on your screen when your tablet is docked. Your device may use more energy when a screen saver is used."</string>
+    <string name="bluetooth_details_permissions_sync_title" msgid="7277580382321003521">"Sync permissions from phone"</string>
+    <string name="bluetooth_details_permissions_sync_summary" msgid="8125037984381432059">"Give your watch the same app permissions that you’ve allowed on this phone"</string>
+    <string name="audio_sharing_comfirm_dialog_content" msgid="3479217934447446066">"To start sharing audio, first connect LE Audio headphones to your phone"</string>
+    <string name="supervision_web_content_filters_top_intro" msgid="8056274290725144441">"Help filter explicit content on some apps and browsers on this phone. Explicit content may still show on other apps, devices or browsers."</string>
+    <string name="identity_check_issue_card_summary" msgid="2563597018905365665">"Identity Check prevents unwanted access to your apps. Now available with any app that uses Fingerprint or Face Unlock."</string>
+    <string name="identity_check_promo_card_summary" msgid="3363308846024080168">"Updates:\n"<ul><li>"Identity Check adds protection to any app that uses Fingerprint or Face Unlock"</li>\n<li>"Over time, Identity Check may add more ways to verify that it\'s you and secure apps on your device. "<a href="https://support.google.com/android?p=identity_check">"Learn more about when and where you\'re protected"</a></li></ul></string>
+    <string name="lock_screen_title" msgid="4701994278040604018">"Screen lock"</string>
+    <string name="identity_check_notification_summary" msgid="3762060079941053730">"Identity Check prevents unwanted access to your apps. Now available with any app that uses Fingerprint or Face Unlock."</string>
+    <string name="device_unlock_subpage_default_summary" msgid="7321899509231836294"/>
+    </resources>
