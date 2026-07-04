@@ -193,7 +193,7 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
                 final String librednsHostname =
                         res.getString(R.string.private_dns_hostname_libredns);
                 final String librednsnoadsHostname =
-                        res.getString(R.string.private_dns_hostname_quad9_libredns_noads);
+                        res.getString(R.string.private_dns_hostname_libredns_noads);
                 if (privateDnsHostname.equals(cloudflareHostname)) {
                     return res.getString(R.string.private_dns_mode_cloudflare);
                 } else if (privateDnsHostname.equals(adguardHostname)) {
