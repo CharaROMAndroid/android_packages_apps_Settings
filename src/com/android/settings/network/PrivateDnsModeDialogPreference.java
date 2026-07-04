@@ -100,7 +100,7 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_QUAD9_ECS, R.id.private_dns_mode_quad9_ecs);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_QUAD9_UNSECURED_ECS, R.id.private_dns_mode_quad9_unsecured_ecs);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_LIBREDNS, R.id.private_dns_mode_libredns);
-        PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_LIBREDNS_NOADS, R.id.private_dns_mode_libredns_noads)
+        PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_LIBREDNS_NOADS, R.id.private_dns_mode_libredns_noads);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_OPPORTUNISTIC, R.id.private_dns_mode_opportunistic);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_PROVIDER_HOSTNAME, R.id.private_dns_mode_provider);
     }
