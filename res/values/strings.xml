@@ -4074,9 +4074,9 @@
 
     <!-- Main Clear -->
     <!-- Button title to factory data reset the entire device [CHAR LIMIT=NONE] -->
-    <string name="main_clear_title">Erase all data (factory reset)</string>
+    <string name="main_clear_title">Erase all data (user data reset)</string>
     <!-- Button title to factory data reset the entire device. The "(factory reset)" part is optional for translation. [CHAR LIMIT=30 BACKUP_MESSAGE_ID=3531267871084279512]-->
-    <string name="main_clear_short_title">Erase all data (factory reset)</string>
+    <string name="main_clear_short_title">Erase all data (user data reset)</string>
     <!-- SD card & phone storage settings screen, list of items in user data storage (USB storage or SD card) that will be erased during this operation [CHAR LIMIT=NONE] -->
     <string name="main_clear_desc_also_erases_external"><li>Music</li>\n<li>Photos</li>\n<li>Other user data</li></string>
     <!-- SD card & phone storage settings screen, list of items on an eSIM (embedded SIM) that will be erased during this operation [CHAR LIMIT=NONE] -->
@@ -4090,7 +4090,7 @@
     <!-- Main clear confirmation screen title [CHAR LIMIT=33] -->
     <string name="main_clear_confirm_title">Erase all data?</string>
     <!-- Error message for users that aren't allowed to factory reset [CHAR LIMIT=none] -->
-    <string name="main_clear_not_available">Factory reset is not available for this user</string>
+    <string name="main_clear_not_available">User data reset is not available for this user</string>
     <!-- Main clear progress screen title [CHAR LIMIT=30] -->
     <string name="main_clear_progress_title">Erasing</string>
     <!-- Main clear progress screen text [CHAR LIMIT=75] -->
@@ -12728,7 +12728,7 @@
     <!-- Debugging developer settings: enable angle as system driver summary [CHAR LIMIT=NONE] -->
     <string name="enable_angle_as_system_driver_summary">Warning: ANGLE will be set as the default OpenGL ES driver. This feature is experimental and may not be compatible with some camera or video apps. Back up any important data before turning this on.</string>
     <!--Dialog body text used to explain a reboot is required after changing ANGLE as system GLES driver setting-->
-    <string name="reboot_dialog_enable_angle_as_system_driver">To change the system OpenGL ES driver, the device will restart. Back up any important data before restarting. If restarting fails, a factory reset will be needed to use the device.</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">To change the system OpenGL ES driver, the device will restart. Back up any important data before restarting. If restarting fails, a user data reset will be needed to use the device.</string>
 
     <!-- Title for App Compatibility Changes dashboard where developers can configure per-app overrides for compatibility changes [CHAR LIMIT=50] -->
     <string name="platform_compat_dashboard_title">App Compatibility Changes</string>
@@ -13639,20 +13639,20 @@
         &amp;#8226; Software integrity cannot be guaranteed&lt;br&gt;
         &amp;#8226; Data stored on the phone while the bootloader is unlocked may be at risk&lt;br&gt;
         &amp;#8226; Some features will be disabled, which may affect certain apps&lt;br&gt;&lt;br&gt;
-        To return to production mode, you\'ll need to switch back to 4 KB mode and lock the bootloader. This will factory reset your device. After the device successfully boots into Android, disable OEM unlocking in Developer options.&lt;br&gt;&lt;br&gt;
+        To return to production mode, you\'ll need to switch back to 4 KB mode and lock the bootloader. This will perform a user data reset on your device. After the device successfully boots into Android, disable OEM unlocking in Developer options.&lt;br&gt;&lt;br&gt;
         To proceed in switching to 16 KB mode, tap \"Erase all data and Update\". This will reboot the device.</string>
     <string name="confirm_enable_16k_pages_text">You are in the page-agnostic mode running a 4 KB kernel, and you are switching to the 16 KB mode.
         Software integrity cannot be guaranteed in this mode, and any data stored on the phone while the bootloader is unlocked may be at risk.
         This will reboot the device. Some features will be disabled in these modes, so some applications may not work.
         To return the device to production mode, you would need to then, switch back to the 4 KB mode and lock the bootloader,
-        which factory resets the device. After the device successfully boots into Android, disable OEM unlocking in Developer options.</string>
+        which would wipe all data of the device. After the device successfully boots into Android, disable OEM unlocking in Developer options.</string>
     <!-- dialog title to confirm user wishes to revert to 4k page size kernel -->
     <string name="confirm_enable_4k_pages_title">Switch from 16 KB mode to 4 KB mode</string>
     <!-- dialog message to confirm user wishes to enable 4K page size -->
     <string name="confirm_enable_4k_pages_text">You are in the page-agnostic mode running a 16 KB kernel, and you are switching to the 4 KB mode.
         Software integrity cannot be guaranteed in this mode, and any data stored on the phone while the bootloader is unlocked may be at risk.
         This will reboot the device. Some features will be disabled in these modes, so some applications may not work. To return the device to production mode,
-        you would need to then lock the bootloader, which factory resets the device. After the device successfully boots into Android, disable OEM unlocking in Developer options.</string>
+        you would need to then lock the bootloader, which would wipe all data of the device. After the device successfully boots into Android, disable OEM unlocking in Developer options.</string>
     <!-- Toast message when 16k OTA update fails -->
     <string name="toast_16k_update_failed_text">Failed to update kernel to 16 KB pages compatible kernel.</string>
     <string name="progress_16k_ota_title">Applying change</string>
@@ -13666,7 +13666,7 @@
         Software integrity cannot be guaranteed in this mode, and any data stored on the phone while the bootloader is unlocked may be at risk.
         All user data and settings will be wiped when activating 16 KB mode. Once the bootloader is unlocked, activating the 16 KB option will require two reboots.
         Once you are in this mode, you can switch back and forth between 4 KB and 16 KB mode with a single reboot. Some features will be disabled in these modes,
-        so some applications may not work. To return the device to production mode, you would need to switch back to 4 KB mode and then OEM/bootloader lock (which factory resets) the device.
+        so some applications may not work. To return the device to production mode, you would need to switch back to 4 KB mode and then OEM/bootloader lock (which would wipe all data of) the device.
         Please unlock the bootloader and try again. You can see instructions for how to do this at
         &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;
     </string>
@@ -13679,7 +13679,7 @@
     <!-- persistent notification 16k page agnostic mode title -->
     <string name="page_agnostic_4k_pages_text">You are in the 4 KB mode of the page-agnostic mode. Software integrity cannot be guaranteed in this mode,
         and any data stored on the phone while the bootloader is unlocked may be at risk. Some features will be disabled in these modes, so some applications may not work.
-        In order to re-enter the production mode, you must lock the bootloader of the device. This would factory reset the device again and restore it to production settings.
+        In order to re-enter the production mode, you must lock the bootloader of the device. This would clear all user data again and restore it to production settings.
         After the device successfully boots into Android, disable OEM unlocking in Developer options.
         If the device fails to boot into Android or is unstable, re-flash the device with the latest factory images from
         &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;
@@ -13693,7 +13693,7 @@
         In order to re-enter the production mode, you must, switch back to 4 KB mode and then lock the bootloader of the device. Tap to read more.</string>
     <string name="page_agnostic_16k_pages_text">You are in the 16 KB mode of the page-agnostic mode. Software integrity cannot be guaranteed in this mode,
         and any data stored on the phone while the bootloader is unlocked may be at risk. Some features will be disabled in these modes, so some applications may not work.
-        In order to re-enter the production mode, you must, switch back to 4 KB mode and then lock the bootloader of the device. This would factory reset the device again and
+        In order to re-enter the production mode, you must, switch back to 4 KB mode and then lock the bootloader of the device. This would clear all user data again and
         restore it to production settings. After the device successfully boots into Android, disable OEM unlocking in Developer options.
         If the device fails to boot into Android or is unstable, re-flash the device with the latest factory images from
         &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;
