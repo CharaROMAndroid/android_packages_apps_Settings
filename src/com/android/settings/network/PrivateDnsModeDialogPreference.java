@@ -469,7 +469,7 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
             modeToSet = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
         } else if (mMode == PRIVATE_DNS_MODE_LIBREDNS_NOADS) {
             final String librednsnoadsHostname =
-                    context.getString(R.string.private_dns_hostname_quad9_libredns_noads);
+                    context.getString(R.string.private_dns_hostname_libredns_noads);
             ConnectivitySettingsManager.setPrivateDnsHostname(context, librednsnoadsHostname);
             modeToSet = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
         }
