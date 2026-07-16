@@ -18,7 +18,11 @@ package com.android.settings.fuelgauge.batterysaver
 import android.Manifest
 import android.app.settings.SettingsEnums.ACTION_BATTERY_SAVER
 import android.content.Context
+import android.database.ContentObserver
+import android.os.Handler
+import android.os.Looper
 import android.os.PowerManager
+import android.provider.Settings
 import com.android.settings.R
 import com.android.settings.contract.KEY_BATTERY_SAVER
 import com.android.settings.fuelgauge.BatterySaverReceiver
@@ -77,14 +81,29 @@ class BatterySaverPreference :
     override val sensitivityLevel
         get() = SensitivityLevel.NO_SENSITIVITY
 
-    override fun isEnabled(context: Context) =
-        !BatteryStatus(BatteryUtils.getBatteryIntent(context)).isPluggedIn
+    override fun isEnabled(context: Context): Boolean {
+        if (!BatteryStatus(BatteryUtils.getBatteryIntent(context)).isPluggedIn) {
+            return true
+        }
+        return Settings.Global.getInt(
+            context.contentResolver,
+            Settings.Global.LOW_POWER_MODE_KEEP_ENABLED_WHILE_CHARGING,
+            0,
+        ) == 1
+    }
 
     @Suppress("UNCHECKED_CAST")
     class BatterySaverStore(private val context: Context) :
         AbstractKeyedDataObservable<String>(), KeyValueStore, BatterySaverListener {
         private lateinit var batterySaverReceiver: BatterySaverReceiver
         private lateinit var scope: CoroutineScope
+        private val keepEnabledWhileChargingObserver =
+            object : ContentObserver(Handler(Looper.getMainLooper())) {
+                override fun onChange(selfChange: Boolean) {
+                    // The setting only affects isEnabled(), not the checked value itself.
+                    notifyChange(KEY, PreferenceChangeReason.STATE)
+                }
+            }
 
         override fun contains(key: String) = key == KEY
 
@@ -110,11 +129,18 @@ class BatterySaverPreference :
                     setBatterySaverListener(this@BatterySaverStore)
                     setListening(true)
                 }
+            context.contentResolver.registerContentObserver(
+                Settings.Global.getUriFor(
+                    Settings.Global.LOW_POWER_MODE_KEEP_ENABLED_WHILE_CHARGING),
+                /* notifyForDescendants= */ false,
+                keepEnabledWhileChargingObserver,
+            )
         }
 
         override fun onLastObserverRemoved() {
             scope.cancel()
             batterySaverReceiver.setListening(false)
+            context.contentResolver.unregisterContentObserver(keepEnabledWhileChargingObserver)
         }
 
         override fun onPowerSaveModeChanged() {
