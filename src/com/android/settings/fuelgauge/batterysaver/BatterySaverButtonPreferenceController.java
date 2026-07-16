@@ -20,10 +20,12 @@ import static com.android.settingslib.fuelgauge.BatterySaverLogging.SAVER_ENABLE
 
 import android.content.ContentResolver;
 import android.content.Context;
+import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.PowerManager;
+import android.provider.Settings.Global;
 import android.provider.SettingsSlicesContract;
 
 import androidx.preference.PreferenceScreen;
@@ -49,6 +51,14 @@ public class BatterySaverButtonPreferenceController extends TogglePreferenceCont
 
     private Handler mHandler;
     private MainSwitchPreference mPreference;
+    private boolean mPluggedIn;
+    private final ContentObserver mKeepEnabledWhileChargingObserver =
+            new ContentObserver(new Handler(Looper.getMainLooper())) {
+                @Override
+                public void onChange(boolean selfChange) {
+                    updateSwitchEnabledState();
+                }
+            };
 
     public BatterySaverButtonPreferenceController(Context context, String key) {
         super(context, key);
@@ -81,11 +91,17 @@ public class BatterySaverButtonPreferenceController extends TogglePreferenceCont
     @Override
     public void onStart() {
         mBatterySaverReceiver.setListening(true);
+        mContext.getContentResolver().registerContentObserver(
+                Global.getUriFor(Global.LOW_POWER_MODE_KEEP_ENABLED_WHILE_CHARGING),
+                false /* notifyForDescendants */,
+                mKeepEnabledWhileChargingObserver);
     }
 
     @Override
     public void onStop() {
         mBatterySaverReceiver.setListening(false);
+        mContext.getContentResolver().unregisterContentObserver(
+                mKeepEnabledWhileChargingObserver);
         mHandler.removeCallbacksAndMessages(null /* token */);
     }
 
@@ -126,8 +142,16 @@ public class BatterySaverButtonPreferenceController extends TogglePreferenceCont
 
     @Override
     public void onBatteryChanged(boolean pluggedIn) {
+        mPluggedIn = pluggedIn;
+        updateSwitchEnabledState();
+    }
+
+    private void updateSwitchEnabledState() {
         if (mPreference != null) {
-            mPreference.setEnabled(!pluggedIn);
+            final boolean keepEnabledWhileCharging = Global.getInt(
+                    mContext.getContentResolver(),
+                    Global.LOW_POWER_MODE_KEEP_ENABLED_WHILE_CHARGING, 0) == 1;
+            mPreference.setEnabled(!mPluggedIn || keepEnabledWhileCharging);
         }
     }
 }
