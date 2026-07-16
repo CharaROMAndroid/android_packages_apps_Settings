@@ -87,7 +87,8 @@ class BatterySaverPreference :
     override val sensitivityLevel
         get() = SensitivityLevel.NO_SENSITIVITY
 
-    override fun getEnabledDescription(): String = "This device must not be plugged in."
+    override fun getEnabledDescription(): String =
+        "This device must not be plugged in unless Battery Saver while charging is enabled."
 
     override fun getEnabledStability() = PreconditionStability.UNSTABLE
 
