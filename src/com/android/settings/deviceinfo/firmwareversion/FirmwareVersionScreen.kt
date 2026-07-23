@@ -77,7 +77,6 @@ open class FirmwareVersionScreen : PreferenceScreenMixin, PreferenceSummaryProvi
             +BuildMaintainerPreference()
             +SecurityPatchLevelPreference()
             +LineageVendorSecurityPatchLevelPreference()
-            +MainlineModuleVersionPreference()
             +BasebandVersionPreference()
             +KernelVersionPreference()
             +LineageBuildDatePreference()
