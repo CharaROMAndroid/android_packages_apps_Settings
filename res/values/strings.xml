@@ -3631,6 +3631,8 @@
     <string name="module_version">Google Play system update</string>
     <!-- About phone screen, show a list of battery information  [CHAR LIMIT=60] -->
     <string name="battery_info">Battery information</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_fingerprint">Build fingerprint</string>
 
     <!-- About phone screen, show when a value of some status item is unavailable. -->
     <string name="device_info_not_available">Not available</string>
