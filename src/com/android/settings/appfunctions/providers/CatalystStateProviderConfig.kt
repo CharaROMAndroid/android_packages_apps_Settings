@@ -497,7 +497,7 @@ private fun getDeviceStateItemList() =
             settingScreenKey = FirmwareVersionScreen.KEY,
         ),
         DeviceStateItemConfig(
-            enabled = true,
+            enabled = false,
             settingKey = "module_version",
             settingScreenKey = FirmwareVersionScreen.KEY,
         ),
