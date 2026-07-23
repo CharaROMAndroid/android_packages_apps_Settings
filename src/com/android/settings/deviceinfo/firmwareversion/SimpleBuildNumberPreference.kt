@@ -41,7 +41,7 @@ class SimpleBuildNumberPreference :
         get() = R.string.os_build_number_purpose
 
     override val title: Int
-        get() = R.string.build_number
+        get() = R.string.build_fingerprint
 
     override val indexable
         get() = false
@@ -56,7 +56,7 @@ class SimpleBuildNumberPreference :
 
     override fun getSummary(context: Context): CharSequence? {
         val isRtl = context.resources.configuration.layoutDirection == LAYOUT_DIRECTION_RTL
-        return BidiFormatter.getInstance(isRtl).unicodeWrap(Build.DISPLAY)
+        return BidiFormatter.getInstance(isRtl).unicodeWrap(Build.FINGERPRINT)
     }
 
     override fun bind(preference: Preference, metadata: PreferenceMetadata) {
