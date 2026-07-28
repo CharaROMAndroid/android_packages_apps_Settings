@@ -59,6 +59,15 @@ class BuildMaintainerPreference :
         val context = preference.context
         val overlayMaintainer = safeGetString(context, R.string.build_maintainer_summary).trim()
         val overlayDonateUrl = safeGetString(context, R.string.build_maintainer_donate_url)
+    
+        // check system property first
+        val localMaintainer = getLocalMaintainer()
+        if (localMaintainer != null) {
+            resolvedMaintainer = localMaintainer
+            resolvedDonateUrl = sanitizeUrlOrNull(overlayDonateUrl)
+            applyState(preference)
+            return
+        }
 
         // check system property first
         val localMaintainer = getLocalMaintainer()
