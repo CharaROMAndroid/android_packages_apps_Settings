@@ -56,6 +56,15 @@ class BuildMaintainerPreference :
         val context = preference.context
         val overlayMaintainer = safeGetString(context, R.string.build_maintainer_summary).trim()
         val overlayDonateUrl = safeGetString(context, R.string.build_maintainer_donate_url)
+    
+        // check system property first
+        val localMaintainer = getLocalMaintainer()
+        if (localMaintainer != null) {
+            resolvedMaintainer = localMaintainer
+            resolvedDonateUrl = sanitizeUrlOrNull(overlayDonateUrl)
+            applyState(preference)
+            return
+        }
 
         if (resolvedMaintainer.isEmpty()) {
             resolvedMaintainer = overlayMaintainer
@@ -218,6 +227,11 @@ class BuildMaintainerPreference :
         return if (isValidHttpUrl(clean)) clean else null
     }
 
+    private fun getLocalMaintainer(): String? {
+        val prop = SystemProperties.get("ro.chara.maintainer", "").trim()
+        if (prop.isNotEmpty()) return prop
+        return null
+    }
     private fun isValidHttpUrl(url: String): Boolean {
         if (TextUtils.isEmpty(url)) return false
         val scheme = Uri.parse(url).scheme
