@@ -83,9 +83,9 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
         val cr = requireContext().contentResolver
 
         val apps =
-            Settings.Secure.getString(cr, getKey())
-                ?.split(",")
-                ?.toMutableSet() ?: mutableSetOf<String>()
+            Settings.Secure.getString(cr, Settings.Secure.HIDE_DEVELOPER_STATUS)
+                .split(",")
+                .toMutableSet()
 
         when (action) {
             Action.ADD -> apps.add(packageName)
@@ -95,7 +95,7 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
 
         Settings.Secure.putStringForUser(
             cr,
-            getKey(),
+            Settings.Secure.HIDE_DEVELOPER_STATUS,
             apps.joinToString(separator = ","),
             userId,
         )
