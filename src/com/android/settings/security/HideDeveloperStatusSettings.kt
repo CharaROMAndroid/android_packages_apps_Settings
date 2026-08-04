@@ -44,6 +44,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 
+import com.android.internal.util.circle.HideDeveloperStatusUtils
+
 import com.android.settings.R
 
 import com.google.android.material.appbar.AppBarLayout
@@ -65,6 +67,7 @@ class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layou
     private var searchText = ""
     private var customFilter: ((PackageInfo) -> Boolean)? = null
     private var comparator: ((PackageInfo, PackageInfo) -> Int)? = null
+    private var hideDeveloperStatusUtils: HideDeveloperStatusUtils = HideDeveloperStatusUtils()
     private var showSystem = false
     private var optionsMenu: Menu? = null
 
