@@ -22,7 +22,7 @@
         android:actionViewClass="android.widget.SearchView"
         android:icon="@drawable/ic_find_in_page_24px"
         android:showAsAction="ifRoom|collapseActionView"
-        android:title="@*org.lineageos.lineageparts:string/search"
+        android:title="@string/search_settings"
         tools:ignore="AppCompatResource" />
 
     <item
