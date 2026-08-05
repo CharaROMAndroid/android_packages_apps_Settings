@@ -8027,6 +8027,7 @@
     <string name="user_lockscreen_settings">Lock screen settings</string>
     <!-- User settings item to allow creating new users from locks screen [CHAR LIMIT=50] -->
     <string name="user_add_on_lockscreen_menu">Add users from lock screen</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Requires user switching on lock screen to be enabled</string>
     <!-- User settings item to allow creating new users from sign-in screen [CHAR LIMIT=50] -->
     <string name="user_add_on_signin_screen_menu">Add users from the sign-in screen</string>
     <!-- TODO(b/257333623): HSUM has no 1:1 admin:dream relationship. There can even be >1 admin -->
