@@ -220,5 +220,48 @@
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Erase all data after 10 failed unlock attempts</string>
 
     <!-- Text shown in private space setup screen which explains that apps in private space use their own VPN unless Global VPN is in effect. [CHAR LIMIT=NONE] -->
-    <string name="private_space_separate_vpn_text"><b>Apps don’t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>
+    <string name="private_space_separate_vpn_text"><b>Apps don’t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>   <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
+    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
+    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+
+    <!-- Settings -> Security -->
+    <string name="security_restrict_usb_title">Restrict USB</string>
+    <string name="security_restrict_usb_summary">Control support for USB gadgets such as earphones, storage devices and input (mice, keyboards, joysticks)</string>
+    <string name="security_restrict_usb_always">Deny new USB gadgets</string>
+    <string name="security_restrict_usb_keyguard">Allow new USB gadgets when unlocked</string>
+    <string name="security_restrict_usb_disabled">Allow new USB gadgets always</string>
+
+    <string name="device_reboot_timeout_title">Auto reboot</string>
+    <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
+
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Background network access</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Enable network usage in the background</string>
+
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+
+    <!-- Other Fragment -->
+    <string name="other_settings">Other options</string>
+    <string name="quick_settings">Quick Settings</string>
+
+    <!-- Bug report -->
+    <string name="bugreport_summary">Take a bug report now</string>
+
+    <!-- Keychords (Bug report button combo) -->
+    <string name="keychords_title">Bug report button combination</string>
+    <string name="keychords_summary">Capture a bug report by holding Volume Up, Volume Down, and Power at the same time, even when the device is locked</string>
+    <string name="keychords_summary_adb_enabled">Always enabled when debugging is on</string>
+
+    <!-- View bug reports -->
+    <string name="view_bugreports_title">View bug reports</string>
+    <string name="view_bugreports_summary_not_developer">Once viewed, all bug reports will remain accessible until you restart the device</string>
+
+    <!-- Our "accountless" Private Space string -->
+    <string name="private_space_hide_apps_summary_chara">Hide or lock private apps in a separate space.</string>
 </resources>
