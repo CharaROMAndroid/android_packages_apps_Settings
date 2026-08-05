@@ -14955,4 +14955,11 @@
     <string name="safety_center_device_finder_search_terms"></string>
     <!-- Safety Center system component update search terms [CHAR LIMIT=NONE] -->
     <string name="safety_center_system_component_update_search_terms"></string>
+    <!-- User switch on lockscreen -->
+    <string name="user_switch_on_lockscreen">Switch users from lockscreen</string>
+    <string name="user_switch_on_lockscreen_summary">Allow switching between users without unlocking</string>
+
+    <!-- Strict location redaction -->
+    <string name="strict_location_redaction_title">Strict location redaction</string>
+    <string name="strict_location_redaction_description">Redact location data from screenshots and screen recordings</string>
 </resources>
