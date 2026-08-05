@@ -15784,4 +15784,9 @@
     <string name="identity_check_notification_summary">Identity Check prevents unwanted access to your apps. Now available with any app that uses Fingerprint or Face Unlock.</string>
     <string name="device_unlock_subpage_default_summary"/>
 
-    </resources>
+    <string name="user_switch_on_lockscreen">Switch users from lockscreen</string>
+    <string name="user_switch_on_lockscreen_summary">Allow switching between users without unlocking</string>
+
+    <string name="strict_location_redaction_title">Strict location redaction</string>
+    <string name="strict_location_redaction_description">Redact location data from screenshots and screen recordings</string>
+</resources>
