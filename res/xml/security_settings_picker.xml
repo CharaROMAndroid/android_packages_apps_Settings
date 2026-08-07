@@ -125,7 +125,7 @@
             android:summary="@string/maximum_failed_passwords_for_wipe_summary"
             android:entries="@array/maximum_failed_passwords_for_wipe_entries"
             android:entryValues="@array/maximum_failed_passwords_for_wipe_values"
-            android:defaultValue="0" />
+            android:defaultValue="0" />-->
 
         <!-- available in pin/pattern/password -->
         <com.android.settings.security.screenlock.ProtectedTimeoutListPreference
