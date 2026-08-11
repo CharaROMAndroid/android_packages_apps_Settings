@@ -238,74 +238,6 @@
             settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
     </PreferenceCategory>
 
-    <!-- System sounds and vibrations category -->
-    <PreferenceCategory
-        android:key="system_sounds_and_vibrations_category"
-        android:order="-111"
-        android:title="@string/system_sounds_and_vibrations_category_title">
-        <!-- Dial pad tones -->
-        <SwitchPreferenceCompat
-            android:key="dtmf_tone"
-            android:title="@string/dial_pad_tones_title"
-            android:order="-50"/>
-
-        <!-- Screen locking sounds -->
-        <SwitchPreferenceCompat
-            android:key="lockscreen_sounds_enabled"
-            android:title="@string/screen_locking_sounds_title"
-            android:order="-45"/>
-
-        <!-- Charging sounds -->
-        <SwitchPreferenceCompat
-            android:key="charging_sounds_enabled"
-            android:title="@string/charging_sounds_title"
-            android:order="-40"/>
-
-        <!-- Custom charging sounds -->
-        <lineageos.preference.LineagePartsPreference
-            android:key="charging_sounds_settings"
-            settings:replacesKey="charging_sounds"
-            settings:requiresConfig="@bool/config_show_charging_sounds" />
-
-        <!-- Docking sounds -->
-        <SwitchPreferenceCompat
-            android:key="dock_sounds_enabled"
-            android:title="@string/docking_sounds_title"
-            android:order="-35"/>
-
-        <!-- Touch sounds -->
-        <SwitchPreferenceCompat
-            android:key="sound_effects_enabled"
-            android:title="@string/touch_sounds_title"
-            android:order="-30"/>
-
-        <!-- Show vibrate icon in status bar -->
-        <SwitchPreferenceCompat
-            android:key="vibrate_icon"
-            android:title="@string/vibrate_icon_title"
-            android:order="-27"/>
-
-        <!-- Dock speaker plays -->
-        <ListPreference
-            android:key="dock_audio_media"
-            android:title="@string/dock_audio_media_title"
-            android:summary="%s"
-            android:order="-20"/>
-
-        <!-- Boot sounds -->
-        <SwitchPreferenceCompat
-            android:key="boot_sounds"
-            android:title="@string/boot_sounds_title"
-            android:order="-15"/>
-
-        <!-- Emergency tone -->
-        <ListPreference
-            android:key="emergency_tone"
-            android:title="@string/emergency_tone_title"
-            android:summary="%s"
-            android:order="-10"/>
-    </PreferenceCategory>
-
     <!-- Work profile sound category -->
     <PreferenceCategory
         android:key="work_sound_category"
@@ -321,9 +253,9 @@
     </PreferenceCategory>
 
     <Preference
-        android:key="sound_settings_advanced"
-        android:title="@string/sound_settings_advanced_title"
-        android:fragment="com.android.settings.notification.AdvancedSoundSettings"
+        android:key="sound_settings_system"
+        android:title="@string/sound_settings_system_title"
+        android:fragment="com.android.settings.notification.SystemSoundSettings"
         android:order="-10" />
 
 </PreferenceScreen>

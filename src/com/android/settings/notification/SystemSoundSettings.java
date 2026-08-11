@@ -33,13 +33,13 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class AdvancedSoundSettings extends DashboardFragment {
+public class SystemSoundSettings extends DashboardFragment {
 
-    public static final String TAG = "AdvancedSoundSettings";
+    public static final String TAG = "SystemSoundSettings";
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.sound_settings_advanced;
+        return R.xml.sound_settings_system;
     }
 
     @Override
@@ -48,7 +48,7 @@ public class AdvancedSoundSettings extends DashboardFragment {
     }
 
     private static List<AbstractPreferenceController> buildPreferenceControllers(Context context,
-            AdvancedSoundSettings fragment, Lifecycle lifecycle) {
+            SystemSoundSettings fragment, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
 
         // === Other Sound Settings ===
@@ -108,7 +108,7 @@ public class AdvancedSoundSettings extends DashboardFragment {
     // === Indexing ===
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.sound_settings_advanced) {
+            new BaseSearchIndexProvider(R.xml.sound_settings_system) {
 
                 @Override
                 public List<AbstractPreferenceController> createPreferenceControllers(
