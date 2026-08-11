@@ -284,7 +284,7 @@
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">Additional sounds</string>
+    <string name="sound_settings_system_title">System sounds</string>
 
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
