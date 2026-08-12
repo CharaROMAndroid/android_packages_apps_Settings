@@ -238,6 +238,19 @@
             settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
     </PreferenceCategory>
 
+    <!-- System Sound Settings Category -->
+    <PreferenceCategory
+        android:key="system_sound_category"
+        android:order="-110"
+        android:title="@string/system_sounds_and_vibrations_category_title"
+        settings:controller="com.android.settings.widget.PreferenceCategoryController">
+        <Preference
+            android:key="sound_settings_system"
+            android:title="@string/sound_settings_system_title"
+            android:fragment="com.android.settings.notification.SystemSoundSettings"
+            android:order="-10" />
+    </PreferenceCategory>
+    
     <!-- Work profile sound category -->
     <PreferenceCategory
         android:key="work_sound_category"
@@ -251,11 +264,5 @@
             android:order="100"
             settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
     </PreferenceCategory>
-
-    <Preference
-        android:key="sound_settings_system"
-        android:title="@string/sound_settings_system_title"
-        android:fragment="com.android.settings.notification.SystemSoundSettings"
-        android:order="-10" />
 
 </PreferenceScreen>
