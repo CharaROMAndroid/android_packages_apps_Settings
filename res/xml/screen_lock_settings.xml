@@ -52,4 +52,13 @@
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 
+    <!-- CharaROM: Duress password settings -->
+    <Preference
+        android:key="duress_password_settings"
+        android:title="@string/duress_pwd_pref_title"
+        android:summary="@string/duress_pwd_pref_summary"
+        settings:controller="com.android.settings.security.DuressPasswordPreferenceController">
+        <intent android:action="com.android.settings.DURESS_PASSWORD_SETTINGS" />
+    </Preference>
+
 </PreferenceScreen>
