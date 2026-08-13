@@ -721,8 +721,9 @@ public class ChooseLockGeneric extends SettingsActivity {
                     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new PinScramblePreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
-            mUnlockSettingsControllers.add(new StatusBarPreferenceController(
-                    getContext(), mUserId, mLockPatternUtils));
+            // CharaROM: Disabled - conflicts with CharaTweak
+            // mUnlockSettingsControllers.add(new StatusBarPreferenceController(
+            //     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new PowerButtonInstantLockPreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new LockAfterTimeoutPreferenceController(

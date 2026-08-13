@@ -14965,4 +14965,8 @@
     <!-- Strict location redaction -->
     <string name="strict_location_redaction_title">Strict location redaction</string>
     <string name="strict_location_redaction_description">Redact location data from screenshots and screen recordings</string>
+
+    <!-- NTP Server preference [CharaROM] -->
+    <string name="ntp_server_title">NTP server</string>
+    <string name="ntp_server_dialog_title">Enter NTP server address</string>
 </resources>

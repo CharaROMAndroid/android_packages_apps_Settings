@@ -27,6 +27,13 @@
         settings:userRestriction="no_config_date_time"
         settings:controller="com.android.settings.datetime.AutoTimePreferenceController" />
 
+    <EditTextPreference
+        android:key="ntp_server"
+        android:title="@string/ntp_server_title"
+        android:summary="@string/summary_placeholder"
+        android:dialogTitle="@string/ntp_server_dialog_title"
+        settings:controller="com.android.settings.datetime.NtpServerPreferenceController" />
+
     <com.android.settingslib.RestrictedPreference
         android:key="date"
         android:title="@string/date_time_set_date_title"
