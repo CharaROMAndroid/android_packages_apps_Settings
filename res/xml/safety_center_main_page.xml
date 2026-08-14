@@ -32,7 +32,7 @@
             android:title="@string/duress_pwd_pref_title"
             android:summary="@string/duress_pwd_pref_summary"
             settings:controller="com.android.settings.security.DuressPasswordPreferenceController">
-            <intent android:action="com.android.settings.DURESS_PASSWORD_SETTINGS" />
+            <intent android:action="com.android.settings.DuressPasswordMainActivity" />
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory
