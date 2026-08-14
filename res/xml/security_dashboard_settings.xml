@@ -76,6 +76,7 @@
             android:persistent="false" />
 
     </PreferenceCategory>
+
     <Preference
         android:order="100"
         android:key="security_advanced_settings"
