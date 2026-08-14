@@ -25,6 +25,15 @@
             android:title="@string/device_unlock_subpage_title"
             android:fragment="com.android.settings.safetycenter.ui.DeviceUnlockSubPageFragment"
             settings:controller="com.android.settings.safetycenter.ui.SubpagePreferenceController"/>
+        
+        <!-- CharaROM: Duress password settings -->
+        <Preference
+            android:key="duress_password_settings"
+            android:title="@string/duress_pwd_pref_title"
+            android:summary="@string/duress_pwd_pref_summary"
+            settings:controller="com.android.settings.security.DuressPasswordPreferenceController">
+            <intent android:action="com.android.settings.DURESS_PASSWORD_SETTINGS" />
+        </Preference>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="privacy_category"
