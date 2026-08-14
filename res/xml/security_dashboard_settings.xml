@@ -61,7 +61,16 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_biometric_settings" />
 
+        <!-- CharaROM: Duress password settings -->
+        <Preference
+            android:key="duress_password_settings"
+            android:title="@string/duress_pwd_pref_title"
+            android:summary="@string/duress_pwd_pref_summary">
+            <intent android:action="com.android.settings.DURESS_PASSWORD_SETTINGS" />
+        </Preference>
+
     </PreferenceCategory>
+
     <Preference
         android:order="100"
         android:key="security_advanced_settings"
