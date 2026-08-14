@@ -30,7 +30,6 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.security.OwnerInfoPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
-import com.android.settings.security.DuressPasswordPreferenceController;
 import com.android.settingslib.search.SearchIndexable;
 
 import java.util.ArrayList;
@@ -90,7 +89,6 @@ public class ScreenLockSettings extends DashboardFragment
         controllers.add(new AutoPinConfirmPreferenceController(
                 context, MY_USER_ID, lockPatternUtils, parent));
         controllers.add(new OwnerInfoPreferenceController(context, parent));
-        controllers.add(new DuressPasswordPreferenceController(context));
         return controllers;
     }
 
