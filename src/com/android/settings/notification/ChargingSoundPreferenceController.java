@@ -33,7 +33,7 @@ public class ChargingSoundPreferenceController extends SettingPrefController {
             Lifecycle lifecycle) {
         super(context, parent, lifecycle);
         mPreference = new SettingPref(
-                TYPE_SECURE, CHARGING_SOUNDS_ENABLED, CHARGING_SOUNDS_ENABLED, DEFAULT_ON);
+                TYPE_SECURE, "charging_sounds", CHARGING_SOUNDS_ENABLED, DEFAULT_ON);
     }
 
     @Override
