@@ -33,7 +33,7 @@ public class DockingSoundPreferenceController extends SettingPrefController {
             Lifecycle lifecycle) {
         super(context, parent, lifecycle);
         mPreference = new SettingPref(
-            TYPE_GLOBAL, DOCK_SOUNDS_ENABLED, DOCK_SOUNDS_ENABLED, DEFAULT_ON) {
+            TYPE_GLOBAL, "docking_sounds", DOCK_SOUNDS_ENABLED, DEFAULT_ON) {
             @Override
             public boolean isApplicable(Context context) {
                 return context.getResources().getBoolean(R.bool.has_dock_settings);
