@@ -33,7 +33,7 @@ public class ScreenLockSoundPreferenceController extends SettingPrefController {
             Lifecycle lifecycle) {
         super(context, parent, lifecycle);
         mPreference = new SettingPref(
-                TYPE_SYSTEM, LOCKSCREEN_SOUNDS_ENABLED, LOCKSCREEN_SOUNDS_ENABLED, DEFAULT_ON);
+                TYPE_SYSTEM, "screen_locking_sounds", LOCKSCREEN_SOUNDS_ENABLED, DEFAULT_ON);
     }
 
     @Override

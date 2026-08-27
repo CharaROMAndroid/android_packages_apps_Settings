@@ -52,12 +52,6 @@
         android:title="@string/vibrate_icon_title"
         android:order="-27"/>
 
-    <!-- Charging sounds -->
-    <SwitchPreferenceCompat
-        android:key="charging_sounds_enabled"
-        android:title="@string/charging_sounds_title"
-        android:order="-40"/>
-
     <!-- Custom charging sounds -->
     <lineageos.preference.LineagePartsPreference
         android:key="charging_sounds_settings"
