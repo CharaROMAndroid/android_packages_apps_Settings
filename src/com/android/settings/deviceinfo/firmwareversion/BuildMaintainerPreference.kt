@@ -144,7 +144,7 @@ class BuildMaintainerPreference :
 
     private fun getCodenameCandidates(): Set<String> {
         val result = LinkedHashSet<String>()
-        addIfNotEmpty(result, SystemProperties.get("ro.chararom.device", null))
+        addIfNotEmpty(result, SystemProperties.get("ro.android.device", null))
         addIfNotEmpty(result, SystemProperties.get("ro.product.device", null))
         addIfNotEmpty(result, SystemProperties.get("ro.product.vendor.device", null))
         addIfNotEmpty(result, SystemProperties.get("ro.build.product", null))
