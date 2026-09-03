@@ -25,6 +25,14 @@
         settings:userRestriction="no_near_field_communication_radio"
         settings:controller="com.android.settings.nfc.NfcPreferenceController"/>
 
+    <ListPreference
+        android:key="nfc_timeout"
+        android:title="@string/nfc_timeout"
+        android:summary="@string/nfc_timeout_summary"
+        android:entries="@array/nfc_timeout_entries"
+        android:entryValues="@array/nfc_timeout_values"
+        settings:controller="com.android.settings.nfc.NfcTimeoutPreferenceController"/>
+
     <com.android.settingslib.widget.IllustrationPreference
         android:key="nfc_detection_point"
         settings:searchable="false"
