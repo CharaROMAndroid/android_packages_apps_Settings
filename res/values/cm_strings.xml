@@ -319,4 +319,16 @@ Duress PIN works the same way duress password does."</string>
     <string name="duress_pwd_save_error">Duress PIN and password were not saved.\n\nDetails:\n%1$s</string>
     <string name="duress_pwd_delete_error">Duress PIN and password were not deleted.\n\nDetails:\n%1$s</string>
     <string name="duress_pwd_error_dialog_dismiss">Dismiss</string>
+
+    <!-- NFC timeout strings -->
+    <string name="nfc_timeout">Turn off NFC automatically</string>
+    <string name="nfc_timeout_summary">NFC won't turn off automatically</string>
+    <string name="nfc_timeout_summary_auto">NFC will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if unused</string>
+    <string name="nfc_timeout_never">Never</string>
+    <string name="nfc_timeout_1min">1 minute</string>
+    <string name="nfc_timeout_2min">2 minutes</string>
+    <string name="nfc_timeout_5min">5 minutes</string>
+    <string name="nfc_timeout_10min">10 minutes</string>
+    <string name="nfc_timeout_30min">30 minutes</string>
+    <string name="nfc_timeout_1hour">1 hour</string>
 </resources>
