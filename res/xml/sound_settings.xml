@@ -234,8 +234,7 @@
     <PreferenceCategory
         android:key="system_sound_category"
         android:order="-110"
-        android:title="@string/system_sounds_and_vibrations_category_title"
-        settings:controller="com.android.settings.widget.PreferenceCategoryController">
+        android:title="@string/system_sounds_and_vibrations_category_title">
         <Preference
             android:key="sound_settings_system"
             android:title="@string/sound_settings_system_title"
