@@ -42,7 +42,7 @@ public class LineageVersionDetailPreferenceController extends BasePreferenceCont
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    private static final String KEY_LINEAGE_VERSION_PROP = "ro.crdroid.build.version";
+    private static final String KEY_LINEAGE_VERSION_PROP = "ro.chara.build.version";
 
     private static final String PLATLOGO_PACKAGE_NAME = "com.android.egg";
     private static final String PLATLOGO_ACTIVITY_CLASS =
