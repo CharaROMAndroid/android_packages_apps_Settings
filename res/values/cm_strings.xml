@@ -331,4 +331,9 @@ Duress PIN works the same way duress password does."</string>
     <string name="nfc_timeout_10min">10 minutes</string>
     <string name="nfc_timeout_30min">30 minutes</string>
     <string name="nfc_timeout_1hour">1 hour</string>
+
+    <!-- About phone: network addresses subpage + combined uptime -->
+    <string name="network_addresses_title">Network addresses</string>
+    <string name="network_addresses_summary">IP, Wi\u2011Fi MAC and Bluetooth addresses</string>
+    <string name="status_up_time_with_sleep"><xliff:g id="uptime" example="12:34:56">%1$s</xliff:g> \u00b7 deep sleep <xliff:g id="sleep" example="3:21:00">%2$s</xliff:g> (<xliff:g id="percent" example="27">%3$d</xliff:g>%%)</string>
 </resources>
