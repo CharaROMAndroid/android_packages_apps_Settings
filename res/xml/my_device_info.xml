@@ -93,17 +93,6 @@
         android:selectable="false"
         android:title="@string/my_device_info_device_details_category_title">
 
-        <!-- Radio info -->
-        <Preference
-            android:key="radio_info_settings"
-            android:order="6"
-            android:title="@string/radio_info_title"
-            settings:isPreferenceVisible="@bool/config_show_sim_info">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.phone"
-                    android:targetClass="com.android.phone.settings.RadioInfo" />
-        </Preference>
-
         <!-- SIM status -->
         <Preference
             android:key="sim_status"
@@ -155,70 +144,25 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
-
-        <!-- Lineage version -->
-        <Preference
-            android:key="lineage_os_version"
-            android:order="43"
-            android:title="@*lineageos.platform:string/lineage_version"
-            android:summary="@string/summary_placeholder"
-            settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="device_identifiers_category"
         android:title="@string/my_device_info_device_identifiers_category_title">
 
-        <!--IP address -->
+        <!-- Network addresses (IP, Wi-Fi MAC, Bluetooth) -->
         <Preference
-            android:key="wifi_ip_address"
+            android:key="network_addresses"
             android:order="44"
-            android:title="@string/wifi_ip_address"
-            android:summary="@string/summary_placeholder"
-            android:selectable="false"
-            settings:enableCopying="true"/>
+            android:title="@string/network_addresses_title"
+            android:summary="@string/network_addresses_summary"
+            android:fragment="com.android.settings.deviceinfo.NetworkAddressesFragment"/>
 
-        <!-- Wi-Fi MAC address -->
-        <Preference
-            android:key="saved_accesspoints_wifi_mac_address"
-            android:order="45"
-            android:title="@string/status_wifi_mac_address"
-            android:summary="@string/view_saved_network"
-            android:fragment="com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2"
-            settings:enableCopying="false"/>
-
-        <!-- Factory Wi-Fi MAC address -->
-        <Preference
-            android:key="wifi_mac_address"
-            android:order="46"
-            android:title="@string/status_device_wifi_mac_address"
-            android:summary="@string/summary_placeholder"
-            android:selectable="false"
-            settings:enableCopying="true"/>
-
-        <!-- Bluetooth address -->
-        <Preference
-            android:key="bt_address"
-            android:order="47"
-            android:title="@string/status_bt_address"
-            android:summary="@string/summary_placeholder"
-            android:selectable="false"
-            settings:enableCopying="true"/>
-
-        <!-- Device up time -->
+        <!-- Device up time + deep sleep time -->
         <Preference
             android:key="up_time"
             android:order="48"
             android:title="@string/status_up_time"
-            android:summary="@string/summary_placeholder"
-            android:selectable="false"/>
-
-        <!-- Device deep sleep time -->
-        <Preference
-            android:key="sleep_time"
-            android:order="49"
-            android:title="@string/status_sleep_time"
             android:summary="@string/summary_placeholder"
             android:selectable="false"/>
 
