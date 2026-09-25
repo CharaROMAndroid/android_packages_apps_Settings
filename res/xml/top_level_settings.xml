@@ -66,15 +66,6 @@
             settings:controller="com.crdroid.settings.TopLevelSettingsPreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
-            android:fragment="com.android.settings.applications.AppDashboardFragment"
-            android:icon="@drawable/ic_apps_filled"
-            android:key="top_level_apps"
-            android:order="-60"
-            android:title="@string/apps_dashboard_title"
-            android:summary="@string/app_and_notification_dashboard_summary"
-            settings:highlightableMenuKey="@string/menu_key_apps"/>
-
-        <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.notification.ConfigureNotificationSettings"
             android:icon="@drawable/ic_notifications_filled"
             android:key="top_level_notifications"
@@ -136,6 +127,15 @@
         android:order="-110"
         android:key="top_level_system_info_category"
         android:layout="@layout/settingslib_expressive_untitled_preference_category">
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.android.settings.applications.AppDashboardFragment"
+            android:icon="@drawable/ic_apps_filled"
+            android:key="top_level_apps"
+            android:order="-60"
+            android:title="@string/apps_dashboard_title"
+            android:summary="@string/app_and_notification_dashboard_summary"
+            settings:highlightableMenuKey="@string/menu_key_apps"/>
+
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.deviceinfo.StorageDashboardFragment"
             android:icon="@drawable/ic_storage_filled"
