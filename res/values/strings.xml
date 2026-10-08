@@ -5847,7 +5847,7 @@
     <string name="accessibility_screen_magnification_intro_text">Quickly zoom in on the screen to make content larger</string>
     <!-- Instructions on the accessibility preference screen teaching the user how to enable screen magnification gestures. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_summary">
-        
+
         &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
         {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
         {1,number,integer}. Tap the screen&lt;br/&gt;
@@ -5860,21 +5860,21 @@
         {2,number,integer}. Touch &amp; hold anywhere on the screen&lt;br/&gt;
         {3,number,integer}. Drag finger to move around screen&lt;br/&gt;
         {4,number,integer}. Lift finger to stop magnification
-        
+
     </string>
     <!-- Instructions on the accessibility preference screen teaching the user how to control magnification with a keyboard. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_keyboard_summary">
-        
+
         &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
         {0,number,integer}. Use shortcut or press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + M to start magnification&lt;br/&gt;
         {1,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + arrow keys to move around screen&lt;br/&gt;
         {2,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; and \"+\" or \"-\" to adjust zoom&lt;br/&gt;
         {3,number,integer}. Use shortcut or &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + M to stop magnification
-        
+
     </string>
     <!-- Instructions on the accessibility preference screen teaching the user how to control magnification with both keyboard and touch. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_keyboard_touch_summary">
-        
+
         &lt;b&gt;Keyboard&lt;/b&gt;&lt;br/&gt;
         {0,number,integer}. Use shortcut or press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + M to start magnification&lt;br/&gt;
         {1,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + arrow keys to move around screen&lt;br/&gt;
@@ -5893,11 +5893,11 @@
         {2,number,integer}. Touch &amp; hold anywhere on the screen&lt;br/&gt;
         {3,number,integer}. Drag finger to move around screen&lt;br/&gt;
         {4,number,integer}. Lift finger to stop magnification
-        
+
     </string>
     <!-- Instructions on the accessibility preference screen teaching the user how to interact with screen magnification when one finger panning feature is turned off. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_summary_one_finger_panning_off">
-        
+
         &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
         {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
         {1,number,integer}. Tap the screen&lt;br/&gt;
@@ -5905,11 +5905,11 @@
         {3,number,integer}. Pinch with 2 fingers to adjust zoom&lt;br/&gt;
         {4,number,integer}. Use shortcut to stop magnification&lt;br/&gt;&lt;br/&gt;
         You can also zoom in temporarily and more.
-        
+
     </string>
     <!-- Instructions on the accessibility preference screen teaching the user how to interact with screen magnification when one finger panning feature is turned on. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_summary_one_finger_panning_on">
-        
+
         &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
         {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
         {1,number,integer}. Tap the screen&lt;br/&gt;
@@ -5917,7 +5917,7 @@
         {3,number,integer}. Pinch with 2 fingers to adjust zoom&lt;br/&gt;
         {4,number,integer}. Use shortcut to stop magnification&lt;br/&gt;&lt;br/&gt;
         You can also zoom in temporarily and more.
-        
+
     </string>
     <!-- Summary for the accessibility preference screen to enable screen magnification via the nav bar. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_navbar_summary">When magnification is turned on, you can zoom in on your screen.\n\n<b>To zoom</b>, start magnification, then tap anywhere on the screen.\n<ul><li>Drag 2 or more fingers to scroll</li>\n<li>Pinch 2 or more fingers to adjust zoom</li></ul>\n\n<b>To zoom temporarily</b>, start magnification, then touch &amp; hold anywhere on the screen.\n<ul><li>Drag to move around the screen</li>\n<li>Lift finger to zoom out</li></ul>\n\nYou can’t zoom in on the keyboard or navigation bar.</string>
@@ -6060,12 +6060,12 @@
     <string name="accessibility_button_summary">Quickly access accessibility features</string>
     <!-- Description for the accessibility button page. Explain how this page works in numbered ordered list. [CHAR LIMIT=NONE] -->
     <string name="accessibility_button_description">
-        
+
         &lt;b&gt;To get started&lt;/b&gt;&lt;br/&gt;
         {0,number,integer}. Go to accessibility settings&lt;br/&gt;
         {1,number,integer}. Select a feature and tap the shortcut&lt;br/&gt;
         {2,number,integer}. Choose the button to access the feature&lt;br/&gt;
-        
+
     </string>
     <!-- Title for the location of the accessibility button. [CHAR LIMIT=35] -->
     <string name="accessibility_button_location_title">Location</string>
@@ -6214,7 +6214,7 @@
             &lt;li&gt;\u00a0Color inversion works on all apps&lt;/li&gt;
             &lt;li&gt;\u00a0To display a dark background, dark theme can be used instead&lt;/li&gt;
         &lt;/ol&gt;
-        
+
     </string>
     <!-- suffixed to click action texts "Double-tap to " -->
     <string name="accessibility_action_label_panel_slice">enter settings</string>
@@ -10739,24 +10739,24 @@
     <string name="app_pinning_intro">App pinning allows you to keep the current app in view until you unpin it. This feature can be used, for example, to let a trusted friend play a specific game.</string>
     <!-- [CHAR LIMIT=none] Screen pinning description -->
     <string name="screen_pinning_description">
-        
+
         When an app is pinned, the pinned app may open other apps and personal data may be accessible.
         \n\nTo use app pinning:
         \t\n{0,number,integer}. Turn on app pinning
         \t\n{1,number,integer}. Open Overview
         \t\n{2,number,integer}. Tap the app icon at the top of the screen, then tap Pin
-        
+
     </string>
     <!-- [CHAR LIMIT=none] Screen pinning description -->
     <string name="screen_pinning_guest_user_description">
-        
+
         When an app is pinned, the pinned app may open other apps and personal data may be accessible.
         \n\nIf you want to securely share your device with someone, try using a guest user instead.
         \n\nTo use app pinning:
         \t\n{0,number,integer}. Turn on app pinning
         \t\n{1,number,integer}. Open Overview
         \t\n{2,number,integer}. Tap the app icon at the top of the screen, then tap Pin
-        
+
     </string>
     <!-- [CHAR LIMIT=300] Screen pinning title -->
     <string name="screen_pinning_dialog_message">
@@ -12797,25 +12797,25 @@
 
     <!-- Message of the warning dialog for setting the auto-fill app. [CHAR_LIMIT=NONE] -->
     <string name="autofill_confirmation_message">
-        
+
         &lt;b&gt;Make sure you trust this app&lt;/b&gt;
         &lt;br/&gt;
         &lt;br/&gt;
         &lt;xliff:g id="app_name" example="Google Autofill"&gt;%1$s&lt;/xliff:g&gt; uses what\'s on
         your screen to determine what can be autofilled.
-        
+
     </string>
 
     <!-- Message of the warning dialog for setting the auto-fill/credman app. [CHAR_LIMIT=NONE] -->
     <string name="credman_autofill_confirmation_message">
-        
+
         &lt;b&gt;Use &lt;xliff:g id="app_name" example="Provider"&gt;%1$s&lt;/xliff:g&gt;\?&lt;/b&gt;
         &lt;br/&gt;
         &lt;br/&gt;
         New passwords, passkeys, and other info will be saved here from now on.
         &lt;xliff:g id="app_name" example="Provider"&gt;%1$s&lt;/xliff:g&gt; may use what\'s on your
         screen to determine what can be autofilled.
-        
+
     </string>
 
     <!-- Title of the screen where the user picks a provider. [CHAR_LIMIT=NONE] -->
@@ -12832,14 +12832,14 @@
 
     <!-- Message of the warning dialog for disabling the credential provider. [CHAR_LIMIT=NONE] -->
     <string name="credman_confirmation_message">
-        
+
         &lt;b&gt;Turn off this service?&lt;/b&gt;
         &lt;br/&gt;
         &lt;br/&gt;
         Saved info like passwords, passkeys, payment methods, and other info won\'t be filled
         in when you sign in. To use your saved info, choose a password, passkey, or data
         service.
-        
+
     </string>
 
     <!-- Title for setting tile leading to saved autofill passwords, passkeys, and account settings [CHAR LIMIT=40]-->
@@ -12858,24 +12858,24 @@
 
     <!-- Message of the warning dialog for disabling the credential provider (new strings for 24Q3). [CHAR_LIMIT=NONE] -->
     <string name="credman_confirmation_message_new_ui">
-        
+
         &lt;b&gt;Turn off all services?&lt;/b&gt;
         &lt;br/&gt;
         &lt;br/&gt;
         Passwords, passkeys, and other saved info won\'t be available for autofill when you sign in
-        
+
     </string>
 
     <!-- Message of the warning dialog for setting a new preferred credential provider (new strings for 24Q3). [CHAR_LIMIT=NONE] -->
     <string name="credman_autofill_confirmation_message_new_ui">
-        
+
         &lt;b&gt;Change your preferred service to &lt;xliff:g id="app_name" example="Provider"&gt;%1$s&lt;/xliff:g&gt;\?&lt;/b&gt;
         &lt;br/&gt;
         &lt;br/&gt;
         New passwords, passkeys, and other info will be saved here from now on.
         &lt;xliff:g id="app_name" example="Provider"&gt;%1$s&lt;/xliff:g&gt; may use what\'s on your
         screen to determine what can be autofilled
-        
+
     </string>
 
     <!-- Title of the warning dialog for enabling the credential provider. [CHAR_LIMIT=NONE] -->
@@ -15720,13 +15720,13 @@
 
     <string name="keyboard_category_title">Physical keyboard options</string>
     <string name="accessibility_screen_magnification_keyboard_shortcuts_flag_off_summary">
-        
+
         &lt;b&gt;To zoom in:&lt;/b&gt;&lt;br/&gt;
         {0,number,integer}. Use shortcut to start magnification&lt;br/&gt;
         {1,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; + arrow keys to move around screen&lt;br/&gt;
         {2,number,integer}. Press &lt;xliff:g id="meta"&gt;%1$s&lt;/xliff:g&gt; + &lt;xliff:g id="alt"&gt;%2$s&lt;/xliff:g&gt; and \"+\" or \"-\" to adjust zoom&lt;br/&gt;
         {3,number,integer}. Use shortcut to stop magnification
-        
+
     </string>
     <string name="accessibility_tutorial_dialog_title_two_finger_double">%1$d-finger double tap shortcut</string>
     <string name="accessibility_shortcut_edit_screen_title_two_finger_double_tap">%1$d-finger double tap</string>

@@ -1871,7 +1871,7 @@
         <!-- Do not translate. -->
         <item>10</item>
     </string-array>
-    
+
 
     <!-- NFC timeout arrays -->
     <string-array name="nfc_timeout_entries">

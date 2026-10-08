@@ -242,7 +242,7 @@
             android:fragment="com.android.settings.notification.SystemSoundSettings"
             android:order="-10" />
     </PreferenceCategory>
-    
+
     <!-- Work profile sound category -->
     <PreferenceCategory
         android:key="work_sound_category"
