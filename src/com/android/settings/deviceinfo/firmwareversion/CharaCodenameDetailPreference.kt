@@ -34,6 +34,9 @@ class CharaCodenameDetailPreference :
     override val key: String
         get() = "chara_codename"
 
+    override val purpose: Int
+        get() = R.string.chara_codename
+
     override val title: Int
         get() = R.string.chara_codename
 

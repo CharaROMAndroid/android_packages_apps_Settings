@@ -43,6 +43,7 @@ import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.ReadWritePermit
 import com.android.settingslib.metadata.SensitivityLevel
 import com.android.settingslib.metadata.SwitchPreference
+import com.android.settingslib.metadata.preferencesapi.preconditions.PreconditionStability
 import com.android.settingslib.preference.SwitchPreferenceBinding
 
 @Suppress("DEPRECATION")
@@ -193,9 +194,14 @@ class WifiWakeupSwitchPreference :
 
     override fun getEnabledDescription(): String = "Requires Location to be enabled. Requires Wi-Fi scanning to be always available."
 
+    override val availabilityDescription: String
+        get() = "Requires config_wifi_wakeup to be enabled by the device."
+
     override fun isAvailable(context: Context): Boolean {
         return context.getResources().getBoolean(R.bool.config_wifi_wakeup)
     }
+
+    override fun getAvailabilityStability() = PreconditionStability.STABLE_UNTIL_APK_UPDATE
 
     companion object {
         const val TAG = "WifiWakeupSwitchPreference"
