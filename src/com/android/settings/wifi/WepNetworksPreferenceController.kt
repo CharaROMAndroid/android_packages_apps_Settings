@@ -24,7 +24,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.android.settings.R
 import com.android.settings.spa.preference.ComposePreferenceController
@@ -33,6 +35,7 @@ import com.android.settingslib.spa.widget.dialog.AlertDialogButton
 import com.android.settingslib.spa.widget.dialog.SettingsAlertDialogWithIcon
 import com.android.settingslib.spa.widget.preference.SwitchPreference
 import com.android.settingslib.spa.widget.preference.SwitchPreferenceModel
+import com.android.settingslib.spa.widget.ui.SettingsIcon
 import com.android.wifi.flags.Flags
 import com.android.wifitrackerlib.WifiEntry
 import kotlinx.coroutines.Dispatchers
@@ -63,6 +66,9 @@ class WepNetworksPreferenceController(context: Context, preferenceKey: String) :
         SwitchPreference(
             object : SwitchPreferenceModel {
                 override val title = stringResource(R.string.wifi_allow_wep_networks)
+                override val icon = @Composable {
+                    SettingsIcon(ImageVector.vectorResource(R.drawable.ic_router))
+                }
                 override val summary = { getSummary(isWepSupported) }
                 override val checked = {
                     if (isWepSupported == false) {
