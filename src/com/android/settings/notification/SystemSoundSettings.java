@@ -91,8 +91,6 @@ public class SystemSoundSettings extends DashboardFragment {
                         dockAudioMediaPreferenceController,
                         bootSoundPreferenceController,
                         emergencyTonePreferenceController)));
-        controllers.add(new IncreasingRingPreferenceController(context));
-        controllers.add(new IncreasingRingVolumePreferenceController(context));
 
         return controllers;
     }
