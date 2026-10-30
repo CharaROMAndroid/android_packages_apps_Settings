@@ -6,6 +6,9 @@
 
     <original-package android:name="com.android.settings"/>
 
+    <!-- Bind the isolated sanitizer and use FontManager custom-font APIs. -->
+    <uses-permission android:name="android.permission.UPDATE_FONTS" />
+
     <!-- Permissions for reading or writing battery-related data. -->
     <permission
         android:name="com.android.settings.BATTERY_DATA"
