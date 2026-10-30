@@ -833,8 +833,8 @@
     <!-- Text shown for title of owner info setting [CHAR LIMIT=30]-->
     <string name="owner_info_settings_title">Add text on lock screen</string>
 
-    <string name="native_debug_title">Enable native code debugging</string>
-    <string name="native_debug_summary">Generate useful logs / bug reports from crashes and permit debugging native code.</string>
+    <string name="native_debug_title">Native debugging compatibility</string>
+    <string name="native_debug_summary">Allow native debuggers to attach to unrelated processes, subject to Android permissions. Native crash reporting is allowed in either mode.</string>
 
     <!-- Text shown for summary of owner info setting (if none set) [CHAR LIMIT=40]-->
     <string name="owner_info_settings_summary">None</string>

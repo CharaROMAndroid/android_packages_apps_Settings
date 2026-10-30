@@ -17,21 +17,14 @@
 package com.android.settings.security;
 
 import android.content.Context;
-
-import android.os.UserHandle;
-import android.os.UserManager;
 import android.os.SystemProperties;
-
-import android.provider.Settings;
+import android.os.UserManager;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.TwoStatePreference;
 import androidx.preference.SwitchPreference;
 
-import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.events.OnResume;
@@ -45,8 +38,7 @@ public class NativeDebugPreferenceController extends AbstractPreferenceControlle
 
     private PreferenceCategory mSecurityCategory;
     private SwitchPreference mNativeDebug;
-    private boolean mIsAdmin;
-    private UserManager mUm;
+    private final UserManager mUm;
 
     public NativeDebugPreferenceController(Context context) {
         super(context);
@@ -62,8 +54,7 @@ public class NativeDebugPreferenceController extends AbstractPreferenceControlle
 
     @Override
     public boolean isAvailable() {
-        mIsAdmin = mUm.isAdminUser();
-        return mIsAdmin;
+        return mUm.isAdminUser();
     }
 
     @Override
@@ -71,36 +62,35 @@ public class NativeDebugPreferenceController extends AbstractPreferenceControlle
         return PREF_KEY_NATIVE_DEBUG;
     }
 
-    // TODO: should we use onCreatePreferences() instead?
     private void updatePreferenceState() {
-        if (mSecurityCategory == null) {
+        if (mSecurityCategory == null || !isAvailable()) {
             return;
         }
 
-        if (mIsAdmin) {
-            mNativeDebug = (SwitchPreference) mSecurityCategory.findPreference(PREF_KEY_NATIVE_DEBUG);
-            mNativeDebug.setChecked(SystemProperties.getBoolean(SYS_KEY_NATIVE_DEBUG, true));
-        } else {
-            mSecurityCategory.removePreference(mSecurityCategory.findPreference(PREF_KEY_NATIVE_DEBUG));
+        mNativeDebug = mSecurityCategory.findPreference(PREF_KEY_NATIVE_DEBUG);
+        if (mNativeDebug == null) {
+            return;
         }
+        // Match init's canonical "true" compatibility trigger. An absent or invalid
+        // property leaves the kernel at the restricted scope-1 boot default.
+        mNativeDebug.setChecked(
+                "true".equals(SystemProperties.get(SYS_KEY_NATIVE_DEBUG, "false")));
     }
 
     @Override
     public void onResume() {
         updatePreferenceState();
-        if (mNativeDebug != null) {
-                boolean mode = mNativeDebug.isChecked();
-                SystemProperties.set(SYS_KEY_NATIVE_DEBUG, Boolean.toString(mode));
-        }
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object value) {
-        final String key = preference.getKey();
-        if (PREF_KEY_NATIVE_DEBUG.equals(key)) {
-            final boolean mode = !mNativeDebug.isChecked();
-            SystemProperties.set(SYS_KEY_NATIVE_DEBUG, Boolean.toString(mode));
+        if (!PREF_KEY_NATIVE_DEBUG.equals(preference.getKey())
+                || !(value instanceof Boolean) || !isAvailable()) {
+            return false;
         }
+        // Only an explicit user action changes the persisted boot/runtime policy.
+        // ON is compatibility (scope 0); OFF is restricted (scope 1), not scope 2.
+        SystemProperties.set(SYS_KEY_NATIVE_DEBUG, Boolean.toString((Boolean) value));
         return true;
     }
 }
