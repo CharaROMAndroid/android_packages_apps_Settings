@@ -174,6 +174,19 @@
         <intent android:action="com.android.settings.DURESS_PASSWORD_SETTINGS" />
     </Preference>
 
+    <!-- Open Panic configuration without sending a trigger action. -->
+    <Preference
+        android:order="227"
+        android:key="panic_button_settings"
+        android:title="@string/panic_button_settings_title"
+        android:summary="@string/panic_button_settings_summary"
+        settings:controller="com.android.settings.security.PanicButtonPreferenceController">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.android.emergencybutton"
+            android:targetClass="com.android.emergencybutton.main.MainActivity" />
+    </Preference>
+
     <Preference
         android:order="230"
         android:key="content_protection_preference"
