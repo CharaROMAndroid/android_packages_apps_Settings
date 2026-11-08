@@ -134,6 +134,7 @@
 
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="sim_scramble_pin_layout_summary">Scramble the keypad when entering a SIM PIN or PUK</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device. This is useful for improving security, but hinders muscle memory.</string>
 
     <!-- Proximity wake -->

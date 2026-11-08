@@ -18,6 +18,12 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/automatic_sim_lock_protection">
 
+    <lineageos.preference.LineageSystemSettingSwitchPreference
+        android:key="sim_scramble_pin_layout"
+        android:title="@string/unlock_scramble_pin_layout_title"
+        android:summary="@string/sim_scramble_pin_layout_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/first_sim_card_slot_title"
         android:key="category_first_sim_card_slot">
