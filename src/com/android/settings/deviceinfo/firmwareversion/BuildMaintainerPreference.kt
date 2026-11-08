@@ -69,15 +69,6 @@ class BuildMaintainerPreference :
             return
         }
 
-        // check system property first
-        val localMaintainer = getLocalMaintainer()
-        if (localMaintainer != null) {
-            resolvedMaintainer = localMaintainer
-            resolvedDonateUrl = sanitizeUrlOrNull(overlayDonateUrl)
-            applyState(preference)
-            return
-        }
-
         if (resolvedMaintainer.isEmpty()) {
             resolvedMaintainer = overlayMaintainer
         }
