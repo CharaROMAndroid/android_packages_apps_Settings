@@ -37,11 +37,12 @@ class AboutDeviceNamePreference :
             KEY_DEVICE_NAME_PROP,
             context.getString(R.string.device_info_default)
         )
-        val deviceModel = SystemProperties.get(
+        val deviceModel = Build.MODEL
+        val deviceMarketName = SystemProperties.get(
             KEY_MARKET_NAME_PROP,
-            Build.MODEL
+            "$deviceBrand $deviceModel"
         )
-        return "$deviceBrand $deviceModel | $deviceCodename"
+        return "$deviceMarketName | $deviceCodename"
     }
 
     override fun bind(preference: Preference, metadata: PreferenceMetadata) {

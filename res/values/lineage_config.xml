@@ -58,6 +58,10 @@
     <string-array name="config_hidden_game_controller_descriptors" translatable="false">
     </string-array>
 
+    <!-- Whether the display size preference should allow separate DPI settings for each display
+         on foldables by having the display size slider only affect the default display. -->
+    <bool name="config_independent_display_dpi_setting">false</bool>
+
     <!-- ComponentName to launch a vendor-specific enrollment activity if available -->
     <string name="config_face_enroll">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollActivityDirector</string>
 
