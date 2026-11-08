@@ -1492,6 +1492,8 @@
     <string name="private_space_hide_when_locked">Hide private space when it\'s locked</string>
     <!-- Description for hide Private Space settings page. [CHAR LIMIT=NONE] -->
     <string name="private_space_hide_page_summary">To stop other people knowing you have a private space on your device, you can hide it from your apps list</string>
+    <!-- Warning about discoverability when private space is hidden. [CHAR LIMIT=NONE] -->
+    <string name="private_space_hide_discoverability_warning">Hiding private space doesn’t conceal that you have one. Other parts of the system may reveal the presence of a private space.</string>
     <!-- Header in hide Private Space settings page to access Private Space when hidden. [CHAR LIMIT=60] -->
     <string name="private_space_access_header">Access private space when hidden</string>
     <!-- Text in hide Private Space settings page on how to search Private Space when hidden. [CHAR LIMIT=90] -->
