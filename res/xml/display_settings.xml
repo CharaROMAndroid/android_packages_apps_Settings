@@ -117,6 +117,14 @@
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:keywords="@string/keywords_dark_ui_mode"/>
 
+        <!-- Blur effects for the whole phone (Settings.Global.DISABLE_WINDOW_BLURS) -->
+        <SwitchPreferenceCompat
+            android:key="blur_effects"
+            android:title="@string/blur_effects_title"
+            android:summary="@string/blur_effects_summary"
+            settings:keywords="@string/blur_effects_keywords"
+            settings:controller="com.android.settings.display.BlurEffectsPreferenceController"/>
+
         <Preference
             android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragment"
             android:key="text_reading_options"

@@ -345,4 +345,9 @@ Duress PIN works the same way duress password does."</string>
     <!-- Panic button configuration -->
     <string name="panic_button_settings_title">Panic button</string>
     <string name="panic_button_settings_summary">Choose apps to uninstall and erase their data when panic is triggered</string>
+
+    <!-- Display: blur effects for the whole phone -->
+    <string name="blur_effects_title">Blur effects</string>
+    <string name="blur_effects_summary">Blur behind the notification shade, recents and dialogs</string>
+    <string name="blur_effects_keywords">blur, window blur, transparency, frosted</string>
 </resources>
