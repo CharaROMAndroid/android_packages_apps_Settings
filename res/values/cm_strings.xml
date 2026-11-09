@@ -350,4 +350,8 @@ Duress PIN works the same way duress password does."</string>
     <string name="blur_effects_title">Blur effects</string>
     <string name="blur_effects_summary">Blur behind the notification shade, recents and dialogs</string>
     <string name="blur_effects_keywords">blur, window blur, transparency, frosted</string>
+    <string name="vpn_state_hiding_title">VPN state privacy</string>
+    <string name="vpn_state_hiding_summary">Limit VPN status information shared with selected apps</string>
+    <string name="vpn_state_hiding_apps">Selected apps</string>
+    <string name="vpn_state_hiding_explanation">Selected apps see underlying-network details instead of VPN details in network status APIs. Traffic still uses the VPN. This does not hide native network interfaces, VPN server addresses, or all signs of VPN use. Apps sharing a UID share this choice.</string>
 </resources>

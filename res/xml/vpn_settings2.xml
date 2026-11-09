@@ -16,6 +16,12 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/vpn_title">
+    <Preference
+        android:key="vpn_state_hiding"
+        android:title="@string/vpn_state_hiding_title"
+        android:summary="@string/vpn_state_hiding_summary"
+        android:fragment="com.android.settings.vpn2.VpnStateHidingSettings"/>
+
     <PreferenceCategory
         android:key="advanced_vpn_group"/>
 
