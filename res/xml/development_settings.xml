@@ -142,6 +142,12 @@
         android:title="@string/debug_debugging_category"
         android:order="200">
 
+        <Preference
+            android:key="adb_state_hiding"
+            android:title="@string/adb_state_hiding_title"
+            android:summary="@string/adb_state_hiding_summary"
+            android:fragment="com.android.settings.development.AdbStateHidingSettings" />
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="enable_adb"
             android:title="@string/enable_adb"

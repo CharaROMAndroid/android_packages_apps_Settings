@@ -354,4 +354,8 @@ Duress PIN works the same way duress password does."</string>
     <string name="vpn_state_hiding_summary">Limit VPN status information shared with selected apps</string>
     <string name="vpn_state_hiding_apps">Selected apps</string>
     <string name="vpn_state_hiding_explanation">Selected apps see underlying-network details instead of VPN details in network status APIs. Traffic still uses the VPN. This does not hide native network interfaces, VPN server addresses, or all signs of VPN use. Apps sharing a UID share this choice.</string>
+    <string name="adb_state_hiding_title">ADB state privacy</string>
+    <string name="adb_state_hiding_summary">Limit debugging status information shared with selected apps</string>
+    <string name="adb_state_hiding_apps">Selected apps</string>
+    <string name="adb_state_hiding_explanation">Selected apps see debugging as disabled in settings and process-local properties. Real USB and wireless debugging keep working. Restart affected apps after changing the selection. This experimental feature does not hide ADB sockets, USB broadcasts, network listeners, or every sign of debugging. Apps sharing a UID share this choice.</string>
 </resources>
