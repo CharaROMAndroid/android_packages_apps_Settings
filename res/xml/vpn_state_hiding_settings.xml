@@ -1,13 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/vpn_state_hiding_title">
-    <Preference
-        android:key="vpn_state_hiding_explanation"
-        android:summary="@string/vpn_state_hiding_explanation"
-        android:selectable="false" />
-    <MultiSelectListPreference
-        android:key="vpn_state_hidden_packages"
-        android:title="@string/vpn_state_hiding_apps"
-        android:dialogTitle="@string/vpn_state_hiding_apps"
-        android:persistent="false" />
-</PreferenceScreen>
+    android:title="@string/vpn_state_hiding_title" />
