@@ -143,10 +143,10 @@
         android:order="200">
 
         <Preference
-            android:key="adb_state_hiding"
-            android:title="@string/adb_state_hiding_title"
-            android:summary="@string/adb_state_hiding_summary"
-            android:fragment="com.android.settings.development.AdbStateHidingSettings" />
+            android:key="adb_auto_disable"
+            android:title="@string/adb_auto_disable_title"
+            android:summary="@string/adb_auto_disable_summary"
+            android:fragment="com.android.settings.development.AdbAutoDisableSettings" />
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="enable_adb"

@@ -16,9 +16,9 @@ import com.android.settings.R;
 import com.android.settings.dashboard.RestrictedDashboardFragment;
 import com.crdroid.settings.fragments.misc.StateHidingAppPicker;
 
-/** Per-user presentation control; does not change debugging or VPN routing. */
-public class AdbStateHidingSettings extends RestrictedDashboardFragment {
-    public AdbStateHidingSettings() {
+/** Selects apps whose launch turns off USB and wireless debugging. Never re-enables. */
+public class AdbAutoDisableSettings extends RestrictedDashboardFragment {
+    public AdbAutoDisableSettings() {
         super(UserManager.DISALLOW_DEBUGGING_FEATURES);
     }
 
@@ -29,12 +29,12 @@ public class AdbStateHidingSettings extends RestrictedDashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.adb_state_hiding_settings;
+        return R.xml.adb_auto_disable_settings;
     }
 
     @Override
     protected String getLogTag() {
-        return "AdbStateHiding";
+        return "AdbAutoDisable";
     }
 
     @Override
@@ -47,8 +47,8 @@ public class AdbStateHidingSettings extends RestrictedDashboardFragment {
         root.addView(preferences, new FrameLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         root.addView(StateHidingAppPicker.createView(requireContext(), getLifecycle(),
-                "adb_state_hidden_packages", R.string.adb_state_hiding_title,
-                R.string.adb_state_hiding_explanation, this::isUiRestricted),
+                "adb_auto_disable_apps", R.string.adb_auto_disable_title,
+                R.string.adb_auto_disable_explanation, this::isUiRestricted),
                 new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                         ViewGroup.LayoutParams.MATCH_PARENT));
         return root;
