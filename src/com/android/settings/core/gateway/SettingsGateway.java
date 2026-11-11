@@ -214,7 +214,6 @@ import com.android.settings.tts.TextToSpeechSettings;
 import com.android.settings.users.UserSettings;
 import com.android.settings.vpn2.VpnSettings;
 import com.android.settings.vpn2.VpnStateHidingSettings;
-import com.android.settings.development.AdbAutoDisableSettings;
 import com.android.settings.wallpaper.WallpaperTypeSettings;
 import com.android.settings.webview.WebViewAppPicker;
 import com.android.settings.wfd.WifiDisplaySettings;
@@ -252,7 +251,6 @@ public class SettingsGateway {
             BackgroundCheckSummary.class.getName(),
             VpnSettings.class.getName(),
             VpnStateHidingSettings.class.getName(),
-            AdbAutoDisableSettings.class.getName(),
             DataSaverSummary.class.getName(),
             DateTimeSettings.class.getName(),
             LocaleListEditor.class.getName(),

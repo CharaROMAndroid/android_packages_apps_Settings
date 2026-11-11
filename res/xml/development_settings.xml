@@ -142,12 +142,6 @@
         android:title="@string/debug_debugging_category"
         android:order="200">
 
-        <Preference
-            android:key="adb_auto_disable"
-            android:title="@string/adb_auto_disable_title"
-            android:summary="@string/adb_auto_disable_summary"
-            android:fragment="com.android.settings.development.AdbAutoDisableSettings" />
-
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="enable_adb"
             android:title="@string/enable_adb"

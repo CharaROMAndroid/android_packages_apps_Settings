@@ -354,10 +354,6 @@ Duress PIN works the same way duress password does."</string>
     <string name="vpn_state_hiding_summary">Limit VPN status information shared with selected apps</string>
     <string name="vpn_state_hiding_apps">Selected apps</string>
     <string name="vpn_state_hiding_explanation">Selected apps see underlying-network details instead of VPN details in network status APIs. Traffic still uses the VPN. This does not hide native network interfaces, VPN server addresses, or all signs of VPN use. Apps sharing a UID share this choice.</string>
-    <string name="adb_auto_disable_title">Turn off debugging for apps</string>
-    <string name="adb_auto_disable_summary">Turn off USB and wireless debugging when selected apps open</string>
-    <string name="adb_auto_disable_apps">Selected apps</string>
-    <string name="adb_auto_disable_explanation">When a selected app comes to the foreground, USB debugging and wireless debugging are both turned off for the whole device, closing all debugging sessions across all users. The shutdown happens after the app is detected in the foreground, so it does not block the app from starting. Debugging is not turned back on afterwards; you have to enable it again yourself. USB switches to file transfer when the device is unlocked and policy allows it, otherwise to charging only. This does not bypass device policy, the lock screen or the debugging confirmation.</string>
     <string name="adb_usb_debugging_tile_label">USB debugging</string>
     <!-- Shared app picker for ADB and VPN presentation privacy. -->
     <string name="state_hiding_apps_count">%1$d apps selected</string>

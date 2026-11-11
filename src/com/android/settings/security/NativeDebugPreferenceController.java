@@ -21,7 +21,6 @@ import android.os.SystemProperties;
 import android.os.UserManager;
 
 import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
@@ -34,9 +33,8 @@ public class NativeDebugPreferenceController extends AbstractPreferenceControlle
 
     private static final String SYS_KEY_NATIVE_DEBUG = "persist.native_debug";
     private static final String PREF_KEY_NATIVE_DEBUG = "native_debug";
-    private static final String PREF_KEY_SECURITY_CATEGORY = "security_category";
 
-    private PreferenceCategory mSecurityCategory;
+    private PreferenceScreen mScreen;
     private SwitchPreference mNativeDebug;
     private final UserManager mUm;
 
@@ -48,7 +46,7 @@ public class NativeDebugPreferenceController extends AbstractPreferenceControlle
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
-        mSecurityCategory = screen.findPreference(PREF_KEY_SECURITY_CATEGORY);
+        mScreen = screen;
         updatePreferenceState();
     }
 
@@ -63,14 +61,15 @@ public class NativeDebugPreferenceController extends AbstractPreferenceControlle
     }
 
     private void updatePreferenceState() {
-        if (mSecurityCategory == null || !isAvailable()) {
+        if (mScreen == null || !isAvailable()) {
             return;
         }
 
-        mNativeDebug = mSecurityCategory.findPreference(PREF_KEY_NATIVE_DEBUG);
+        mNativeDebug = mScreen.findPreference(PREF_KEY_NATIVE_DEBUG);
         if (mNativeDebug == null) {
             return;
         }
+        mNativeDebug.setOnPreferenceChangeListener(this);
         // Match init's canonical "true" compatibility trigger. An absent or invalid
         // property leaves the kernel at the restricted scope-1 boot default.
         mNativeDebug.setChecked(
