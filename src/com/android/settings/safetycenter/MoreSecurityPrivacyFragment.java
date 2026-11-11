@@ -104,9 +104,6 @@ public class MoreSecurityPrivacyFragment extends DashboardFragment {
                 SafetyCenterUtils.getControllersForAdvancedSecurity(context, lifecycle, host));
         final NativeDebugPreferenceController nativeDebug =
                 new NativeDebugPreferenceController(context);
-        if (lifecycle != null) {
-            lifecycle.addObserver(nativeDebug);
-        }
         controllers.add(nativeDebug);
         return controllers;
     }
